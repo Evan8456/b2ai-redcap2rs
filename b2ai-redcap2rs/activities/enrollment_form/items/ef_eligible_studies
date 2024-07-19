@@ -1,6 +1,9 @@
 {
     "id": "ef_eligible_studies",
     "category": "reproschema:Item",
+    "preamble": {
+        "en": "Eligible Studies"
+    },
     "prefLabel": {
         "en": "ef_eligible_studies"
     },

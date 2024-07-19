@@ -17,19 +17,19 @@
             },
             {
                 "name": {
-                    "en": "3 or 4"
+                    "en": "3 - 4"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "5 or 6"
+                    "en": "5 - 6"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "7 or 9"
+                    "en": "7 - 9"
                 },
                 "value": 4
             },
@@ -38,6 +38,12 @@
                     "en": "10 or more"
                 },
                 "value": 5
+            },
+            {
+                "name": {
+                    "en": "Prefer not to answer"
+                },
+                "value": 6
             }
         ],
         "valueType": [

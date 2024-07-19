@@ -26,6 +26,12 @@
                     "en": "I currently smoke"
                 },
                 "value": " currently"
+            },
+            {
+                "name": {
+                    "en": "Prefer not to answer"
+                },
+                "value": " noAnswer"
             }
         ],
         "valueType": [

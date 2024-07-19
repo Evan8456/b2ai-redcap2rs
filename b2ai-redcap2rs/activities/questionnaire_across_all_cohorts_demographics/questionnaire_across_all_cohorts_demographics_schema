@@ -11,29 +11,45 @@
             "items/demographics_started_at",
             "items/demographics_completed_at",
             "items/demographics_duration",
+            "items/demographics_completed_by",
             "items/city",
             "items/state_province",
             "items/zipcode",
             "items/country",
             "items/gender_identity",
             "items/other_gender_identity",
+            "items/specify_gender_identity",
             "items/sexual_orientation",
             "items/other_sex_orientation",
-            "items/race_ethnicity",
-            "items/other_raceeth_specify",
+            "items/race",
+            "items/native_american_race",
+            "items/asian_race",
+            "items/black_race",
+            "items/pacific_islander_race",
+            "items/white_race",
+            "items/canadian_race",
+            "items/other_race_specify",
+            "items/ethnicity",
+            "items/hispanic_latino_selection",
             "items/edu_level",
             "items/other_edu_level",
-            "items/disability_status",
-            "items/disabilities",
-            "items/disabilities_others",
+            "items/hearing",
+            "items/vision",
+            "items/cognition",
+            "items/mobility",
+            "items/self_care",
+            "items/independent_living",
             "items/employ_status",
             "items/other_employ_specify",
             "items/occupation",
             "items/veteran",
-            "items/income_share",
-            "items/est_income",
-            "items/assistance_programs",
-            "items/immigration_status",
+            "items/household_income_usa",
+            "items/financial_assistance_usa",
+            "items/assistance_programs_usa",
+            "items/household_income_ca",
+            "items/financial_assistance_ca",
+            "items/assistance_programs_ca",
+            "items/citizen",
             "items/marital_status",
             "items/housing_status",
             "items/household_count",
@@ -70,6 +86,11 @@
                 "variableName": "demographics_duration"
             },
             {
+                "isAbout": "items/demographics_completed_by",
+                "isVis": true,
+                "variableName": "demographics_completed_by"
+            },
+            {
                 "isAbout": "items/city",
                 "isVis": true,
                 "variableName": "city"
@@ -93,13 +114,17 @@
             {
                 "isAbout": "items/gender_identity",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "gender_identity"
             },
             {
                 "isAbout": "items/other_gender_identity",
                 "isVis": "gender_identity =='other'",
                 "variableName": "other_gender_identity"
+            },
+            {
+                "isAbout": "items/specify_gender_identity",
+                "isVis": "gender_identity =='female' || gender_identity =='male'",
+                "variableName": "specify_gender_identity"
             },
             {
                 "isAbout": "items/sexual_orientation",
@@ -113,15 +138,54 @@
                 "variableName": "other_sex_orientation"
             },
             {
-                "isAbout": "items/race_ethnicity",
+                "isAbout": "items/race",
                 "isVis": true,
-                "valueRequired": true,
-                "variableName": "race_ethnicity"
+                "variableName": "race"
             },
             {
-                "isAbout": "items/other_raceeth_specify",
-                "isVis": "race_ethnicity___22 == '1'",
-                "variableName": "other_raceeth_specify"
+                "isAbout": "items/native_american_race",
+                "isVis": "race___1 == '1'",
+                "variableName": "native_american_race"
+            },
+            {
+                "isAbout": "items/asian_race",
+                "isVis": "race___2 =='1'",
+                "variableName": "asian_race"
+            },
+            {
+                "isAbout": "items/black_race",
+                "isVis": "race___3 =='1'",
+                "variableName": "black_race"
+            },
+            {
+                "isAbout": "items/pacific_islander_race",
+                "isVis": "race___4 =='1'",
+                "variableName": "pacific_islander_race"
+            },
+            {
+                "isAbout": "items/white_race",
+                "isVis": "race___5 =='1'",
+                "variableName": "white_race"
+            },
+            {
+                "isAbout": "items/canadian_race",
+                "isVis": "race___6 =='1'",
+                "variableName": "canadian_race"
+            },
+            {
+                "isAbout": "items/other_race_specify",
+                "isVis": "race___7 == '1'",
+                "variableName": "other_race_specify"
+            },
+            {
+                "isAbout": "items/ethnicity",
+                "isVis": true,
+                "variableName": "ethnicity"
+            },
+            {
+                "isAbout": "items/hispanic_latino_selection",
+                "isVis": "ethnicity == 'yes'",
+                "variableName": "hispanic_latino_selection"
             },
             {
                 "isAbout": "items/edu_level",
@@ -131,24 +195,38 @@
             },
             {
                 "isAbout": "items/other_edu_level",
-                "isVis": "edu_level =='10'",
+                "isVis": "edu_level =='11'",
                 "variableName": "other_edu_level"
             },
             {
-                "isAbout": "items/disability_status",
+                "isAbout": "items/hearing",
                 "isVis": true,
-                "valueRequired": true,
-                "variableName": "disability_status"
+                "variableName": "hearing"
             },
             {
-                "isAbout": "items/disabilities",
-                "isVis": "disability_status == 'disabledAbleToWork' || disability_status == 'disabledUnableToWork'",
-                "variableName": "disabilities"
+                "isAbout": "items/vision",
+                "isVis": true,
+                "variableName": "vision"
             },
             {
-                "isAbout": "items/disabilities_others",
-                "isVis": "disability_status == 2 || disability_status == 3",
-                "variableName": "disabilities_others"
+                "isAbout": "items/cognition",
+                "isVis": true,
+                "variableName": "cognition"
+            },
+            {
+                "isAbout": "items/mobility",
+                "isVis": true,
+                "variableName": "mobility"
+            },
+            {
+                "isAbout": "items/self_care",
+                "isVis": true,
+                "variableName": "self_care"
+            },
+            {
+                "isAbout": "items/independent_living",
+                "isVis": true,
+                "variableName": "independent_living"
             },
             {
                 "isAbout": "items/employ_status",
@@ -173,26 +251,39 @@
                 "variableName": "veteran"
             },
             {
-                "isAbout": "items/income_share",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "income_share"
+                "isAbout": "items/household_income_usa",
+                "isVis": "country =='1'",
+                "variableName": "household_income_usa"
             },
             {
-                "isAbout": "items/est_income",
-                "isVis": "income_share =='1'",
-                "variableName": "est_income"
+                "isAbout": "items/financial_assistance_usa",
+                "isVis": "country =='1'",
+                "variableName": "financial_assistance_usa"
             },
             {
-                "isAbout": "items/assistance_programs",
-                "isVis": true,
-                "variableName": "assistance_programs"
+                "isAbout": "items/assistance_programs_usa",
+                "isVis": "country =='1'",
+                "variableName": "assistance_programs_usa"
             },
             {
-                "isAbout": "items/immigration_status",
+                "isAbout": "items/household_income_ca",
+                "isVis": "country =='2'",
+                "variableName": "household_income_ca"
+            },
+            {
+                "isAbout": "items/financial_assistance_ca",
+                "isVis": "country =='2'",
+                "variableName": "financial_assistance_ca"
+            },
+            {
+                "isAbout": "items/assistance_programs_ca",
+                "isVis": "country =='2'",
+                "variableName": "assistance_programs_ca"
+            },
+            {
+                "isAbout": "items/citizen",
                 "isVis": true,
-                "valueRequired": true,
-                "variableName": "immigration_status"
+                "variableName": "citizen"
             },
             {
                 "isAbout": "items/marital_status",
@@ -260,6 +351,6 @@
         ],
         "shuffle": false
     },
-    "version": "1.0.0",
+    "version": "2.0.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

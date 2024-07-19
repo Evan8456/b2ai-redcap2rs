@@ -8,7 +8,7 @@
         "en": "hydration"
     },
     "question": {
-        "en": "How many 8 oz / 230 ml (small) cups of water have you had today?"
+        "en": "How many small (8oz or 230ml) cups of water do you drink on a typical day?"
     },
     "responseOptions": {
         "valueType": [

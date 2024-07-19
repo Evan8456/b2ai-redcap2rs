@@ -5,7 +5,7 @@
         "en": "ef_benign_cord_lesion"
     },
     "question": {
-        "en": "Benign vocal cord lesion"
+        "en": "Lesions of the vocal cord (nodule, polyp, cyst)"
     },
     "responseOptions": {
         "choices": [

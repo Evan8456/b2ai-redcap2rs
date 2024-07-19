@@ -20,63 +20,105 @@
             },
             {
                 "name": {
-                    "en": "Antihistamines"
+                    "en": "Anti-histamines (allergy medications)"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Cocaine use"
+                    "en": "Anti-Hypertensive Medications (Blood Pressure Medication)"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Diuretics"
+                    "en": "Diuretics (ex: Lasix)"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Hormone use - oral contraceptives"
+                    "en": "Decongestants"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Inhaled corticosteroids for asthma"
+                    "en": "Muscle relaxants (ex: Baclofen)"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "Pain medications"
+                    "en": "Hormone use"
                 },
                 "value": 7
             },
             {
                 "name": {
-                    "en": "Psychotropic medications"
+                    "en": "Inhaled corticosteroids"
                 },
                 "value": 8
             },
             {
                 "name": {
-                    "en": "Tricyclic antidepressants"
+                    "en": "Oral steroids"
                 },
                 "value": 9
             },
             {
                 "name": {
-                    "en": "Vitamins"
+                    "en": "Anti-anxiety medications: (ex: Benzodiazepine)"
                 },
                 "value": 10
             },
             {
                 "name": {
-                    "en": "Other (please specify)"
+                    "en": "Chronic Pain medication"
                 },
                 "value": 11
+            },
+            {
+                "name": {
+                    "en": "Psychotropic/antipsychotic medications (ex: Clozapine)"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "Antidepressants (ex: amitryptiline)"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "Immune suppressors (ex: Methotrexate)"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "Reflux medications (ex: Pantoprazole Nexium)"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "Anticholinergics (ex: Ventolin)"
+                },
+                "value": 16
+            },
+            {
+                "name": {
+                    "en": "Anticoagulants (blood thinners)"
+                },
+                "value": 17
+            },
+            {
+                "name": {
+                    "en": "Antiepileptic (ex: Phenytoin)"
+                },
+                "value": 18
             }
         ],
         "multipleChoice": true,

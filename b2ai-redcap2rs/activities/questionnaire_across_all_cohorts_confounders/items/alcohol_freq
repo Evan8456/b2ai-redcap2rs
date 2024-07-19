@@ -11,31 +11,31 @@
         "choices": [
             {
                 "name": {
-                    "en": "Never"
+                    "en": "Monthly or less"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Monthly or less"
+                    "en": "2 - 4 times a month"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "2 - 4 times a month"
+                    "en": "2 - 3 times a week"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "2 - 3 times a week"
+                    "en": "4 or more times a week"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "4 or more times a week"
+                    "en": "Prefer not to answer"
                 },
                 "value": 5
             }

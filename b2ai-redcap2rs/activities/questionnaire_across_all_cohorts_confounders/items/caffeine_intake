@@ -8,7 +8,7 @@
         "en": "caffeine_intake"
     },
     "question": {
-        "en": "How many 8 oz / 230 ml / (small) cups of coffee OR shots of espresso OR caffeinated teas have you had today?"
+        "en": "How many small (8oz or 230ml) cups of coffee OR shots of espresso OR caffeinated teas do you drink on a typical day?"
     },
     "responseOptions": {
         "valueType": [

@@ -1,9 +1,6 @@
 {
     "id": "ef_depression",
     "category": "reproschema:Item",
-    "preamble": {
-        "en": "Mood and Psychiatric Disorders"
-    },
     "prefLabel": {
         "en": "ef_depression"
     },

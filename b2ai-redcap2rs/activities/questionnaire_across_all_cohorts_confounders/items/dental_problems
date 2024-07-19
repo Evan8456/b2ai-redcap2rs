@@ -2,13 +2,13 @@
     "id": "dental_problems",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "ORAL OR DENTAL PROBLEMS"
+        "en": "DENTAL PROBLEMS"
     },
     "prefLabel": {
         "en": "dental_problems"
     },
     "question": {
-        "en": "Do you have any oral or dental problems that might affect speech?"
+        "en": "Do you have any dental problems that might affect speech?"
     },
     "responseOptions": {
         "choices": [

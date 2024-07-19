@@ -17,39 +17,33 @@
             },
             {
                 "name": {
-                    "en": "Live with parent/care giver"
+                    "en": "Own home"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Own home"
+                    "en": "Rent home"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Rent home"
+                    "en": "Skilled nursing facility/nursing home"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Skilled nursing facility/nursing home"
+                    "en": "Unhoused-temporarily"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Unhoused-temporarily"
-                },
-                "value": 6
-            },
-            {
-                "name": {
                     "en": "Unhoused-permanently"
                 },
-                "value": 7
+                "value": 6
             }
         ],
         "valueType": [

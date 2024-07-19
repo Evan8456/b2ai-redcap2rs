@@ -21,6 +21,7 @@
             "items/alcohol_yn",
             "items/alcohol_freq",
             "items/alcohol_amt",
+            "items/alcohol_drinks",
             "items/alcohol_today",
             "items/drinks_today_number",
             "items/alcohol_rehab",
@@ -38,25 +39,40 @@
             "items/inhalants",
             "items/methamphetamine",
             "items/caffeine_intake",
+            "items/caffeine_intake_today",
             "items/hydration",
+            "items/hydration_today",
             "items/dental_problems",
             "items/dental_tx",
-            "items/allergies_cold",
+            "items/seasonal_allergies",
+            "items/seasonal_allergies_options",
             "items/tired_measure",
             "items/height",
             "items/weight",
             "items/unit",
-            "items/medical_history",
-            "items/surgical_history",
-            "items/neurological_symptoms",
+            "items/symptoms",
+            "items/ear_med_history",
+            "items/nose_med_history",
+            "items/throat_med_history",
+            "items/head_med_history",
+            "items/ear_surgical",
+            "items/nose_surgical",
+            "items/throat_surgical",
+            "items/head_surgical",
             "items/neurological_history",
             "items/current_neuro_dx",
             "items/specify_current_neuro",
-            "items/psychiatric_symptoms",
-            "items/psychiatric_diagnosis",
-            "items/current_psych",
-            "items/specify_current_psych",
-            "items/current_psych_tx",
+            "items/respiratory_conditions",
+            "items/lung_or_metastatic",
+            "items/covid",
+            "items/covid_past",
+            "items/cpap_conditions",
+            "items/resp_medical_history",
+            "items/exposed_environmental_pollution",
+            "items/circulatory_conditions",
+            "items/cardiac_condition",
+            "items/circulatory_med_history",
+            "items/infection_disease",
             "items/ph_standing",
             "items/ph_take_care",
             "items/ph_learn_task",
@@ -73,8 +89,10 @@
             "items/phys_health_impact",
             "items/phys_health_limited",
             "items/medications",
-            "items/other_meds_specify",
+            "items/hormone_use",
+            "items/pain_medication",
             "items/menstruate",
+            "items/menstruate_no",
             "items/other_menstruate_specify",
             "items/menstrual_cycle_status",
             "items/voice_activity",
@@ -106,28 +124,28 @@
             },
             {
                 "isAbout": "items/is_regular_smoker",
-                "isVis": "dementia == '1'",
+                "isVis": "alz_dementia_mci == '1'",
                 "variableName": "is_regular_smoker"
             },
             {
                 "isAbout": "items/smoking_hx",
-                "isVis": "dementia ! == '1'",
+                "isVis": "alz_dementia_mci ! == '1'",
                 "valueRequired": true,
                 "variableName": "smoking_hx"
             },
             {
                 "isAbout": "items/age_start_smoking",
-                "isVis": "smoking_hx =='2' || smoking_hx =='3'",
+                "isVis": "smoking_hx =='past' || smoking_hx =='currently'",
                 "variableName": "age_start_smoking"
             },
             {
                 "isAbout": "items/age_stop_smoking",
-                "isVis": "smoking_hx =='2' || smoking_hx =='3'",
+                "isVis": "smoking_hx =='past'",
                 "variableName": "age_stop_smoking"
             },
             {
                 "isAbout": "items/smoking_types",
-                "isVis": "smoking_hx =='2' || smoking_hx == '3'",
+                "isVis": "smoking_hx =='past' || smoking_hx == 'currently'",
                 "variableName": "smoking_types"
             },
             {
@@ -137,7 +155,7 @@
             },
             {
                 "isAbout": "items/smoking_freq",
-                "isVis": "smoking_hx =='2' || smoking_hx =='3'",
+                "isVis": "smoking_hx =='past' || smoking_hx =='currently'",
                 "variableName": "smoking_freq"
             },
             {
@@ -148,17 +166,22 @@
             },
             {
                 "isAbout": "items/alcohol_freq",
-                "isVis": "alcohol_yn =='1'",
+                "isVis": "alcohol_yn =='yes'",
                 "variableName": "alcohol_freq"
             },
             {
                 "isAbout": "items/alcohol_amt",
-                "isVis": "alcohol_yn =='1'",
+                "isVis": "alcohol_yn =='yes'",
                 "variableName": "alcohol_amt"
             },
             {
+                "isAbout": "items/alcohol_drinks",
+                "isVis": "alcohol_yn =='yes'",
+                "variableName": "alcohol_drinks"
+            },
+            {
                 "isAbout": "items/alcohol_today",
-                "isVis": "alcohol_yn =='1'",
+                "isVis": "alcohol_yn =='yes'",
                 "variableName": "alcohol_today"
             },
             {
@@ -168,12 +191,12 @@
             },
             {
                 "isAbout": "items/alcohol_rehab",
-                "isVis": "alcohol_yn =='1'",
+                "isVis": "alcohol_yn =='yes' || alcohol_yn =='noAnswer'",
                 "variableName": "alcohol_rehab"
             },
             {
                 "isAbout": "items/current_recovery_alcohol",
-                "isVis": "alcohol_yn =='1'",
+                "isVis": "alcohol_yn =='yes' || alcohol_yn =='noAnswer'",
                 "variableName": "current_recovery_alcohol"
             },
             {
@@ -244,10 +267,20 @@
                 "variableName": "caffeine_intake"
             },
             {
+                "isAbout": "items/caffeine_intake_today",
+                "isVis": true,
+                "variableName": "caffeine_intake_today"
+            },
+            {
                 "isAbout": "items/hydration",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "hydration"
+            },
+            {
+                "isAbout": "items/hydration_today",
+                "isVis": true,
+                "variableName": "hydration_today"
             },
             {
                 "isAbout": "items/dental_problems",
@@ -261,10 +294,14 @@
                 "variableName": "dental_tx"
             },
             {
-                "isAbout": "items/allergies_cold",
+                "isAbout": "items/seasonal_allergies",
                 "isVis": true,
-                "valueRequired": true,
-                "variableName": "allergies_cold"
+                "variableName": "seasonal_allergies"
+            },
+            {
+                "isAbout": "items/seasonal_allergies_options",
+                "isVis": "seasonal_allergies =='1'",
+                "variableName": "seasonal_allergies_options"
             },
             {
                 "isAbout": "items/tired_measure",
@@ -288,19 +325,49 @@
                 "variableName": "unit"
             },
             {
-                "isAbout": "items/medical_history",
+                "isAbout": "items/symptoms",
                 "isVis": true,
-                "variableName": "medical_history"
+                "variableName": "symptoms"
             },
             {
-                "isAbout": "items/surgical_history",
+                "isAbout": "items/ear_med_history",
                 "isVis": true,
-                "variableName": "surgical_history"
+                "variableName": "ear_med_history"
             },
             {
-                "isAbout": "items/neurological_symptoms",
+                "isAbout": "items/nose_med_history",
                 "isVis": true,
-                "variableName": "neurological_symptoms"
+                "variableName": "nose_med_history"
+            },
+            {
+                "isAbout": "items/throat_med_history",
+                "isVis": true,
+                "variableName": "throat_med_history"
+            },
+            {
+                "isAbout": "items/head_med_history",
+                "isVis": true,
+                "variableName": "head_med_history"
+            },
+            {
+                "isAbout": "items/ear_surgical",
+                "isVis": true,
+                "variableName": "ear_surgical"
+            },
+            {
+                "isAbout": "items/nose_surgical",
+                "isVis": true,
+                "variableName": "nose_surgical"
+            },
+            {
+                "isAbout": "items/throat_surgical",
+                "isVis": true,
+                "variableName": "throat_surgical"
+            },
+            {
+                "isAbout": "items/head_surgical",
+                "isVis": true,
+                "variableName": "head_surgical"
             },
             {
                 "isAbout": "items/neurological_history",
@@ -309,7 +376,7 @@
             },
             {
                 "isAbout": "items/current_neuro_dx",
-                "isVis": "neurological_symptoms___1 == '1' || neurological_symptoms___2 == '1' || neurological_symptoms___3 == '1' || neurological_history___1 == '1' || neurological_history___2 == '1' || neurological_history___3 == '1' || neurological_history___4 == '1' || neurological_history___5 == '1' || neurological_history___6 == '1' || neurological_history___7 == '1' || neurological_history___8 == '1' || neurological_history___9 == '1'",
+                "isVis": "neurological_history___1 == '1' || neurological_history___2 == '1' || neurological_history___3 == '1' || neurological_history___4 == '1' || neurological_history___5 == '1' || neurological_history___6 == '1'",
                 "variableName": "current_neuro_dx"
             },
             {
@@ -318,29 +385,59 @@
                 "variableName": "specify_current_neuro"
             },
             {
-                "isAbout": "items/psychiatric_symptoms",
+                "isAbout": "items/respiratory_conditions",
                 "isVis": true,
-                "variableName": "psychiatric_symptoms"
+                "variableName": "respiratory_conditions"
             },
             {
-                "isAbout": "items/psychiatric_diagnosis",
+                "isAbout": "items/lung_or_metastatic",
+                "isVis": "respiratory_conditions___2 =='1'",
+                "variableName": "lung_or_metastatic"
+            },
+            {
+                "isAbout": "items/covid",
                 "isVis": true,
-                "variableName": "psychiatric_diagnosis"
+                "variableName": "covid"
             },
             {
-                "isAbout": "items/current_psych",
-                "isVis": "psychiatric_symptoms___1 == '1' || psychiatric_symptoms___2 == '1' || psychiatric_symptoms___3 == '1' || psychiatric_diagnosis___1 == '1' || psychiatric_diagnosis___2 == '1' || psychiatric_diagnosis___3 == '1' || psychiatric_diagnosis___4 == '1' || psychiatric_diagnosis___5 == '1' || psychiatric_diagnosis___6 == '1' || psychiatric_diagnosis___7 == '1' || psychiatric_diagnosis___8 == '1' || psychiatric_diagnosis___9 == '1' || psychiatric_diagnosis___10 == '1' || psychiatric_diagnosis___11 == '1' || psychiatric_diagnosis___12 == '1' || psychiatric_diagnosis___13 == '1' || psychiatric_diagnosis___14 == '1' || psychiatric_diagnosis___15 == '1'",
-                "variableName": "current_psych"
+                "isAbout": "items/covid_past",
+                "isVis": "covid(past_year) =='1'",
+                "variableName": "covid_past"
             },
             {
-                "isAbout": "items/specify_current_psych",
-                "isVis": "current_psych ==2",
-                "variableName": "specify_current_psych"
+                "isAbout": "items/cpap_conditions",
+                "isVis": true,
+                "variableName": "cpap_conditions"
             },
             {
-                "isAbout": "items/current_psych_tx",
-                "isVis": "psychiatric_symptoms___1 == '1' || psychiatric_symptoms___2 == '1' || psychiatric_symptoms___3 == '1' || psychiatric_diagnosis___1 == '1' || psychiatric_diagnosis___2 == '1' || psychiatric_diagnosis___3 == '1' || psychiatric_diagnosis___4 == '1' || psychiatric_diagnosis___5 == '1' || psychiatric_diagnosis___6 == '1' || psychiatric_diagnosis___7 == '1' || psychiatric_diagnosis___8 == '1' || psychiatric_diagnosis___9 == '1' || psychiatric_diagnosis___10 == '1' || psychiatric_diagnosis___11 == '1' || psychiatric_diagnosis___12 == '1' || psychiatric_diagnosis___13 == '1' || psychiatric_diagnosis___14 == '1' || psychiatric_diagnosis___15 == '1'",
-                "variableName": "current_psych_tx"
+                "isAbout": "items/resp_medical_history",
+                "isVis": true,
+                "variableName": "resp_medical_history"
+            },
+            {
+                "isAbout": "items/exposed_environmental_pollution",
+                "isVis": true,
+                "variableName": "exposed_environmental_pollution"
+            },
+            {
+                "isAbout": "items/circulatory_conditions",
+                "isVis": true,
+                "variableName": "circulatory_conditions"
+            },
+            {
+                "isAbout": "items/cardiac_condition",
+                "isVis": "circulatory_conditions___2 =='1'",
+                "variableName": "cardiac_condition"
+            },
+            {
+                "isAbout": "items/circulatory_med_history",
+                "isVis": true,
+                "variableName": "circulatory_med_history"
+            },
+            {
+                "isAbout": "items/infection_disease",
+                "isVis": "circulatory_med_history___3 =='1'",
+                "variableName": "infection_disease"
             },
             {
                 "isAbout": "items/ph_standing",
@@ -438,9 +535,14 @@
                 "variableName": "medications"
             },
             {
-                "isAbout": "items/other_meds_specify",
+                "isAbout": "items/hormone_use",
+                "isVis": "medications___7 =='1'",
+                "variableName": "hormone_use"
+            },
+            {
+                "isAbout": "items/pain_medication",
                 "isVis": "medications___11 =='1'",
-                "variableName": "other_meds_specify"
+                "variableName": "pain_medication"
             },
             {
                 "isAbout": "items/menstruate",
@@ -449,13 +551,18 @@
                 "variableName": "menstruate"
             },
             {
+                "isAbout": "items/menstruate_no",
+                "isVis": "menstruate =='no'",
+                "variableName": "menstruate_no"
+            },
+            {
                 "isAbout": "items/other_menstruate_specify",
-                "isVis": "menstruate == '6'",
+                "isVis": "menstruate_no == 'other'",
                 "variableName": "other_menstruate_specify"
             },
             {
                 "isAbout": "items/menstrual_cycle_status",
-                "isVis": "menstruate =='2'",
+                "isVis": "menstruate =='yes'",
                 "variableName": "menstrual_cycle_status"
             },
             {
@@ -482,6 +589,6 @@
         ],
         "shuffle": false
     },
-    "version": "1.0.0",
+    "version": "2.0.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

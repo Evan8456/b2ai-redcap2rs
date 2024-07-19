@@ -1,0 +1,36 @@
+{
+    "id": "ef_alz_dementia_mci",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Neurological and Neurodegenerative Disorders"
+    },
+    "prefLabel": {
+        "en": "ef_alz_dementia_mci"
+    },
+    "question": {
+        "en": "Alzheimer's, dementia, or mild cognitive impairment"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Unchecked"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Checked"
+                },
+                "value": 1
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

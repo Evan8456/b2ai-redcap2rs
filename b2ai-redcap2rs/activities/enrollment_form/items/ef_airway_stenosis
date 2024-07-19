@@ -5,7 +5,7 @@
         "en": "ef_airway_stenosis"
     },
     "question": {
-        "en": "Airway Stenosis"
+        "en": "Airway stenosis (for example: subglottic stenosis; laryngeal stenosis)"
     },
     "responseOptions": {
         "choices": [

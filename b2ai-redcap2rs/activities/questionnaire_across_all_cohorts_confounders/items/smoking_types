@@ -50,6 +50,12 @@
                     "en": "Other (Please specify)"
                 },
                 "value": 7
+            },
+            {
+                "name": {
+                    "en": "Prefer not to answer"
+                },
+                "value": 8
             }
         ],
         "multipleChoice": true,

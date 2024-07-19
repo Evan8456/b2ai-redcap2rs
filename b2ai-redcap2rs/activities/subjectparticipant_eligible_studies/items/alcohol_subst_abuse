@@ -1,6 +1,9 @@
 {
     "id": "alcohol_subst_abuse",
     "category": "reproschema:Item",
+    "preamble": {
+        "en": "Mood and Psychiatric Disorders"
+    },
     "prefLabel": {
         "en": "alcohol_subst_abuse"
     },

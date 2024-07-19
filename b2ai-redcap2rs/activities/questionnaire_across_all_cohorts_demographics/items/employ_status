@@ -1,6 +1,9 @@
 {
     "id": "employ_status",
     "category": "reproschema:Item",
+    "preamble": {
+        "en": "Employment Status"
+    },
     "prefLabel": {
         "en": "employ_status"
     },

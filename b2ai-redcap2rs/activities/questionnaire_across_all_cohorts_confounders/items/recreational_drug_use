@@ -8,7 +8,7 @@
         "en": "recreational_drug_use"
     },
     "question": {
-        "en": "How many times in the past year have you used a recreational substance or used a prescription medication for nonmedical reasons?Recreational substances include methamphetamines (speed, crystal), cannabis (marijuana, pot), inhalants (paint thinner, aerosol, glue), tranquilizers (Valium), barbiturates, cocaine, ecstasy, hallucinogens (LSD, mushrooms), or narcotics (heroin).More than one"
+        "en": "How many times in the past YEAR have you used a recreational substance or medication for reasons or in doses other than prescribed?Recreational substances include methamphetamines (speed, crystal), cannabis (marijuana, pot), inhalants (paint thinner, aerosol, glue), tranquilizers (Valium), barbiturates, cocaine, ecstasy, hallucinogens (LSD, mushrooms), or narcotics (heroin).More than one"
     },
     "responseOptions": {
         "choices": [

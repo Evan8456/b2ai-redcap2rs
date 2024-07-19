@@ -5,7 +5,7 @@
         "en": "ef_parkinsons"
     },
     "question": {
-        "en": "Parkinson's"
+        "en": "Parkinson's disease"
     },
     "responseOptions": {
         "choices": [

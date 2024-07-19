@@ -1,67 +1,52 @@
 {
     "id": "neurological_history",
     "category": "reproschema:Item",
+    "preamble": {
+        "en": "NEUROLOGICAL MEDICAL HISTORY\n\nHave you been diagnosed with any of these neurological health conditions by a clinician? (check all that apply)"
+    },
     "prefLabel": {
         "en": "neurological_history"
     },
     "question": {
-        "en": "Neurological history"
+        "en": "Neurological Medical History"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Alzheimer's Disease"
+                    "en": "Brain tumor"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Brain tumor"
+                    "en": "Dysarthria"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Dementia"
+                    "en": "Epilepsy"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Epilepsy"
+                    "en": "Multiple sclerosis"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Migraine"
+                    "en": "Traumatic brain injury"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Multiple sclerosis"
+                    "en": "Other"
                 },
                 "value": 6
-            },
-            {
-                "name": {
-                    "en": "Parkinson's Disease"
-                },
-                "value": 7
-            },
-            {
-                "name": {
-                    "en": "Stroke"
-                },
-                "value": 8
-            },
-            {
-                "name": {
-                    "en": "Traumatic brain injury"
-                },
-                "value": 9
             }
         ],
         "multipleChoice": true,

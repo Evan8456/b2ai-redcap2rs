@@ -38,6 +38,12 @@
                     "en": "A few times a year"
                 },
                 "value": " fewYear"
+            },
+            {
+                "name": {
+                    "en": "Prefer not to answer"
+                },
+                "value": " noAnswer"
             }
         ],
         "valueType": [

@@ -5,7 +5,7 @@
         "en": "drinks_today_number"
     },
     "question": {
-        "en": "How many drinks have you had today?"
+        "en": "How many drinks did you have?"
     },
     "responseOptions": {
         "valueType": [

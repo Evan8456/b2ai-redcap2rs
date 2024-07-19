@@ -16,41 +16,29 @@
                 "name": {
                     "en": "Does not apply"
                 },
-                "value": 1
+                "value": "doesNotApply"
             },
             {
                 "name": {
                     "en": "Yes"
                 },
-                "value": 2
+                "value": " yes"
             },
             {
                 "name": {
-                    "en": "I am pregnant"
+                    "en": "No"
                 },
-                "value": 3
+                "value": " no"
             },
             {
                 "name": {
-                    "en": "I have an IUD"
+                    "en": "Prefer no to answer"
                 },
-                "value": 4
-            },
-            {
-                "name": {
-                    "en": "I have gone through menopause"
-                },
-                "value": 5
-            },
-            {
-                "name": {
-                    "en": "Other (Please specify)"
-                },
-                "value": 6
+                "value": " noAnswer"
             }
         ],
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

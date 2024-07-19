@@ -5,25 +5,49 @@
         "en": "alcohol_rehab"
     },
     "question": {
-        "en": "Have you ever required rehab/counseling for heavy alcohol use?"
+        "en": "Have you ever been in rehab or counseling for heavy alcohol use?"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Yes"
+                    "en": "Never in the past year"
                 },
-                "value": 1
+                "value": "neverInThePastYear"
             },
             {
                 "name": {
-                    "en": "No"
+                    "en": "Less than monthly"
                 },
-                "value": 0
+                "value": " lessThanMonthly"
+            },
+            {
+                "name": {
+                    "en": "Monthly"
+                },
+                "value": " monthly"
+            },
+            {
+                "name": {
+                    "en": "Weekly"
+                },
+                "value": " weekly"
+            },
+            {
+                "name": {
+                    "en": "Daily or almost daily"
+                },
+                "value": " daily"
+            },
+            {
+                "name": {
+                    "en": "Prefer not to answer"
+                },
+                "value": " noAnswer"
             }
         ],
         "valueType": [
-            "xsd:boolean"
+            "xsd:string"
         ]
     },
     "ui": {

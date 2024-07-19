@@ -17,19 +17,19 @@
             },
             {
                 "name": {
-                    "en": "In a relationship not married living with partner"
+                    "en": "Married"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "In a relationship not married not living with partner"
+                    "en": "In a relationship"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Married"
+                    "en": "Not married"
                 },
                 "value": 4
             },

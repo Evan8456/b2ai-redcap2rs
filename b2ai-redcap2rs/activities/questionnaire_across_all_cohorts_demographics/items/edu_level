@@ -1,6 +1,9 @@
 {
     "id": "edu_level",
     "category": "reproschema:Item",
+    "preamble": {
+        "en": "Education"
+    },
     "prefLabel": {
         "en": "edu_level"
     },
@@ -11,7 +14,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "No education"
+                    "en": "No formal education"
                 },
                 "value": 1
             },
@@ -23,57 +26,63 @@
             },
             {
                 "name": {
-                    "en": "Some high school"
+                    "en": "Some secondary or high school education"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "High school diploma"
+                    "en": "High School or secondary school degree complete"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Some college"
+                    "en": "Some college education"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Associate's degree"
+                    "en": "Associate's or technical degree complete"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "Bachelor's degree"
+                    "en": "College or baccalaureate degree complete"
                 },
                 "value": 7
             },
             {
                 "name": {
-                    "en": "Some post-graduate work"
+                    "en": "Some post-baccalaureate education"
                 },
                 "value": 8
             },
             {
                 "name": {
-                    "en": "Graduate degree"
+                    "en": "Graduate or professional degree complete"
                 },
                 "value": 9
             },
             {
                 "name": {
-                    "en": "Other (Please specify)"
+                    "en": "Doctoral or post graduate education"
                 },
                 "value": 10
             },
             {
                 "name": {
-                    "en": "Prefer not to answer"
+                    "en": "Other"
                 },
                 "value": 11
+            },
+            {
+                "name": {
+                    "en": "Prefer not to answer"
+                },
+                "value": 12
             }
         ],
         "valueType": [

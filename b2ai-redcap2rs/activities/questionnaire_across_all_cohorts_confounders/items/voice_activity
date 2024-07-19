@@ -26,13 +26,13 @@
             },
             {
                 "name": {
-                    "en": "Speaking (secretary call center attorney salesperson)"
+                    "en": "Speaking  (secretary call center attorney salesperson)"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "K-12 Teacher"
+                    "en": "Teacher"
                 },
                 "value": 4
             },
@@ -50,7 +50,7 @@
             },
             {
                 "name": {
-                    "en": "Other (please specify)"
+                    "en": "Other"
                 },
                 "value": 7
             }

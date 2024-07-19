@@ -9,36 +9,33 @@
         "order": [
             "items/eligible_studies",
             "items/laryng_cancer",
-            "items/voc_fold_paralysis",
-            "items/spas_dys",
-            "items/rrp",
             "items/benign_cord_lesion",
-            "items/dementia",
-            "items/alzheimers",
-            "items/stroke",
+            "items/rrp",
+            "items/spas_dys",
+            "items/voc_fold_paralysis",
+            "items/alz_dementia_mci",
             "items/als",
-            "items/ataxia",
             "items/parkinsons",
-            "items/depression",
-            "items/bipolar",
+            "items/alcohol_subst_abuse",
             "items/gad",
+            "items/add_adhd",
+            "items/asd",
+            "items/bipolar",
+            "items/bpd",
+            "items/depression",
+            "items/ed",
+            "items/insomnia",
             "items/ocd",
             "items/panic",
             "items/ptsd",
             "items/schizophrenia",
             "items/soc_anx_dis",
-            "items/alcohol_subst_abuse",
-            "items/bpd",
-            "items/asd",
-            "items/add_adhd",
-            "items/ed",
-            "items/insomnia",
             "items/other_psych",
             "items/asthma",
-            "items/copd",
-            "items/chronic_cough",
-            "items/osa",
             "items/airway_stenosis",
+            "items/chronic_cough",
+            "items/copd",
+            "items/osa",
             "items/autism",
             "items/speech_delay"
         ],
@@ -56,16 +53,10 @@
                 "variableName": "laryng_cancer"
             },
             {
-                "isAbout": "items/voc_fold_paralysis",
+                "isAbout": "items/benign_cord_lesion",
                 "isVis": true,
                 "valueRequired": true,
-                "variableName": "voc_fold_paralysis"
-            },
-            {
-                "isAbout": "items/spas_dys",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "spas_dys"
+                "variableName": "benign_cord_lesion"
             },
             {
                 "isAbout": "items/rrp",
@@ -74,28 +65,22 @@
                 "variableName": "rrp"
             },
             {
-                "isAbout": "items/benign_cord_lesion",
+                "isAbout": "items/spas_dys",
                 "isVis": true,
                 "valueRequired": true,
-                "variableName": "benign_cord_lesion"
+                "variableName": "spas_dys"
             },
             {
-                "isAbout": "items/dementia",
+                "isAbout": "items/voc_fold_paralysis",
                 "isVis": true,
                 "valueRequired": true,
-                "variableName": "dementia"
+                "variableName": "voc_fold_paralysis"
             },
             {
-                "isAbout": "items/alzheimers",
+                "isAbout": "items/alz_dementia_mci",
                 "isVis": true,
                 "valueRequired": true,
-                "variableName": "alzheimers"
-            },
-            {
-                "isAbout": "items/stroke",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "stroke"
+                "variableName": "alz_dementia_mci"
             },
             {
                 "isAbout": "items/als",
@@ -104,22 +89,34 @@
                 "variableName": "als"
             },
             {
-                "isAbout": "items/ataxia",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "ataxia"
-            },
-            {
                 "isAbout": "items/parkinsons",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "parkinsons"
             },
             {
-                "isAbout": "items/depression",
+                "isAbout": "items/alcohol_subst_abuse",
                 "isVis": true,
                 "valueRequired": true,
-                "variableName": "depression"
+                "variableName": "alcohol_subst_abuse"
+            },
+            {
+                "isAbout": "items/gad",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "gad"
+            },
+            {
+                "isAbout": "items/add_adhd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "add_adhd"
+            },
+            {
+                "isAbout": "items/asd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "asd"
             },
             {
                 "isAbout": "items/bipolar",
@@ -128,10 +125,28 @@
                 "variableName": "bipolar"
             },
             {
-                "isAbout": "items/gad",
+                "isAbout": "items/bpd",
                 "isVis": true,
                 "valueRequired": true,
-                "variableName": "gad"
+                "variableName": "bpd"
+            },
+            {
+                "isAbout": "items/depression",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "depression"
+            },
+            {
+                "isAbout": "items/ed",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ed"
+            },
+            {
+                "isAbout": "items/insomnia",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "insomnia"
             },
             {
                 "isAbout": "items/ocd",
@@ -164,42 +179,6 @@
                 "variableName": "soc_anx_dis"
             },
             {
-                "isAbout": "items/alcohol_subst_abuse",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "alcohol_subst_abuse"
-            },
-            {
-                "isAbout": "items/bpd",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "bpd"
-            },
-            {
-                "isAbout": "items/asd",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "asd"
-            },
-            {
-                "isAbout": "items/add_adhd",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "add_adhd"
-            },
-            {
-                "isAbout": "items/ed",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "ed"
-            },
-            {
-                "isAbout": "items/insomnia",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "insomnia"
-            },
-            {
                 "isAbout": "items/other_psych",
                 "isVis": true,
                 "valueRequired": true,
@@ -212,10 +191,10 @@
                 "variableName": "asthma"
             },
             {
-                "isAbout": "items/copd",
+                "isAbout": "items/airway_stenosis",
                 "isVis": true,
                 "valueRequired": true,
-                "variableName": "copd"
+                "variableName": "airway_stenosis"
             },
             {
                 "isAbout": "items/chronic_cough",
@@ -224,16 +203,16 @@
                 "variableName": "chronic_cough"
             },
             {
+                "isAbout": "items/copd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "copd"
+            },
+            {
                 "isAbout": "items/osa",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "osa"
-            },
-            {
-                "isAbout": "items/airway_stenosis",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "airway_stenosis"
             },
             {
                 "isAbout": "items/autism",
@@ -250,6 +229,6 @@
         ],
         "shuffle": false
     },
-    "version": "1.0.0",
+    "version": "2.0.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

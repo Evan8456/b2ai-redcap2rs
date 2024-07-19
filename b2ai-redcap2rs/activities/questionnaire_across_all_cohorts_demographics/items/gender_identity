@@ -14,37 +14,25 @@
         "choices": [
             {
                 "name": {
-                    "en": "Cis Man: same gender as the sex assigned at birth"
+                    "en": "Female gender identity"
                 },
-                "value": "man"
+                "value": "female"
             },
             {
                 "name": {
-                    "en": "Cis Woman: same gender as the sex assigned at birth"
+                    "en": "Male gender identity"
                 },
-                "value": " woman"
+                "value": " male"
             },
             {
                 "name": {
-                    "en": "Non-binary"
+                    "en": "Non-binary or genderqueer gender identity"
                 },
                 "value": " nonBinary"
             },
             {
                 "name": {
-                    "en": "Trans man"
-                },
-                "value": " transMan"
-            },
-            {
-                "name": {
-                    "en": "Trans woman"
-                },
-                "value": " transWoman"
-            },
-            {
-                "name": {
-                    "en": "Other (please specify)"
+                    "en": "Other"
                 },
                 "value": " other"
             },

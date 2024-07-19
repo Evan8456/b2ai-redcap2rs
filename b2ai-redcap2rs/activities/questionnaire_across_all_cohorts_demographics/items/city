@@ -2,7 +2,7 @@
     "id": "city",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "Address"
+        "en": "Address Information"
     },
     "prefLabel": {
         "en": "city"
