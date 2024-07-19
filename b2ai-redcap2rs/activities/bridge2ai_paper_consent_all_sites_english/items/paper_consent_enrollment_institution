@@ -13,13 +13,13 @@
                 "name": {
                     "en": "BCH"
                 },
-                "value": "BCH"
+                "value": "bch"
             },
             {
                 "name": {
                     "en": "MIT"
                 },
-                "value": " MIT"
+                "value": " mit"
             },
             {
                 "name": {
@@ -31,19 +31,19 @@
                 "name": {
                     "en": "USF"
                 },
-                "value": " USF"
+                "value": " usf"
             },
             {
                 "name": {
                     "en": "VUMC"
                 },
-                "value": " VUMC"
+                "value": " vumc"
             },
             {
                 "name": {
                     "en": "WCM"
                 },
-                "value": " WCM"
+                "value": " wcm"
             }
         ],
         "valueType": [

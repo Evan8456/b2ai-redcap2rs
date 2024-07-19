@@ -5,7 +5,7 @@
         "en": "age_stop_smoking"
     },
     "question": {
-        "en": "At what age did you stop smoking?"
+        "en": "At what age did you stop?"
     },
     "responseOptions": {
         "valueType": [

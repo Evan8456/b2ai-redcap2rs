@@ -1,0 +1,19 @@
+{
+    "id": "winograd_completed_at",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "winograd_completed_at"
+    },
+    "question": {
+        "en": "Questionnaire Completed At"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

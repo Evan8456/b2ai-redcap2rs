@@ -24,9 +24,15 @@
             "../activities/bridge2ai_econsent_addendum_mit_english/bridge2ai_econsent_addendum_mit_english_schema",
             "../activities/bridge2ai_econsent_addendum_mit_researcher_stateme/bridge2ai_econsent_addendum_mit_researcher_stateme_schema",
             "../activities/bridge2ai_econsent_combined_pdf_addendum_mit/bridge2ai_econsent_combined_pdf_addendum_mit_schema",
+            "../activities/bridge2ai_econsent_addendum_bch_english/bridge2ai_econsent_addendum_bch_english_schema",
             "../activities/diagnosis_voice_disorders_vocal_fold_paralysis/diagnosis_voice_disorders_vocal_fold_paralysis_schema",
             "../activities/diagnosis_mood_disorders_bipolar_disorder/diagnosis_mood_disorders_bipolar_disorder_schema",
             "../activities/diagnosis_mood_disorders_depression_or_major_depre/diagnosis_mood_disorders_depression_or_major_depre_schema",
+            "../activities/diagnosis_respiratory_disorders_airway_stenosis/diagnosis_respiratory_disorders_airway_stenosis_schema",
+            "../activities/diagnosis_neurological_and_neurogenerative_disorde/diagnosis_neurological_and_neurogenerative_disorde_schema",
+            "../activities/diagnosis_neurological_and_neurogenerative_di_ee01/diagnosis_neurological_and_neurogenerative_di_ee01_schema",
+            "../activities/diagnosis_neurological_and_neurogenerative_di_5967/diagnosis_neurological_and_neurogenerative_di_5967_schema",
+            "../activities/diagnosis_pediatric_disorders_healthy_developmenta/diagnosis_pediatric_disorders_healthy_developmenta_schema",
             "../activities/session/session_schema",
             "../activities/acoustic_task/acoustic_task_schema",
             "../activities/recording/recording_schema",
@@ -41,7 +47,13 @@
             "../activities/questionnaire_mood_disorders_custom_affect_scale/questionnaire_mood_disorders_custom_affect_scale_schema",
             "../activities/questionnaire_mood_disorders_dsm5_adult/questionnaire_mood_disorders_dsm5_adult_schema",
             "../activities/questionnaire_mood_disorders_ptsd_adult/questionnaire_mood_disorders_ptsd_adult_schema",
-            "../activities/questionnaire_mood_disorders_adhd_adult/questionnaire_mood_disorders_adhd_adult_schema"
+            "../activities/questionnaire_mood_disorders_adhd_adult/questionnaire_mood_disorders_adhd_adult_schema",
+            "../activities/questionnaire_respiratory_disorders_dyspnea_index_/questionnaire_respiratory_disorders_dyspnea_index__schema",
+            "../activities/questionnaire_respiratory_disorders_leicester_coug/questionnaire_respiratory_disorders_leicester_coug_schema",
+            "../activities/questionnaire_neurological_and_neurogenerative_dis/questionnaire_neurological_and_neurogenerative_dis_schema",
+            "../activities/questionnaire_neurological_and_neurogenerativ_919a/questionnaire_neurological_and_neurogenerativ_919a_schema",
+            "../activities/questionnaire_neurological_and_neurogenerativ_6ced/questionnaire_neurological_and_neurogenerativ_6ced_schema",
+            "../activities/questionnaire_neurological_and_neurogenerativ_6688/questionnaire_neurological_and_neurogenerativ_6688_schema"
         ],
         "addProperties": [
             {
@@ -157,6 +169,14 @@
                 "variableName": "bridge2ai_econsent_combined_pdf_addendum_mit_schema"
             },
             {
+                "isAbout": "../activities/bridge2ai_econsent_addendum_bch_english/bridge2ai_econsent_addendum_bch_english_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Bridge2Ai Econsent Addendum Bch English"
+                },
+                "variableName": "bridge2ai_econsent_addendum_bch_english_schema"
+            },
+            {
                 "isAbout": "../activities/diagnosis_voice_disorders_vocal_fold_paralysis/diagnosis_voice_disorders_vocal_fold_paralysis_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -179,6 +199,46 @@
                     "en": "Diagnosis Mood Disorders Depression Or Major Depre"
                 },
                 "variableName": "diagnosis_mood_disorders_depression_or_major_depre_schema"
+            },
+            {
+                "isAbout": "../activities/diagnosis_respiratory_disorders_airway_stenosis/diagnosis_respiratory_disorders_airway_stenosis_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Diagnosis Respiratory Disorders Airway Stenosis"
+                },
+                "variableName": "diagnosis_respiratory_disorders_airway_stenosis_schema"
+            },
+            {
+                "isAbout": "../activities/diagnosis_neurological_and_neurogenerative_disorde/diagnosis_neurological_and_neurogenerative_disorde_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Diagnosis Neurological And Neurogenerative Disorde"
+                },
+                "variableName": "diagnosis_neurological_and_neurogenerative_disorde_schema"
+            },
+            {
+                "isAbout": "../activities/diagnosis_neurological_and_neurogenerative_di_ee01/diagnosis_neurological_and_neurogenerative_di_ee01_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Diagnosis Neurological And Neurogenerative Di Ee01"
+                },
+                "variableName": "diagnosis_neurological_and_neurogenerative_di_ee01_schema"
+            },
+            {
+                "isAbout": "../activities/diagnosis_neurological_and_neurogenerative_di_5967/diagnosis_neurological_and_neurogenerative_di_5967_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Diagnosis Neurological And Neurogenerative Di 5967"
+                },
+                "variableName": "diagnosis_neurological_and_neurogenerative_di_5967_schema"
+            },
+            {
+                "isAbout": "../activities/diagnosis_pediatric_disorders_healthy_developmenta/diagnosis_pediatric_disorders_healthy_developmenta_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Diagnosis Pediatric Disorders Healthy Developmenta"
+                },
+                "variableName": "diagnosis_pediatric_disorders_healthy_developmenta_schema"
             },
             {
                 "isAbout": "../activities/session/session_schema",
@@ -299,10 +359,58 @@
                     "en": "Questionnaire Mood Disorders Adhd Adult"
                 },
                 "variableName": "questionnaire_mood_disorders_adhd_adult_schema"
+            },
+            {
+                "isAbout": "../activities/questionnaire_respiratory_disorders_dyspnea_index_/questionnaire_respiratory_disorders_dyspnea_index__schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Questionnaire Respiratory Disorders Dyspnea Index "
+                },
+                "variableName": "questionnaire_respiratory_disorders_dyspnea_index__schema"
+            },
+            {
+                "isAbout": "../activities/questionnaire_respiratory_disorders_leicester_coug/questionnaire_respiratory_disorders_leicester_coug_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Questionnaire Respiratory Disorders Leicester Coug"
+                },
+                "variableName": "questionnaire_respiratory_disorders_leicester_coug_schema"
+            },
+            {
+                "isAbout": "../activities/questionnaire_neurological_and_neurogenerative_dis/questionnaire_neurological_and_neurogenerative_dis_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Questionnaire Neurological And Neurogenerative Dis"
+                },
+                "variableName": "questionnaire_neurological_and_neurogenerative_dis_schema"
+            },
+            {
+                "isAbout": "../activities/questionnaire_neurological_and_neurogenerativ_919a/questionnaire_neurological_and_neurogenerativ_919a_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Questionnaire Neurological And Neurogenerativ 919A"
+                },
+                "variableName": "questionnaire_neurological_and_neurogenerativ_919a_schema"
+            },
+            {
+                "isAbout": "../activities/questionnaire_neurological_and_neurogenerativ_6ced/questionnaire_neurological_and_neurogenerativ_6ced_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Questionnaire Neurological And Neurogenerativ 6Ced"
+                },
+                "variableName": "questionnaire_neurological_and_neurogenerativ_6ced_schema"
+            },
+            {
+                "isAbout": "../activities/questionnaire_neurological_and_neurogenerativ_6688/questionnaire_neurological_and_neurogenerativ_6688_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Questionnaire Neurological And Neurogenerativ 6688"
+                },
+                "variableName": "questionnaire_neurological_and_neurogenerativ_6688_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "2.0.0",
+    "version": "3.0.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

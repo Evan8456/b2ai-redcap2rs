@@ -9,7 +9,7 @@
     },
     "responseOptions": {
         "valueType": [
-            "xsd: string"
+            "xsd:string"
         ]
     },
     "ui": {

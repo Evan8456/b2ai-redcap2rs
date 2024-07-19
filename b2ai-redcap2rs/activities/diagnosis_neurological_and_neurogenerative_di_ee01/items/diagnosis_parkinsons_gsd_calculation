@@ -1,0 +1,19 @@
+{
+    "id": "diagnosis_parkinsons_gsd_calculation",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "diagnosis_parkinsons_gsd_calculation"
+    },
+    "question": {
+        "en": "Does the patient meet the diagnostic criteria for Parkinson's Disease (Parkinsonism) based on the criteria above?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

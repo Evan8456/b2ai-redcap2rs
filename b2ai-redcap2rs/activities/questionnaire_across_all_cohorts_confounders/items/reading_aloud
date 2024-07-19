@@ -8,7 +8,7 @@
         "en": "reading_aloud"
     },
     "question": {
-        "en": "How good do you think you are at reading out loud in a language your are proficient/fluent in (that is, reading out loud without making mistakes and understanding what you read at a normal rate)?"
+        "en": "\"How good do you think you are at reading out loud in [English/Spanish/French], that is reading out loud without making mistakes and understanding what you read at a normal rate?\""
     },
     "responseOptions": {
         "choices": [

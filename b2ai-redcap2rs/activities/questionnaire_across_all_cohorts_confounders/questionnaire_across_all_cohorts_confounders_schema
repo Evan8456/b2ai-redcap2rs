@@ -69,6 +69,10 @@
             "items/cpap_conditions",
             "items/resp_medical_history",
             "items/exposed_environmental_pollution",
+            "items/breathe_today",
+            "items/breathe_today_difficulty",
+            "items/cough_today",
+            "items/cough_today_severity",
             "items/circulatory_conditions",
             "items/cardiac_condition",
             "items/circulatory_med_history",
@@ -285,7 +289,6 @@
             {
                 "isAbout": "items/dental_problems",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "dental_problems"
             },
             {
@@ -418,6 +421,26 @@
                 "isAbout": "items/exposed_environmental_pollution",
                 "isVis": true,
                 "variableName": "exposed_environmental_pollution"
+            },
+            {
+                "isAbout": "items/breathe_today",
+                "isVis": "eligible_studies___4 == 1",
+                "variableName": "breathe_today"
+            },
+            {
+                "isAbout": "items/breathe_today_difficulty",
+                "isVis": "eligible_studies___4 == 1 && breathe_today == 'yes'",
+                "variableName": "breathe_today_difficulty"
+            },
+            {
+                "isAbout": "items/cough_today",
+                "isVis": "eligible_studies___4 == 1",
+                "variableName": "cough_today"
+            },
+            {
+                "isAbout": "items/cough_today_severity",
+                "isVis": "eligible_studies___4 == 1 && cough_today == 'yes'",
+                "variableName": "cough_today_severity"
             },
             {
                 "isAbout": "items/circulatory_conditions",
@@ -589,6 +612,6 @@
         ],
         "shuffle": false
     },
-    "version": "2.0.0",
+    "version": "3.0.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
