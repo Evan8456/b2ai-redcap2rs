@@ -1,0 +1,76 @@
+{
+    "id": "neurological_history",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "neurological_history"
+    },
+    "question": {
+        "en": "Neurological history"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Alzheimer's Disease"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Brain tumor"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Dementia"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Epilepsy"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Migraine"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Multiple sclerosis"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Parkinson's Disease"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Stroke"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Traumatic brain injury"
+                },
+                "value": 9
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

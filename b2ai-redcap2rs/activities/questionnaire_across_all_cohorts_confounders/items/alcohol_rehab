@@ -1,0 +1,33 @@
+{
+    "id": "alcohol_rehab",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "alcohol_rehab"
+    },
+    "question": {
+        "en": "Have you ever required rehab/counseling for heavy alcohol use?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

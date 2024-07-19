@@ -1,0 +1,66 @@
+{
+    "id": "gender_identity",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Patient Demographics"
+    },
+    "prefLabel": {
+        "en": "gender_identity"
+    },
+    "question": {
+        "en": "What is your gender identity?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Cis Man: same gender as the sex assigned at birth"
+                },
+                "value": "man"
+            },
+            {
+                "name": {
+                    "en": "Cis Woman: same gender as the sex assigned at birth"
+                },
+                "value": " woman"
+            },
+            {
+                "name": {
+                    "en": "Non-binary"
+                },
+                "value": " nonBinary"
+            },
+            {
+                "name": {
+                    "en": "Trans man"
+                },
+                "value": " transMan"
+            },
+            {
+                "name": {
+                    "en": "Trans woman"
+                },
+                "value": " transWoman"
+            },
+            {
+                "name": {
+                    "en": "Other (please specify)"
+                },
+                "value": " other"
+            },
+            {
+                "name": {
+                    "en": "Prefer not to answer"
+                },
+                "value": " noAnswer"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

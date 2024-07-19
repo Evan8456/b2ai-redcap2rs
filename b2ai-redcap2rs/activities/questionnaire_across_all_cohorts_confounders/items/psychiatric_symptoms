@@ -1,0 +1,43 @@
+{
+    "id": "psychiatric_symptoms",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "PSYCHIATRIC CONDITIONS\n\nHave you been diagnosed with any of these mental health conditions by a clinician? (check all that apply)"
+    },
+    "prefLabel": {
+        "en": "psychiatric_symptoms"
+    },
+    "question": {
+        "en": "Psychiatric Symptoms"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Confusion"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Nervous/Anxious"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Sleep disturbance"
+                },
+                "value": 3
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

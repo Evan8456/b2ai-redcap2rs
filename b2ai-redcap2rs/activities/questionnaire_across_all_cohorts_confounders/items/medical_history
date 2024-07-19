@@ -1,0 +1,145 @@
+{
+    "id": "medical_history",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "EAR, NOSE, THROAT MEDICAL HISTORYDo you have any of these voice, communication, or hearing conditions or had any of the interventions mentioned below? (check all that apply)"
+    },
+    "prefLabel": {
+        "en": "medical_history"
+    },
+    "question": {
+        "en": "Medical History"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Chronic ear infection"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Chronic rhinosinusitis"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Cochlear implant"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Cancer: throat"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Dysphagia (difficulty swallowing)"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Frequent sinusitis"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Hearing loss"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Migraine"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Pre-cancerous lesion (e.g. laryngeal leukoplakia or keratosis)"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Radiation around head neck or ears"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Reflux (heartburn)"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Reinke's edema polypoid corditis or smoker's larynx"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "Seasonal allergies"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "Sj\u00f6gren's syndrome"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "Swallowing disorders (dysphagia)"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "Thyroid disease"
+                },
+                "value": 16
+            },
+            {
+                "name": {
+                    "en": "Velopharyngeal insufficiency"
+                },
+                "value": 17
+            },
+            {
+                "name": {
+                    "en": "Vocal fold polyp nodule or cyst"
+                },
+                "value": 18
+            },
+            {
+                "name": {
+                    "en": "Vocal hemorrhage or bleed"
+                },
+                "value": 19
+            },
+            {
+                "name": {
+                    "en": "Voice/throat disorder"
+                },
+                "value": 20
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

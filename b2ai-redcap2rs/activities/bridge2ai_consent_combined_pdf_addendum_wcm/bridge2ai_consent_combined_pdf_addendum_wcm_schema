@@ -1,0 +1,23 @@
+{
+    "id": "bridge2ai_consent_combined_pdf_addendum_wcm_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "bridge2ai_consent_combined_pdf_addendum_wcm"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/upload_addendums"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/upload_addendums",
+                "isVis": true,
+                "variableName": "upload_addendums"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.0.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

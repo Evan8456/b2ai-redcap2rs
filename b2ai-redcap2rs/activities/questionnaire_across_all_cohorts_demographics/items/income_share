@@ -1,0 +1,36 @@
+{
+    "id": "income_share",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Demographics - Optional"
+    },
+    "prefLabel": {
+        "en": "income_share"
+    },
+    "question": {
+        "en": "Would you like to share your estimated household income?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Prefer not to answer"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,215 @@
+{
+    "id": "diagnosis_voice_disorders_vocal_fold_paralysis_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "diagnosis_voice_disorders_vocal_fold_paralysis"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/diagnosis_vfp_gsd",
+            "items/diagnosis_vfp_ds",
+            "items/diagnosis_vfp_etiology",
+            "items/diagnosis_vfp_iatrogenic",
+            "items/diagnosis_vfp_tumor",
+            "items/diagnosis_vfp_dse",
+            "items/diagnosis_vfp_degree_text",
+            "items/diagnosis_vfp_degree_legend",
+            "items/diagnosis_degree_os",
+            "items/diagnosis_degree_os_2",
+            "items/diagnosis_degree_r",
+            "items/diagnosis_degree_r_2",
+            "items/diagnosis_degree_b",
+            "items/diagnosis_degree_b_2",
+            "items/diagnosis_degree_s",
+            "items/diagnosis_degree_s_2",
+            "items/diagnosis_degree_p_nature",
+            "items/diagnosis_degree_p",
+            "items/diagnosis_degree_p_2",
+            "items/diagnosis_degree_l_nature",
+            "items/diagnosis_degree_l",
+            "items/diagnosis_degree_l_2",
+            "items/diagnosis_degree_comments",
+            "items/diagnosis_degree_comments_other",
+            "items/diagnosis_degree_comments_other_2",
+            "items/diagnosis_vfp_treatment",
+            "items/diagnosis_vfp_treatment_surgery",
+            "items/diagnosis_vfp_treatment_surgery_thyroplasty",
+            "items/diagnosis_vfp_treatment_surgery_vfia"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/diagnosis_vfp_gsd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_vfp_gsd"
+            },
+            {
+                "isAbout": "items/diagnosis_vfp_ds",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_vfp_ds"
+            },
+            {
+                "isAbout": "items/diagnosis_vfp_etiology",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_vfp_etiology"
+            },
+            {
+                "isAbout": "items/diagnosis_vfp_iatrogenic",
+                "isVis": "diagnosis_vfp_etiology == 2",
+                "valueRequired": true,
+                "variableName": "diagnosis_vfp_iatrogenic"
+            },
+            {
+                "isAbout": "items/diagnosis_vfp_tumor",
+                "isVis": "diagnosis_vfp_etiology == 3",
+                "valueRequired": true,
+                "variableName": "diagnosis_vfp_tumor"
+            },
+            {
+                "isAbout": "items/diagnosis_vfp_dse",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_vfp_dse"
+            },
+            {
+                "isAbout": "items/diagnosis_vfp_degree_text",
+                "isVis": true,
+                "variableName": "diagnosis_vfp_degree_text"
+            },
+            {
+                "isAbout": "items/diagnosis_vfp_degree_legend",
+                "isVis": true,
+                "variableName": "diagnosis_vfp_degree_legend"
+            },
+            {
+                "isAbout": "items/diagnosis_degree_os",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_degree_os"
+            },
+            {
+                "isAbout": "items/diagnosis_degree_os_2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_degree_os_2"
+            },
+            {
+                "isAbout": "items/diagnosis_degree_r",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_degree_r"
+            },
+            {
+                "isAbout": "items/diagnosis_degree_r_2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_degree_r_2"
+            },
+            {
+                "isAbout": "items/diagnosis_degree_b",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_degree_b"
+            },
+            {
+                "isAbout": "items/diagnosis_degree_b_2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_degree_b_2"
+            },
+            {
+                "isAbout": "items/diagnosis_degree_s",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_degree_s"
+            },
+            {
+                "isAbout": "items/diagnosis_degree_s_2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_degree_s_2"
+            },
+            {
+                "isAbout": "items/diagnosis_degree_p_nature",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_degree_p_nature"
+            },
+            {
+                "isAbout": "items/diagnosis_degree_p",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_degree_p"
+            },
+            {
+                "isAbout": "items/diagnosis_degree_p_2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_degree_p_2"
+            },
+            {
+                "isAbout": "items/diagnosis_degree_l_nature",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_degree_l_nature"
+            },
+            {
+                "isAbout": "items/diagnosis_degree_l",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_degree_l"
+            },
+            {
+                "isAbout": "items/diagnosis_degree_l_2",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_degree_l_2"
+            },
+            {
+                "isAbout": "items/diagnosis_degree_comments",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_degree_comments"
+            },
+            {
+                "isAbout": "items/diagnosis_degree_comments_other",
+                "isVis": "diagnosis_degree_comments == 2",
+                "variableName": "diagnosis_degree_comments_other"
+            },
+            {
+                "isAbout": "items/diagnosis_degree_comments_other_2",
+                "isVis": true,
+                "variableName": "diagnosis_degree_comments_other_2"
+            },
+            {
+                "isAbout": "items/diagnosis_vfp_treatment",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "diagnosis_vfp_treatment"
+            },
+            {
+                "isAbout": "items/diagnosis_vfp_treatment_surgery",
+                "isVis": "diagnosis_vfp_treatment == 1",
+                "variableName": "diagnosis_vfp_treatment_surgery"
+            },
+            {
+                "isAbout": "items/diagnosis_vfp_treatment_surgery_thyroplasty",
+                "isVis": "diagnosis_vfp_treatment_surgery == 1",
+                "valueRequired": true,
+                "variableName": "diagnosis_vfp_treatment_surgery_thyroplasty"
+            },
+            {
+                "isAbout": "items/diagnosis_vfp_treatment_surgery_vfia",
+                "isVis": "diagnosis_vfp_treatment_surgery == 2",
+                "valueRequired": true,
+                "variableName": "diagnosis_vfp_treatment_surgery_vfia"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.0.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

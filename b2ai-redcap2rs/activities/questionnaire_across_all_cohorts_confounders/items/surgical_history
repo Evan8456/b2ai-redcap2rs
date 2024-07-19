@@ -1,0 +1,76 @@
+{
+    "id": "surgical_history",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "surgical_history"
+    },
+    "question": {
+        "en": "Surgical History"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Chronic ear surgery (e.g. mastoid)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Ear tubes"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Head/Neck cancer (e.g. oropharyngeal cancer)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Sinus surgery"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Septoplasty/Rhinoplasty"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Sleep surgery"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Throat surgery"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Thyroid surgery"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Tonsillectomy/Adenoidectomy"
+                },
+                "value": 9
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

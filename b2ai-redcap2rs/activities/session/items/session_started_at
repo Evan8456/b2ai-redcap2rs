@@ -1,0 +1,19 @@
+{
+    "id": "session_started_at",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "session_started_at"
+    },
+    "question": {
+        "en": "Session Started At"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

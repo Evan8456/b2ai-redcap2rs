@@ -1,0 +1,33 @@
+{
+    "id": "other_psych",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "other_psych"
+    },
+    "question": {
+        "en": "Other psychiatric disorder"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Unchecked"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Checked"
+                },
+                "value": 1
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

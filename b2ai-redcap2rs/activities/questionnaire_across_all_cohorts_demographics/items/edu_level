@@ -1,0 +1,87 @@
+{
+    "id": "edu_level",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "edu_level"
+    },
+    "question": {
+        "en": "What is your highest level of education?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No education"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Some elementary school"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Some high school"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "High school diploma"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Some college"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Associate's degree"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Bachelor's degree"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Some post-graduate work"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Graduate degree"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Other (Please specify)"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Prefer not to answer"
+                },
+                "value": 11
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

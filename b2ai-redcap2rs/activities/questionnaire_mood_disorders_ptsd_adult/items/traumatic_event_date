@@ -1,0 +1,19 @@
+{
+    "id": "traumatic_event_date",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "traumatic_event_date"
+    },
+    "question": {
+        "en": "Date of the traumatic event:"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "ui": {
+        "inputType": "date"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

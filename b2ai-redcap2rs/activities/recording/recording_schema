@@ -1,0 +1,93 @@
+{
+    "id": "recording_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "recording"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/recording_id",
+            "items/recording_acoustic_task_id",
+            "items/recording_session_id",
+            "items/recording_name",
+            "items/recording_filepath",
+            "items/recording_storage_account",
+            "items/recording_file_share",
+            "items/recording_duration",
+            "items/recording_size",
+            "items/recording_created_at",
+            "items/recording_profile"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/recording_id",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "recording_id"
+            },
+            {
+                "isAbout": "items/recording_acoustic_task_id",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "recording_acoustic_task_id"
+            },
+            {
+                "isAbout": "items/recording_session_id",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "recording_session_id"
+            },
+            {
+                "isAbout": "items/recording_name",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "recording_name"
+            },
+            {
+                "isAbout": "items/recording_filepath",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "recording_filepath"
+            },
+            {
+                "isAbout": "items/recording_storage_account",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "recording_storage_account"
+            },
+            {
+                "isAbout": "items/recording_file_share",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "recording_file_share"
+            },
+            {
+                "isAbout": "items/recording_duration",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "recording_duration"
+            },
+            {
+                "isAbout": "items/recording_size",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "recording_size"
+            },
+            {
+                "isAbout": "items/recording_created_at",
+                "isVis": true,
+                "variableName": "recording_created_at"
+            },
+            {
+                "isAbout": "items/recording_profile",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "recording_profile"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.0.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,69 @@
+{
+    "id": "acoustic_task_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "acoustic_task"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/acoustic_task_id",
+            "items/acoustic_task_session_id",
+            "items/acoustic_task_name",
+            "items/acoustic_task_cohort",
+            "items/acoustic_task_status",
+            "items/acoustic_task_started_at",
+            "items/acoustic_task_completed_at",
+            "items/acoustic_task_duration"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/acoustic_task_id",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "acoustic_task_id"
+            },
+            {
+                "isAbout": "items/acoustic_task_session_id",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "acoustic_task_session_id"
+            },
+            {
+                "isAbout": "items/acoustic_task_name",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "acoustic_task_name"
+            },
+            {
+                "isAbout": "items/acoustic_task_cohort",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "acoustic_task_cohort"
+            },
+            {
+                "isAbout": "items/acoustic_task_status",
+                "isVis": true,
+                "variableName": "acoustic_task_status"
+            },
+            {
+                "isAbout": "items/acoustic_task_started_at",
+                "isVis": true,
+                "variableName": "acoustic_task_started_at"
+            },
+            {
+                "isAbout": "items/acoustic_task_completed_at",
+                "isVis": true,
+                "variableName": "acoustic_task_completed_at"
+            },
+            {
+                "isAbout": "items/acoustic_task_duration",
+                "isVis": true,
+                "variableName": "acoustic_task_duration"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.0.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

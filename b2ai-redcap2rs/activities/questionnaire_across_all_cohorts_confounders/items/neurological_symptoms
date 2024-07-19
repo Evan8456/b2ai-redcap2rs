@@ -1,0 +1,43 @@
+{
+    "id": "neurological_symptoms",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "NEUROLOGICAL MEDICAL HISTORY\n\nHave you been diagnosed with any of these neurological health conditions by a clinician? (check all that apply)"
+    },
+    "prefLabel": {
+        "en": "neurological_symptoms"
+    },
+    "question": {
+        "en": "Neurological symptoms"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Dizziness"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Frequent or severe headache"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Speech difficulty"
+                },
+                "value": 3
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

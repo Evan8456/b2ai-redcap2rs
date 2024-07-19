@@ -1,0 +1,160 @@
+{
+    "id": "race_ethnicity",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "race_ethnicity"
+    },
+    "question": {
+        "en": "What is your race/ethnicity?\n\n(Choose all that apply)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Black"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Brown"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "White"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "North African"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Sub-Saharan African"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "African American"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Latin American"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Indigenous First Nation"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Caribbean"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Central Asian"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "East Asian"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "South Asian"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "Southeast Asian"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "Eastern European"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "Northern European"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "Southern European"
+                },
+                "value": 16
+            },
+            {
+                "name": {
+                    "en": "Western European"
+                },
+                "value": 17
+            },
+            {
+                "name": {
+                    "en": "Hispanic or Latino/a/x"
+                },
+                "value": 18
+            },
+            {
+                "name": {
+                    "en": "Middle Eastern"
+                },
+                "value": 19
+            },
+            {
+                "name": {
+                    "en": "Pacific Islander"
+                },
+                "value": 20
+            },
+            {
+                "name": {
+                    "en": "Romani"
+                },
+                "value": 21
+            },
+            {
+                "name": {
+                    "en": "Race and/or ethnicity not listed please specify"
+                },
+                "value": 22
+            },
+            {
+                "name": {
+                    "en": "Prefer not to answer"
+                },
+                "value": 23
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,44 @@
+{
+    "id": "bridge2ai_consent_addendum_mit_researcher_statemen_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "bridge2ai_consent_addendum_mit_researcher_statemen"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/consent_wcm_p6_mit",
+            "items/consent_wcm_rs_signature_mit",
+            "items/consent_wcm_rs_name_mit",
+            "items/consent_wcm_rs_date_mit"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/consent_wcm_p6_mit",
+                "isVis": true,
+                "variableName": "consent_wcm_p6_mit"
+            },
+            {
+                "isAbout": "items/consent_wcm_rs_signature_mit",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "consent_wcm_rs_signature_mit"
+            },
+            {
+                "isAbout": "items/consent_wcm_rs_name_mit",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "consent_wcm_rs_name_mit"
+            },
+            {
+                "isAbout": "items/consent_wcm_rs_date_mit",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "consent_wcm_rs_date_mit"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.0.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

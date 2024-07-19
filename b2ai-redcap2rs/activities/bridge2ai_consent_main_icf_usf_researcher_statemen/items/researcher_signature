@@ -1,0 +1,19 @@
+{
+    "id": "researcher_signature",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "researcher_signature"
+    },
+    "question": {
+        "en": "Signature of Person Obtaining Informed Consent"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd: string"
+        ]
+    },
+    "ui": {
+        "inputType": "documentUpload"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

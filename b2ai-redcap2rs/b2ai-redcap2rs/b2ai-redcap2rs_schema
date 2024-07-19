@@ -1,0 +1,299 @@
+{
+    "id": "b2ai-redcap2rs_schema",
+    "category": "reproschema:Protocol",
+    "description": {
+        "en": "This protocol is for B2AI"
+    },
+    "prefLabel": {
+        "en": "Assessment Protocol"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "../activities/subjectparticipant_basic_information/subjectparticipant_basic_information_schema",
+            "../activities/subjectparticipant_contact_information/subjectparticipant_contact_information_schema",
+            "../activities/subjectparticipant_eligible_studies/subjectparticipant_eligible_studies_schema",
+            "../activities/enrollment_form/enrollment_form_schema",
+            "../activities/bridge2ai_consent_main_icf_usf_english/bridge2ai_consent_main_icf_usf_english_schema",
+            "../activities/bridge2ai_consent_main_icf_usf_researcher_statemen/bridge2ai_consent_main_icf_usf_researcher_statemen_schema",
+            "../activities/bridge2ai_consent_combined_pdf_main_icf_usf/bridge2ai_consent_combined_pdf_main_icf_usf_schema",
+            "../activities/bridge2ai_consent_addendum_wcm_english/bridge2ai_consent_addendum_wcm_english_schema",
+            "../activities/bridge2ai_consent_addendum_wcm_researcher_statemen/bridge2ai_consent_addendum_wcm_researcher_statemen_schema",
+            "../activities/bridge2ai_consent_combined_pdf_addendum_wcm/bridge2ai_consent_combined_pdf_addendum_wcm_schema",
+            "../activities/bridge2ai_consent_addendum_mit_english/bridge2ai_consent_addendum_mit_english_schema",
+            "../activities/bridge2ai_consent_addendum_mit_researcher_statemen/bridge2ai_consent_addendum_mit_researcher_statemen_schema",
+            "../activities/bridge2ai_consent_combined_pdf_addendum_mit/bridge2ai_consent_combined_pdf_addendum_mit_schema",
+            "../activities/diagnosis_voice_disorders_vocal_fold_paralysis/diagnosis_voice_disorders_vocal_fold_paralysis_schema",
+            "../activities/diagnosis_mood_disorders_bipolar_disorder/diagnosis_mood_disorders_bipolar_disorder_schema",
+            "../activities/diagnosis_mood_disorders_depression_or_major_depre/diagnosis_mood_disorders_depression_or_major_depre_schema",
+            "../activities/session/session_schema",
+            "../activities/acoustic_task/acoustic_task_schema",
+            "../activities/recording/recording_schema",
+            "../activities/questionnaire_across_all_cohorts_demographics/questionnaire_across_all_cohorts_demographics_schema",
+            "../activities/questionnaire_across_all_cohorts_confounders/questionnaire_across_all_cohorts_confounders_schema",
+            "../activities/questionnaire_across_all_cohorts_voice_perception/questionnaire_across_all_cohorts_voice_perception_schema",
+            "../activities/questionnaire_across_all_cohorts_voice_handicap_in/questionnaire_across_all_cohorts_voice_handicap_in_schema",
+            "../activities/questionnaire_across_all_cohorts_patient_health_qu/questionnaire_across_all_cohorts_patient_health_qu_schema",
+            "../activities/questionnaire_across_all_cohorts_gad7_anxiety/questionnaire_across_all_cohorts_gad7_anxiety_schema",
+            "../activities/questionnaire_voice_disorders_voice_problem_severi/questionnaire_voice_disorders_voice_problem_severi_schema",
+            "../activities/questionnaire_mood_disorders_panas/questionnaire_mood_disorders_panas_schema",
+            "../activities/questionnaire_mood_disorders_custom_affect_scale/questionnaire_mood_disorders_custom_affect_scale_schema",
+            "../activities/questionnaire_mood_disorders_dsm5_adult/questionnaire_mood_disorders_dsm5_adult_schema",
+            "../activities/questionnaire_mood_disorders_ptsd_adult/questionnaire_mood_disorders_ptsd_adult_schema",
+            "../activities/questionnaire_mood_disorders_adhd_adult/questionnaire_mood_disorders_adhd_adult_schema"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "../activities/subjectparticipant_basic_information/subjectparticipant_basic_information_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Subjectparticipant Basic Information"
+                },
+                "variableName": "subjectparticipant_basic_information_schema"
+            },
+            {
+                "isAbout": "../activities/subjectparticipant_contact_information/subjectparticipant_contact_information_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Subjectparticipant Contact Information"
+                },
+                "variableName": "subjectparticipant_contact_information_schema"
+            },
+            {
+                "isAbout": "../activities/subjectparticipant_eligible_studies/subjectparticipant_eligible_studies_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Subjectparticipant Eligible Studies"
+                },
+                "variableName": "subjectparticipant_eligible_studies_schema"
+            },
+            {
+                "isAbout": "../activities/enrollment_form/enrollment_form_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Enrollment Form"
+                },
+                "variableName": "enrollment_form_schema"
+            },
+            {
+                "isAbout": "../activities/bridge2ai_consent_main_icf_usf_english/bridge2ai_consent_main_icf_usf_english_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Bridge2Ai Consent Main Icf Usf English"
+                },
+                "variableName": "bridge2ai_consent_main_icf_usf_english_schema"
+            },
+            {
+                "isAbout": "../activities/bridge2ai_consent_main_icf_usf_researcher_statemen/bridge2ai_consent_main_icf_usf_researcher_statemen_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Bridge2Ai Consent Main Icf Usf Researcher Statemen"
+                },
+                "variableName": "bridge2ai_consent_main_icf_usf_researcher_statemen_schema"
+            },
+            {
+                "isAbout": "../activities/bridge2ai_consent_combined_pdf_main_icf_usf/bridge2ai_consent_combined_pdf_main_icf_usf_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Bridge2Ai Consent Combined Pdf Main Icf Usf"
+                },
+                "variableName": "bridge2ai_consent_combined_pdf_main_icf_usf_schema"
+            },
+            {
+                "isAbout": "../activities/bridge2ai_consent_addendum_wcm_english/bridge2ai_consent_addendum_wcm_english_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Bridge2Ai Consent Addendum Wcm English"
+                },
+                "variableName": "bridge2ai_consent_addendum_wcm_english_schema"
+            },
+            {
+                "isAbout": "../activities/bridge2ai_consent_addendum_wcm_researcher_statemen/bridge2ai_consent_addendum_wcm_researcher_statemen_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Bridge2Ai Consent Addendum Wcm Researcher Statemen"
+                },
+                "variableName": "bridge2ai_consent_addendum_wcm_researcher_statemen_schema"
+            },
+            {
+                "isAbout": "../activities/bridge2ai_consent_combined_pdf_addendum_wcm/bridge2ai_consent_combined_pdf_addendum_wcm_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Bridge2Ai Consent Combined Pdf Addendum Wcm"
+                },
+                "variableName": "bridge2ai_consent_combined_pdf_addendum_wcm_schema"
+            },
+            {
+                "isAbout": "../activities/bridge2ai_consent_addendum_mit_english/bridge2ai_consent_addendum_mit_english_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Bridge2Ai Consent Addendum Mit English"
+                },
+                "variableName": "bridge2ai_consent_addendum_mit_english_schema"
+            },
+            {
+                "isAbout": "../activities/bridge2ai_consent_addendum_mit_researcher_statemen/bridge2ai_consent_addendum_mit_researcher_statemen_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Bridge2Ai Consent Addendum Mit Researcher Statemen"
+                },
+                "variableName": "bridge2ai_consent_addendum_mit_researcher_statemen_schema"
+            },
+            {
+                "isAbout": "../activities/bridge2ai_consent_combined_pdf_addendum_mit/bridge2ai_consent_combined_pdf_addendum_mit_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Bridge2Ai Consent Combined Pdf Addendum Mit"
+                },
+                "variableName": "bridge2ai_consent_combined_pdf_addendum_mit_schema"
+            },
+            {
+                "isAbout": "../activities/diagnosis_voice_disorders_vocal_fold_paralysis/diagnosis_voice_disorders_vocal_fold_paralysis_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Diagnosis Voice Disorders Vocal Fold Paralysis"
+                },
+                "variableName": "diagnosis_voice_disorders_vocal_fold_paralysis_schema"
+            },
+            {
+                "isAbout": "../activities/diagnosis_mood_disorders_bipolar_disorder/diagnosis_mood_disorders_bipolar_disorder_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Diagnosis Mood Disorders Bipolar Disorder"
+                },
+                "variableName": "diagnosis_mood_disorders_bipolar_disorder_schema"
+            },
+            {
+                "isAbout": "../activities/diagnosis_mood_disorders_depression_or_major_depre/diagnosis_mood_disorders_depression_or_major_depre_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Diagnosis Mood Disorders Depression Or Major Depre"
+                },
+                "variableName": "diagnosis_mood_disorders_depression_or_major_depre_schema"
+            },
+            {
+                "isAbout": "../activities/session/session_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Session"
+                },
+                "variableName": "session_schema"
+            },
+            {
+                "isAbout": "../activities/acoustic_task/acoustic_task_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Acoustic Task"
+                },
+                "variableName": "acoustic_task_schema"
+            },
+            {
+                "isAbout": "../activities/recording/recording_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Recording"
+                },
+                "variableName": "recording_schema"
+            },
+            {
+                "isAbout": "../activities/questionnaire_across_all_cohorts_demographics/questionnaire_across_all_cohorts_demographics_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Questionnaire Across All Cohorts Demographics"
+                },
+                "variableName": "questionnaire_across_all_cohorts_demographics_schema"
+            },
+            {
+                "isAbout": "../activities/questionnaire_across_all_cohorts_confounders/questionnaire_across_all_cohorts_confounders_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Questionnaire Across All Cohorts Confounders"
+                },
+                "variableName": "questionnaire_across_all_cohorts_confounders_schema"
+            },
+            {
+                "isAbout": "../activities/questionnaire_across_all_cohorts_voice_perception/questionnaire_across_all_cohorts_voice_perception_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Questionnaire Across All Cohorts Voice Perception"
+                },
+                "variableName": "questionnaire_across_all_cohorts_voice_perception_schema"
+            },
+            {
+                "isAbout": "../activities/questionnaire_across_all_cohorts_voice_handicap_in/questionnaire_across_all_cohorts_voice_handicap_in_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Questionnaire Across All Cohorts Voice Handicap In"
+                },
+                "variableName": "questionnaire_across_all_cohorts_voice_handicap_in_schema"
+            },
+            {
+                "isAbout": "../activities/questionnaire_across_all_cohorts_patient_health_qu/questionnaire_across_all_cohorts_patient_health_qu_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Questionnaire Across All Cohorts Patient Health Qu"
+                },
+                "variableName": "questionnaire_across_all_cohorts_patient_health_qu_schema"
+            },
+            {
+                "isAbout": "../activities/questionnaire_across_all_cohorts_gad7_anxiety/questionnaire_across_all_cohorts_gad7_anxiety_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Questionnaire Across All Cohorts Gad7 Anxiety"
+                },
+                "variableName": "questionnaire_across_all_cohorts_gad7_anxiety_schema"
+            },
+            {
+                "isAbout": "../activities/questionnaire_voice_disorders_voice_problem_severi/questionnaire_voice_disorders_voice_problem_severi_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Questionnaire Voice Disorders Voice Problem Severi"
+                },
+                "variableName": "questionnaire_voice_disorders_voice_problem_severi_schema"
+            },
+            {
+                "isAbout": "../activities/questionnaire_mood_disorders_panas/questionnaire_mood_disorders_panas_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Questionnaire Mood Disorders Panas"
+                },
+                "variableName": "questionnaire_mood_disorders_panas_schema"
+            },
+            {
+                "isAbout": "../activities/questionnaire_mood_disorders_custom_affect_scale/questionnaire_mood_disorders_custom_affect_scale_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Questionnaire Mood Disorders Custom Affect Scale"
+                },
+                "variableName": "questionnaire_mood_disorders_custom_affect_scale_schema"
+            },
+            {
+                "isAbout": "../activities/questionnaire_mood_disorders_dsm5_adult/questionnaire_mood_disorders_dsm5_adult_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Questionnaire Mood Disorders Dsm5 Adult"
+                },
+                "variableName": "questionnaire_mood_disorders_dsm5_adult_schema"
+            },
+            {
+                "isAbout": "../activities/questionnaire_mood_disorders_ptsd_adult/questionnaire_mood_disorders_ptsd_adult_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Questionnaire Mood Disorders Ptsd Adult"
+                },
+                "variableName": "questionnaire_mood_disorders_ptsd_adult_schema"
+            },
+            {
+                "isAbout": "../activities/questionnaire_mood_disorders_adhd_adult/questionnaire_mood_disorders_adhd_adult_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Questionnaire Mood Disorders Adhd Adult"
+                },
+                "variableName": "questionnaire_mood_disorders_adhd_adult_schema"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.0.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

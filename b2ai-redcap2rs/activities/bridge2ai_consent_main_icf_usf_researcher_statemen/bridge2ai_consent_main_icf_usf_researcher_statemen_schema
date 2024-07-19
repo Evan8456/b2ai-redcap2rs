@@ -1,0 +1,44 @@
+{
+    "id": "bridge2ai_consent_main_icf_usf_researcher_statemen_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "bridge2ai_consent_main_icf_usf_researcher_statemen"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/researcher_statement2",
+            "items/researcher_signature",
+            "items/researcher_name",
+            "items/researcher_date"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/researcher_statement2",
+                "isVis": true,
+                "variableName": "researcher_statement2"
+            },
+            {
+                "isAbout": "items/researcher_signature",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "researcher_signature"
+            },
+            {
+                "isAbout": "items/researcher_name",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "researcher_name"
+            },
+            {
+                "isAbout": "items/researcher_date",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "researcher_date"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.0.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

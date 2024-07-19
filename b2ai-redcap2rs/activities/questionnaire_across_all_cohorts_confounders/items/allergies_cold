@@ -1,0 +1,36 @@
+{
+    "id": "allergies_cold",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "ALLERGIES OR COLD SYMPTOMS"
+    },
+    "prefLabel": {
+        "en": "allergies_cold"
+    },
+    "question": {
+        "en": "Do you currently have allergies or cold-like symptoms?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

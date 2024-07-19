@@ -1,0 +1,42 @@
+{
+    "id": "describe_the_severity_of_a",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Voice problem severity"
+    },
+    "prefLabel": {
+        "en": "describe_the_severity_of_a"
+    },
+    "question": {
+        "en": "Describe the severity of auditory-perceptual attributes of a voice problem*Overall severity scale (0-100)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "100"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "slider"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,19 @@
+{
+    "id": "acoustic_task_cohort",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "acoustic_task_cohort"
+    },
+    "question": {
+        "en": "Acoustic Task Cohort"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

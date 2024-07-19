@@ -1,0 +1,79 @@
+{
+    "id": "subjectparticipant_basic_information_schema",
+    "category": "reproschema:Activity",
+    "preamble": {
+        "en": "Enrollment Details"
+    },
+    "prefLabel": {
+        "en": "subjectparticipant_basic_information"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/record_id",
+            "items/selected_language",
+            "items/consent_status",
+            "items/withdrawn_consent_reason",
+            "items/withdrawn_consent_date",
+            "items/enrolled",
+            "items/enrollment_reason",
+            "items/enrollment_institution",
+            "items/researcher_email"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/record_id",
+                "isVis": true,
+                "variableName": "record_id"
+            },
+            {
+                "isAbout": "items/selected_language",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "selected_language"
+            },
+            {
+                "isAbout": "items/consent_status",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "consent_status"
+            },
+            {
+                "isAbout": "items/withdrawn_consent_reason",
+                "isVis": "consent_status == 3",
+                "variableName": "withdrawn_consent_reason"
+            },
+            {
+                "isAbout": "items/withdrawn_consent_date",
+                "isVis": "consent_status == 3",
+                "variableName": "withdrawn_consent_date"
+            },
+            {
+                "isAbout": "items/enrolled",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "enrolled"
+            },
+            {
+                "isAbout": "items/enrollment_reason",
+                "isVis": "enrolled == 1",
+                "variableName": "enrollment_reason"
+            },
+            {
+                "isAbout": "items/enrollment_institution",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "enrollment_institution"
+            },
+            {
+                "isAbout": "items/researcher_email",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "researcher_email"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.0.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

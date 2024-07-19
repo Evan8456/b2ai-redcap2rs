@@ -1,0 +1,22 @@
+{
+    "id": "diagnosis_bipolar_etiology_depression",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "4.\tEtiology"
+    },
+    "prefLabel": {
+        "en": "diagnosis_bipolar_etiology_depression"
+    },
+    "question": {
+        "en": "Describe life events that may relate to the diagnosis"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

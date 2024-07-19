@@ -1,0 +1,60 @@
+{
+    "id": "menstruate",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "GYNECOLOGICAL"
+    },
+    "prefLabel": {
+        "en": "menstruate"
+    },
+    "question": {
+        "en": "Do you menstruate?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Does not apply"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "I am pregnant"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "I have an IUD"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "I have gone through menopause"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Other (Please specify)"
+                },
+                "value": 6
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

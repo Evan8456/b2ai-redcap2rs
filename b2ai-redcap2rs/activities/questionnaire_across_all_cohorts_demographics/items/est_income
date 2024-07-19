@@ -1,0 +1,19 @@
+{
+    "id": "est_income",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "est_income"
+    },
+    "question": {
+        "en": "What is your estimated annual household income?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

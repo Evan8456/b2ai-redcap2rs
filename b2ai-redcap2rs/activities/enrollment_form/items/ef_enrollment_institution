@@ -1,0 +1,39 @@
+{
+    "id": "ef_enrollment_institution",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ef_enrollment_institution"
+    },
+    "question": {
+        "en": "Enrollment Institution"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "USF"
+                },
+                "value": "USF"
+            },
+            {
+                "name": {
+                    "en": "WCM"
+                },
+                "value": " WCM"
+            },
+            {
+                "name": {
+                    "en": "MIT"
+                },
+                "value": " MIT"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

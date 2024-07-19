@@ -1,0 +1,56 @@
+{
+    "id": "session_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "session"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/session_id",
+            "items/session_status",
+            "items/session_started_at",
+            "items/session_completed_at",
+            "items/session_duration",
+            "items/session_site"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/session_id",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "session_id"
+            },
+            {
+                "isAbout": "items/session_status",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "session_status"
+            },
+            {
+                "isAbout": "items/session_started_at",
+                "isVis": true,
+                "variableName": "session_started_at"
+            },
+            {
+                "isAbout": "items/session_completed_at",
+                "isVis": true,
+                "variableName": "session_completed_at"
+            },
+            {
+                "isAbout": "items/session_duration",
+                "isVis": true,
+                "variableName": "session_duration"
+            },
+            {
+                "isAbout": "items/session_site",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "session_site"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "1.0.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

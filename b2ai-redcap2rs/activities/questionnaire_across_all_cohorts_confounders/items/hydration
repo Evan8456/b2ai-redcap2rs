@@ -1,0 +1,22 @@
+{
+    "id": "hydration",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "HYDRATION"
+    },
+    "prefLabel": {
+        "en": "hydration"
+    },
+    "question": {
+        "en": "How many 8 oz / 230 ml (small) cups of water have you had today?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,45 @@
+{
+    "id": "disability_status",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "disability_status"
+    },
+    "question": {
+        "en": "What is your disability status?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Able-bodied"
+                },
+                "value": "ableBodied"
+            },
+            {
+                "name": {
+                    "en": "Disabled able to work"
+                },
+                "value": " disabledAbleToWork"
+            },
+            {
+                "name": {
+                    "en": "Disabled unable to work"
+                },
+                "value": " disabledUnableToWork"
+            },
+            {
+                "name": {
+                    "en": "Prefer not to answer"
+                },
+                "value": " noAnswer"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

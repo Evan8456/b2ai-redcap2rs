@@ -1,0 +1,39 @@
+{
+    "id": "smoking_hx",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "smoking_hx"
+    },
+    "question": {
+        "en": "Have you ever smoked regularly (more than a few times a month for at least two months)?This includes tobacco, cannabis, vapes, e-cigarettes, hookah, or pipes."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "I've never smoked regularly"
+                },
+                "value": "never"
+            },
+            {
+                "name": {
+                    "en": "I used to smoke"
+                },
+                "value": " past"
+            },
+            {
+                "name": {
+                    "en": "I currently smoke"
+                },
+                "value": " currently"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,112 @@
+{
+    "id": "psychiatric_diagnosis",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "psychiatric_diagnosis"
+    },
+    "question": {
+        "en": "Psychiatric Diagnosis"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Agoraphobia"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Attention-Deficit / Hyperactivity Disorder (ADD/ADHD)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Autism Spectrum Disorder (ASD)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Bipolar Disorder"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Borderline Personality Disorder (BPD)"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Eating Disorder (ED)"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Generalized Anxiety Disorder (GAD)"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Insomnia / sleep disorder"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Major Depressive Disorder"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Obsessive-Compulsive Disorder (OCD)"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Panic Disorder"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Post-Traumatic Stress Disorder (PTSD)"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "Schizophrenia"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "Social Anxiety Disorder"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "Substance Use Disorder"
+                },
+                "value": 15
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,91 @@
+{
+    "id": "medications",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "MEDICATIONS"
+    },
+    "prefLabel": {
+        "en": "medications"
+    },
+    "question": {
+        "en": "Do you currently take or use any of these medications or substances? (Check all that apply)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Antibiotics"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Antihistamines"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Cocaine use"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Diuretics"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Hormone use - oral contraceptives"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Inhaled corticosteroids for asthma"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Pain medications"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Psychotropic medications"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Tricyclic antidepressants"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Vitamins"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Other (please specify)"
+                },
+                "value": 11
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

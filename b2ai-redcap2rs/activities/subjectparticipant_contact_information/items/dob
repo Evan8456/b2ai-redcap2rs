@@ -1,0 +1,19 @@
+{
+    "id": "dob",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "dob"
+    },
+    "question": {
+        "en": "What is your date of birth?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "ui": {
+        "inputType": "date"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
