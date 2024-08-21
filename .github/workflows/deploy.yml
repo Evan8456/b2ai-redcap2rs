@@ -47,11 +47,10 @@ jobs:
           rm -r b2ai-redcap2rs
           cd bridge2ai-redcap
           touch protocol.yaml
-          latest_tag=$(git describe --tags --abbrev=0)
           echo -e protocol_name: "b2ai-redcap2rs" >> protocol.yaml
           echo -e protocol_display_name: "Assessment Protocol" >> protocol.yaml
           echo -e protocol_description: "This protocol is for B2AI" >> protocol.yaml
-          redcap_version: "${{ $latest_tag }}" >> protocol.yaml
+          redcap_version: "${GITHUB_REF#refs/tags/} >> protocol.yaml
           cat protocol.yaml
           cp protocol.yaml ..
           ls
