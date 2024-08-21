@@ -33,6 +33,10 @@ jobs:
           git config --global credential.helper cache
           git clone --depth 1 https://${{ secrets.AUTH }}@github.com/Evan8456/bridge2ai-redcap
 
+      - name: Get redcap csv
+        run: |
+          ls -la
+        
            
 
       
