@@ -42,20 +42,30 @@ jobs:
           cd ../..
           ls
       
-      - name: Generate reporschema
+      - name: Set up config 
         run: |
-          rm -r b2ai-redcap2rs
           cd bridge2ai-redcap
           touch protocol.yaml
           git fetch --tags
           new_tag=$(git tag --sort=-creatordate | head -n 1)
-          echo -e protocol_name: "b2ai-redcap2rs" >> protocol.yaml
+          echo -e protocol_name: "my-protocol" >> protocol.yaml
           echo -e protocol_display_name: "Assessment Protocol" >> protocol.yaml
           echo -e protocol_description: "This protocol is for B2AI" >> protocol.yaml
           echo -e redcap_version: "${new_tag:1}" >> protocol.yaml
           cat protocol.yaml
           cp protocol.yaml ..
+          cd ..
           ls
+#          rm -r b2ai-redcap2rs
+      - name: Generate reporschema
+        run: |
+          reproschema redcap2reproschema bridge2ai_voice_project_data_dictionary.csv protocol.yaml
+          ls
+          cd b2ai-redcap2rs
+          cd b2ai-redcap2rs
+          ls
+
+
 
 
       
