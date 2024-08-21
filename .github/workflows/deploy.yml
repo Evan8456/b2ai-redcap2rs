@@ -35,10 +35,8 @@ jobs:
 
       - name: Get redcap csv
         run: |
-        cd bridge2ai-redcap
-        cd data
-        cp bridge2ai_voice_project_data_dictionary.csv ../../.
         ls
+        
            
 
       
