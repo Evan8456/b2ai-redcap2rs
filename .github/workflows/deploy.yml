@@ -36,12 +36,10 @@ jobs:
 
       - name: Get redcap csv
         run: |
-          ls
           cd bridge2ai-redcap
           cd data
           cp bridge2ai_voice_project_data_dictionary.csv ../../.
           cd ../..
-          ls
       
       - name: Set up config 
         run: |
@@ -57,7 +55,6 @@ jobs:
           cat protocol.yaml
           cp protocol.yaml ..
           cd ..
-          ls
 
       - name: Generate reporschema
         run: |
@@ -69,7 +66,6 @@ jobs:
           reproschema redcap2reproschema bridge2ai_voice_project_data_dictionary.csv protocol.yaml
           cp -r b2ai-redcap2rs ..
           cd ..
-          ls
 
       - name: Commit reproschema
         run: |
