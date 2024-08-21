@@ -19,7 +19,7 @@ jobs:
       
       - name: install reproschema
         run: |
-          pip install reproschema
+          pip install -U reproschema
 
       - name: Run tests
         run: |
