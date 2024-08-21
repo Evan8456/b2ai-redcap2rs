@@ -19,7 +19,7 @@ jobs:
       
       - name: install reproschema
         run: |
-          pip install -U reproschema
+          pip install -U reproschema==0.7.2
 
       - name: Run tests
         run: |
