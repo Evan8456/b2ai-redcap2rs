@@ -41,7 +41,20 @@ jobs:
           cp bridge2ai_voice_project_data_dictionary.csv ../../.
           cd ../..
           ls
-           
+      
+      - name: Generate reporschema
+        run: |
+          rm -r b2ai-redcap2rs
+          cd bridge2ai-redcap
+          touch protocol.yaml
+          echo -e protocol_name: "b2ai-redcap2rs" >> protocol.yaml
+          echo -e protocol_display_name: "Assessment Protocol" >> protocol.yaml
+          echo -e protocol_description: "This protocol is for B2AI" >> protocol.yaml
+          redcap_version: "${{ github.ref_name }}" >> protocol.yaml
+          cat protocol.yaml
+          cp protocol.yaml ..
+          ls
+
 
       
 
