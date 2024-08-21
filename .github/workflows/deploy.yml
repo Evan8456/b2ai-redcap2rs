@@ -66,6 +66,7 @@ jobs:
           cd output
           reproschema redcap2reproschema bridge2ai_voice_project_data_dictionary.csv protocol.yaml
           cp -r b2ai-redcap2rs ..
+          cd ..
           ls
 
 
