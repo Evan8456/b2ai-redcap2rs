@@ -25,9 +25,17 @@ jobs:
         run: |
           reproschema --version
 
+      - name: Set up Git configuration
+        run: |
+          git rev-parse --abbrev-ref HEAD
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global credential.helper cache
+          git clone --depth 1 https://${{ secrets.AUTH }}@github.com/Evan8456/bridge2ai-redcap
+
       - name: Get redcap csv
         run: |
-        git clone https://github.com/eipm/bridge2ai-redcap.git
+        git clone https://github.com/Evan8456/bridge2ai-redcap.git
         cd bridge2ai-redcap
         cd data
         cp bridge2ai_voice_project_data_dictionary.csv ../../.
