@@ -51,7 +51,7 @@ jobs:
           echo -e protocol_name: "b2ai-redcap2rs" >> protocol.yaml
           echo -e protocol_display_name: "Assessment Protocol" >> protocol.yaml
           echo -e protocol_description: "This protocol is for B2AI" >> protocol.yaml
-          echo -e redcap_version: "$(git tag --sort=-creatordate | head -n 1)" >> protocol.yaml
+          echo -e redcap_version: "${(git tag --sort=-creatordate | head -n 1):1}" >> protocol.yaml
           cat protocol.yaml
           cp protocol.yaml ..
           ls
