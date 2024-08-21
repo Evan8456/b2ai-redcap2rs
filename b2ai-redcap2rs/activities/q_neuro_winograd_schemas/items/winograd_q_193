@@ -1,0 +1,33 @@
+{
+    "id": "winograd_q_193",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "winograd_q_193"
+    },
+    "question": {
+        "en": "193. I put the cake away in the refrigerator. It has a lot of butter in it. What has a lot of butter?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "The cake "
+                },
+                "value": "correct"
+            },
+            {
+                "name": {
+                    "en": "The refrigerator"
+                },
+                "value": " incorrect"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

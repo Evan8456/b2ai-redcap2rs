@@ -22,8 +22,11 @@
             "items/ef_fluent_languages",
             "items/ef_fluent_language_other",
             "items/ef_dob",
+            "items/ef_cond_prompt",
             "items/ef_laryng_cancer",
+            "items/ef_laryngitis",
             "items/ef_benign_cord_lesion",
+            "items/ef_mtd",
             "items/ef_rrp",
             "items/ef_spas_dys",
             "items/ef_voc_fold_paralysis",
@@ -53,16 +56,21 @@
             "items/ef_autism",
             "items/ef_speech_delay",
             "items/ef_eligible_studies",
+            "items/ef_learn_about_this_study",
+            "items/ef_learn_about_this_study_event",
+            "items/ef_learn_about_this_study_other",
             "items/ef_first_name",
             "items/ef_last_name",
             "items/ef_phone_number",
             "items/ef_email",
             "items/ef_contact_info_stored",
             "items/ef_enrollment",
+            "items/ef_is_control_participant",
             "items/ef_reason_decline_enroll",
             "items/ef_other_reason_decline",
             "items/ef_enrollment_institution",
             "items/ef_researcher_email",
+            "items/ef_enrollment_origin",
             "items/ef_started_at",
             "items/ef_completed_at",
             "items/ef_duration"
@@ -152,16 +160,33 @@
                 "variableName": "ef_dob"
             },
             {
+                "isAbout": "items/ef_cond_prompt",
+                "isVis": true,
+                "variableName": "ef_cond_prompt"
+            },
+            {
                 "isAbout": "items/ef_laryng_cancer",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "ef_laryng_cancer"
             },
             {
+                "isAbout": "items/ef_laryngitis",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_laryngitis"
+            },
+            {
                 "isAbout": "items/ef_benign_cord_lesion",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "ef_benign_cord_lesion"
+            },
+            {
+                "isAbout": "items/ef_mtd",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_mtd"
             },
             {
                 "isAbout": "items/ef_rrp",
@@ -338,6 +363,21 @@
                 "variableName": "ef_eligible_studies"
             },
             {
+                "isAbout": "items/ef_learn_about_this_study",
+                "isVis": true,
+                "variableName": "ef_learn_about_this_study"
+            },
+            {
+                "isAbout": "items/ef_learn_about_this_study_event",
+                "isVis": "ef_learn_about_this_study == 'event'",
+                "variableName": "ef_learn_about_this_study_event"
+            },
+            {
+                "isAbout": "items/ef_learn_about_this_study_other",
+                "isVis": "ef_learn_about_this_study == 'other'",
+                "variableName": "ef_learn_about_this_study_other"
+            },
+            {
                 "isAbout": "items/ef_first_name",
                 "isVis": true,
                 "valueRequired": true,
@@ -373,6 +413,12 @@
                 "variableName": "ef_enrollment"
             },
             {
+                "isAbout": "items/ef_is_control_participant",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ef_is_control_participant"
+            },
+            {
                 "isAbout": "items/ef_reason_decline_enroll",
                 "isVis": "ef_enrollment =='Decline'",
                 "valueRequired": true,
@@ -394,6 +440,11 @@
                 "variableName": "ef_researcher_email"
             },
             {
+                "isAbout": "items/ef_enrollment_origin",
+                "isVis": true,
+                "variableName": "ef_enrollment_origin"
+            },
+            {
                 "isAbout": "items/ef_started_at",
                 "isVis": true,
                 "variableName": "ef_started_at"
@@ -411,6 +462,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.0.0",
+    "version": "3.14.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -5,13 +5,13 @@
         "en": "ef_rrp"
     },
     "question": {
-        "en": "Recurrent laryngeal papilloma (RRP)"
+        "en": "Recurrent Laryngeal Papilloma (RRP)"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Unchecked"
+                    "en": "Unchecked "
                 },
                 "value": 0
             },

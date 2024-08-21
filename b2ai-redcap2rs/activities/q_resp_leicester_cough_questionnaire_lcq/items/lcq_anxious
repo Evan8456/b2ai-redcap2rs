@@ -1,0 +1,63 @@
+{
+    "id": "lcq_anxious",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "lcq_anxious"
+    },
+    "question": {
+        "en": "In the last 2 weeks, my cough has made me feel anxious."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "None of the time "
+                },
+                "value": "noneOfTheTime"
+            },
+            {
+                "name": {
+                    "en": "Hardly any of the time "
+                },
+                "value": " hardlyAnyOfTheTime"
+            },
+            {
+                "name": {
+                    "en": "A little of the time "
+                },
+                "value": " aLittleOfTheTime"
+            },
+            {
+                "name": {
+                    "en": "Some of the time "
+                },
+                "value": " someOfTheTime"
+            },
+            {
+                "name": {
+                    "en": "A good bit of the time "
+                },
+                "value": " aGoodBitOfTheTime"
+            },
+            {
+                "name": {
+                    "en": "Most of the time "
+                },
+                "value": " mostOfTheTime"
+            },
+            {
+                "name": {
+                    "en": "All of the time"
+                },
+                "value": " allOfTheTime"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "winograd_q_141",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "winograd_q_141"
+    },
+    "question": {
+        "en": "141. The path to the lake was blocked, so we couldn't reach it. What couldn't we reach?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "The lake "
+                },
+                "value": "correct"
+            },
+            {
+                "name": {
+                    "en": "The path"
+                },
+                "value": " incorrect"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

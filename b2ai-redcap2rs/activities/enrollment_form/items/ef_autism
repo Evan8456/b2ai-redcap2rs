@@ -2,7 +2,7 @@
     "id": "ef_autism",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "Pediatric disorders"
+        "en": "Pediatric Disorders"
     },
     "prefLabel": {
         "en": "ef_autism"
@@ -14,7 +14,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "Unchecked"
+                    "en": "Unchecked "
                 },
                 "value": 0
             },
