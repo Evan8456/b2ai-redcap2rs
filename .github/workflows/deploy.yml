@@ -72,7 +72,7 @@ jobs:
       - name: Commit reporschema
         run: |
           git add b2ai-redcap2rs
-          git commit -a -m "$(date): update reproschema version $(new_tag)"
+          git commit -a -m "$(date): update reproschema version ${new_tag}"
           git push
 
 
