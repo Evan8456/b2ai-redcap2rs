@@ -2,7 +2,7 @@
     "id": "b2ai-redcap2rs_schema",
     "category": "reproschema:Protocol",
     "description": {
-        "en": "This protocol is for B2AI"
+        "en": "This protocol is for Bridge2AI"
     },
     "prefLabel": {
         "en": "Assessment Protocol"
