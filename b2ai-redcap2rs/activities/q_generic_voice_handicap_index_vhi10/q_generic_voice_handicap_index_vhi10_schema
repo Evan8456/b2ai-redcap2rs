@@ -1,0 +1,114 @@
+{
+    "id": "q_generic_voice_handicap_index_vhi10_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "q_generic_voice_handicap_index_vhi10"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/vhi_session_id",
+            "items/vhi_started_at",
+            "items/vhi_completed_at",
+            "items/vhi_duration",
+            "items/voice_difficult_hear",
+            "items/tough_to_understand",
+            "items/voice_restrict_social",
+            "items/left_out_convo",
+            "items/voice_lose_income",
+            "items/strain_voice",
+            "items/voice_clarity",
+            "items/voice_upsetting",
+            "items/voice_handicapped",
+            "items/ask_whats_wrong_voice"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/vhi_session_id",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "vhi_session_id"
+            },
+            {
+                "isAbout": "items/vhi_started_at",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "vhi_started_at"
+            },
+            {
+                "isAbout": "items/vhi_completed_at",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "vhi_completed_at"
+            },
+            {
+                "isAbout": "items/vhi_duration",
+                "isVis": true,
+                "variableName": "vhi_duration"
+            },
+            {
+                "isAbout": "items/voice_difficult_hear",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "voice_difficult_hear"
+            },
+            {
+                "isAbout": "items/tough_to_understand",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "tough_to_understand"
+            },
+            {
+                "isAbout": "items/voice_restrict_social",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "voice_restrict_social"
+            },
+            {
+                "isAbout": "items/left_out_convo",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "left_out_convo"
+            },
+            {
+                "isAbout": "items/voice_lose_income",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "voice_lose_income"
+            },
+            {
+                "isAbout": "items/strain_voice",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "strain_voice"
+            },
+            {
+                "isAbout": "items/voice_clarity",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "voice_clarity"
+            },
+            {
+                "isAbout": "items/voice_upsetting",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "voice_upsetting"
+            },
+            {
+                "isAbout": "items/voice_handicapped",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "voice_handicapped"
+            },
+            {
+                "isAbout": "items/ask_whats_wrong_voice",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ask_whats_wrong_voice"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "3.14.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,40 @@
+{
+    "id": "diagnosis_ucc_cxcob",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "diagnosis_ucc_cxcob"
+    },
+    "question": {
+        "en": "Select all that apply"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Chest X-ray "
+                },
+                "value": "chest_xray"
+            },
+            {
+                "name": {
+                    "en": "CT Chest "
+                },
+                "value": " ct_chest"
+            },
+            {
+                "name": {
+                    "en": "Bronchoscopy"
+                },
+                "value": " bronchoscopy"
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

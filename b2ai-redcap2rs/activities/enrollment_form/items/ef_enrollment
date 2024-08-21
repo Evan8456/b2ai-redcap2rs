@@ -2,19 +2,19 @@
     "id": "ef_enrollment",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "Review and Enroll:"
+        "en": "Review and Enroll"
     },
     "prefLabel": {
         "en": "ef_enrollment"
     },
     "question": {
-        "en": "Please review your answers reading all the way through the bottom and select an option.If you have any questions, you can still proceed with enrollment and ask or make changes at a later time."
+        "en": "Please review your answers reading all the way through the bottom and select an option. If you have any questions, you can still proceed with enrollment and ask or make changes at a later time."
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Enroll"
+                    "en": "Enroll "
                 },
                 "value": "Enroll"
             },

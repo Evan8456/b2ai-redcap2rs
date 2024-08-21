@@ -1,0 +1,33 @@
+{
+    "id": "winograd_q_214",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "winograd_q_214"
+    },
+    "question": {
+        "en": "214. Bill thinks that calling attention to himself was rude of Bert. Who called attention to himself?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Bill "
+                },
+                "value": "incorrect"
+            },
+            {
+                "name": {
+                    "en": "Bert"
+                },
+                "value": " correct"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

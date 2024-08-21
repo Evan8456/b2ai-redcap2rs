@@ -1,0 +1,36 @@
+{
+    "id": "winograd_q_1",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Winograd Questionnaire"
+    },
+    "prefLabel": {
+        "en": "winograd_q_1"
+    },
+    "question": {
+        "en": "1. The city councilmen refused the demonstrators a permit because they feared violence. Who feared violence?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "The city councilmen "
+                },
+                "value": "correct"
+            },
+            {
+                "name": {
+                    "en": "The demonstrators"
+                },
+                "value": " incorrect"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

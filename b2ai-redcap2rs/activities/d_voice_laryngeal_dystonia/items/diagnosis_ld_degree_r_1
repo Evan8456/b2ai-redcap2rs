@@ -1,0 +1,39 @@
+{
+    "id": "diagnosis_ld_degree_r_1",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "diagnosis_ld_degree_r_1"
+    },
+    "question": {
+        "en": "Roughness"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "MI "
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": " MO "
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": " SE"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "slider"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

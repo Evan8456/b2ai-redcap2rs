@@ -1,0 +1,33 @@
+{
+    "id": "winograd_q_23",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "winograd_q_23"
+    },
+    "question": {
+        "en": "23. Although they ran at about the same speed, Sue beat Sally because she had such a good start. Who had a good start?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Sue "
+                },
+                "value": "correct"
+            },
+            {
+                "name": {
+                    "en": "Sally"
+                },
+                "value": " incorrect"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

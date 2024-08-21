@@ -1,0 +1,39 @@
+{
+    "id": "financial_assistance_usa",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "financial_assistance_usa"
+    },
+    "question": {
+        "en": "Do you receive a significant portion (>20%) of your income through federally-funded income assistance programs? Some examples of these programs are listed in the question below."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No "
+                },
+                "value": "no"
+            },
+            {
+                "name": {
+                    "en": "Yes "
+                },
+                "value": " yes"
+            },
+            {
+                "name": {
+                    "en": "Prefer not to answer"
+                },
+                "value": " noAnswer"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

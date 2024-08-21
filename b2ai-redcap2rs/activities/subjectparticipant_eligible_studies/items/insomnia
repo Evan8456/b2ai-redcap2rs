@@ -5,13 +5,13 @@
         "en": "insomnia"
     },
     "question": {
-        "en": "Insomnia / sleep disorder"
+        "en": "Insomnia / Sleep Disorder"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Unchecked"
+                    "en": "Unchecked "
                 },
                 "value": 0
             },

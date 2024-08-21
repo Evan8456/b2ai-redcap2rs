@@ -1,0 +1,33 @@
+{
+    "id": "winograd_q_21",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "winograd_q_21"
+    },
+    "question": {
+        "en": "21. Tom threw his schoolbag down to Ray after he reached the top of the stairs. Who reached the top of the stairs?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Tom "
+                },
+                "value": "correct"
+            },
+            {
+                "name": {
+                    "en": "Ray"
+                },
+                "value": " incorrect"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
