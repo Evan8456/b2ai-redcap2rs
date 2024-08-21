@@ -56,7 +56,7 @@ jobs:
           cp protocol.yaml ..
           cd ..
           ls
-#          rm -r b2ai-redcap2rs
+
       - name: Generate reporschema
         run: |
           rm -r b2ai-redcap2rs
@@ -68,10 +68,11 @@ jobs:
           cp -r b2ai-redcap2rs ..
           cd ..
           ls
+
       - name: Commit reporschema
         run: |
           git add b2ai-redcap2rs
-          git commit -a -m "$(date): update reproschema"
+          git commit -a -m "$(date): update reproschema version $(new_tag)"
           git push
 
 
