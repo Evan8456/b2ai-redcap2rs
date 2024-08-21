@@ -35,7 +35,6 @@ jobs:
 
       - name: Get redcap csv
         run: |
-        git clone https://github.com/Evan8456/bridge2ai-redcap.git
         cd bridge2ai-redcap
         cd data
         cp bridge2ai_voice_project_data_dictionary.csv ../../.
