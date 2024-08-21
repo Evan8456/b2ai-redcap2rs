@@ -50,7 +50,7 @@ jobs:
           new_tag=$(git tag --sort=-creatordate | head -n 1)
           echo -e protocol_name: "b2ai-redcap2rs" >> protocol.yaml
           echo -e protocol_display_name: "Assessment Protocol" >> protocol.yaml
-          echo -e protocol_description: "This protocol is for B2AI" >> protocol.yaml
+          echo -e protocol_description: "This protocol is for Bridge2AI" >> protocol.yaml
           echo -e redcap_version: "${new_tag:1}" >> protocol.yaml
           cat protocol.yaml
           cp protocol.yaml ..
@@ -74,7 +74,11 @@ jobs:
           git add b2ai-redcap2rs
           git commit -a -m "$(date): update reproschema"
           git push
+      
+      - name: Add Tag
+        run: |
           new_tag=$(git tag --sort=-creatordate | head -n 1)
+          echo ${new_tag:1}
           git tag ${new_tag:1}
           git push origin ${new_tag:1}
 
