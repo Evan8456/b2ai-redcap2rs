@@ -395,7 +395,7 @@
                 "isAbout": "../activities/q_neuro_moca/q_neuro_moca_schema",
                 "isVis": true,
                 "prefLabel": {
-                    "en": "Q Neuro Moca"
+                    "en": "Q Neur Moca"
                 },
                 "variableName": "q_neuro_moca_schema"
             }
