@@ -20,7 +20,7 @@ jobs:
       
       - name: install reproschema
         run: |
-          pip install -U reproschema==0.7.2
+          pip install --upgrade reproschema
 
       - name: Run tests
         run: |
@@ -36,10 +36,7 @@ jobs:
 
       - name: Get redcap csv
         run: |
-          cd bridge2ai-redcap
-          cd data
-          cp bridge2ai_voice_project_data_dictionary.csv ../../.
-          cd ../..
+          cp bridge2ai-redcap/data/bridge2ai_voice_project_data_dictionary.csv ./
       
       - name: Set up config 
         run: |
@@ -52,41 +49,33 @@ jobs:
           echo -e protocol_description: "This protocol is for Bridge2AI" >> protocol.yaml
           echo -e redcap_version: "${new_tag:1}" >> protocol.yaml
           echo "VERSION_TAG=${new_tag:1}" >> $GITHUB_ENV
-          cat protocol.yaml
           cp protocol.yaml ..
           cd ..
 
-      - name: Generate reporschema
+      - name: Generate reproschema
         run: |
           rm -r b2ai-redcap2rs
+          rm -r activities
           mkdir output
           cp bridge2ai_voice_project_data_dictionary.csv output
           cp protocol.yaml output
           cd output
           reproschema redcap2reproschema bridge2ai_voice_project_data_dictionary.csv protocol.yaml
-          cp -r b2ai-redcap2rs ..
+          cp -r b2ai-redcap2rs/* ..
           cd ..
+
+      - name: Remove File Changes with just version
+        run: |
+          python git_diff.py
 
       - name: Commit reproschema
         run: |
           git add b2ai-redcap2rs
-          git commit -a -m "$(date): update reproschema"
+          git commit -a -m "$(date): update reproschema with redcap $VERSION_TAG"
           git push
           
       
       - name: Add Tag
         run: |
           git tag $VERSION_TAG
-          git push origin $VERSION_TAG     
-        
-
-
-
-      
-
-        
-
-      
-
-
-  
+          git push origin $VERSION_TAG
