@@ -1,0 +1,51 @@
+{
+    "id": "ph_problem_join",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_problem_join"
+    },
+    "question": {
+        "en": "How much of a problem did you have joining in community activities (for example, festivities, religious or other activities) in the same way as anyone else can?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "None "
+                },
+                "value": "none"
+            },
+            {
+                "name": {
+                    "en": "Mild "
+                },
+                "value": " mild"
+            },
+            {
+                "name": {
+                    "en": "Moderate "
+                },
+                "value": " moderate"
+            },
+            {
+                "name": {
+                    "en": "Severe "
+                },
+                "value": " severe"
+            },
+            {
+                "name": {
+                    "en": "Extreme or cannot do"
+                },
+                "value": " extreme"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

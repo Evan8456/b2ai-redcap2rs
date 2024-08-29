@@ -1,0 +1,19 @@
+{
+    "id": "other_voice_activity",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "other_voice_activity"
+    },
+    "question": {
+        "en": "If you selected \"other\" for voice activity, please specify:"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

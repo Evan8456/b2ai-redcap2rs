@@ -1,0 +1,22 @@
+{
+    "id": "phys_health_limited",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "days"
+    },
+    "prefLabel": {
+        "en": "phys_health_limited"
+    },
+    "question": {
+        "en": "In the past 30 days, not counting the days that you were totally unable, for how many days did you cut back or reduce your usual activities or work because of any health condition?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

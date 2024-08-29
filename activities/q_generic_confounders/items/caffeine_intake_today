@@ -1,0 +1,19 @@
+{
+    "id": "caffeine_intake_today",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "caffeine_intake_today"
+    },
+    "question": {
+        "en": "How many small (8oz or 230ml) cups of coffee OR shots of espresso OR caffeinated teas have you had TODAY?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

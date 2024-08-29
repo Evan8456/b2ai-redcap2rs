@@ -1,0 +1,33 @@
+{
+    "id": "winograd_q_248",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "winograd_q_248"
+    },
+    "question": {
+        "en": "248. Billy cried because Toby wouldn't accept his toy. Who owned the toy?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Toby "
+                },
+                "value": "incorrect"
+            },
+            {
+                "name": {
+                    "en": "Billy"
+                },
+                "value": " correct"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

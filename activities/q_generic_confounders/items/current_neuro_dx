@@ -1,0 +1,39 @@
+{
+    "id": "current_neuro_dx",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "current_neuro_dx"
+    },
+    "question": {
+        "en": "Do you currently have these conditions or currently experience symptoms as a result of having had these conditions?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "None "
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Only some "
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "All"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

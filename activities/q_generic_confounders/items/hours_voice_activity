@@ -1,0 +1,22 @@
+{
+    "id": "hours_voice_activity",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "hours"
+    },
+    "prefLabel": {
+        "en": "hours_voice_activity"
+    },
+    "question": {
+        "en": "How many hours per day do you do this activity with a loud voice or in a loud environment that requires elevating your voice (for instance, a noisy bar or a noisy classroom)?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
