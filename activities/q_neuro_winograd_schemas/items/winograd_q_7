@@ -1,0 +1,33 @@
+{
+    "id": "winograd_q_7",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "winograd_q_7"
+    },
+    "question": {
+        "en": "7. Paul tried to call George on the phone, but he wasn't successful. Who was not successful?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Paul "
+                },
+                "value": "correct"
+            },
+            {
+                "name": {
+                    "en": "George"
+                },
+                "value": " incorrect"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

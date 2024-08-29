@@ -1,0 +1,33 @@
+{
+    "id": "winograd_q_46",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "winograd_q_46"
+    },
+    "question": {
+        "en": "46. The older students were bullying the younger ones, so we punished them. Whom did we punished?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "The younger students "
+                },
+                "value": "incorrect"
+            },
+            {
+                "name": {
+                    "en": "The older students"
+                },
+                "value": " correct"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

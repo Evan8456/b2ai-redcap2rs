@@ -1,0 +1,33 @@
+{
+    "id": "winograd_q_240",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "winograd_q_240"
+    },
+    "question": {
+        "en": "240. Bill passed the half-empty plate to John because he was hungry. Who was hungry?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Bill "
+                },
+                "value": "incorrect"
+            },
+            {
+                "name": {
+                    "en": "John"
+                },
+                "value": " correct"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

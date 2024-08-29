@@ -1,0 +1,39 @@
+{
+    "id": "diagnosis_ucc_hcxob",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "diagnosis_ucc_hcxob"
+    },
+    "question": {
+        "en": "Has the patient had a chest x-ray, CT chest or bronchoscopy?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No "
+                },
+                "value": "no"
+            },
+            {
+                "name": {
+                    "en": "Yes "
+                },
+                "value": " yes"
+            },
+            {
+                "name": {
+                    "en": "Not certain"
+                },
+                "value": " notCertain"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

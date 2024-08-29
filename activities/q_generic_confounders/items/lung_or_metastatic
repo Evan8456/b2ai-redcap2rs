@@ -1,0 +1,34 @@
+{
+    "id": "lung_or_metastatic",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "lung_or_metastatic"
+    },
+    "question": {
+        "en": "Cancer (lung or metastatic)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Lung "
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Metastatic"
+                },
+                "value": 2
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

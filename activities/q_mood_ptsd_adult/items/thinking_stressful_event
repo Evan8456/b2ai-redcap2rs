@@ -1,0 +1,51 @@
+{
+    "id": "thinking_stressful_event",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "thinking_stressful_event"
+    },
+    "question": {
+        "en": "Thinking that a stressful event happened because you or someone else (who didn't directly harm you) did something wrong or didn't do everything possible to prevent it, or because of something about you?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0=Not at all "
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1=A little bit "
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2=Moderately "
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3=Quite a bit "
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "4=Extremely"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

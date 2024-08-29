@@ -1,0 +1,46 @@
+{
+    "id": "diagnosis_mtd_gsd_assessments",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "diagnosis_mtd_gsd_assessments"
+    },
+    "question": {
+        "en": "Did the patient have any of the following assessments? (Select all that apply)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Detailed case history "
+                },
+                "value": "detailed_case_history"
+            },
+            {
+                "name": {
+                    "en": "Aural-perceptual evaluation "
+                },
+                "value": " aural_perceptual_evaluation"
+            },
+            {
+                "name": {
+                    "en": "Flexible/Rigid laryngoscopy "
+                },
+                "value": " flexible_rigid_laryngoscopy"
+            },
+            {
+                "name": {
+                    "en": "Voice/speech evaluation"
+                },
+                "value": " voice_speech_evaluation"
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

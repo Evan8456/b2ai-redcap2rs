@@ -1,0 +1,33 @@
+{
+    "id": "winograd_q_82",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "winograd_q_82"
+    },
+    "question": {
+        "en": "82. Bob paid for Charlie's college education. He is very grateful. Who is grateful?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Bob "
+                },
+                "value": "incorrect"
+            },
+            {
+                "name": {
+                    "en": "Charlie"
+                },
+                "value": " correct"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "winograd_q_250",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "winograd_q_250"
+    },
+    "question": {
+        "en": "250. Lily spoke to Donna, breaking her silence. Whose silence?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Donna "
+                },
+                "value": "incorrect"
+            },
+            {
+                "name": {
+                    "en": "Lily"
+                },
+                "value": " correct"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

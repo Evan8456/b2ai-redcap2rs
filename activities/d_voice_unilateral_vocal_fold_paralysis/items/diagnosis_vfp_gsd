@@ -1,0 +1,42 @@
+{
+    "id": "diagnosis_vfp_gsd",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "1. Gold Standard Diagnosis"
+    },
+    "prefLabel": {
+        "en": "diagnosis_vfp_gsd"
+    },
+    "question": {
+        "en": "Does the patient have VFP confirmed by laryngoscopy/stroboscopy?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No "
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes "
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Not certain"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
