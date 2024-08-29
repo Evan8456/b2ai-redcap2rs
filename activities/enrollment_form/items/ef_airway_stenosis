@@ -5,13 +5,13 @@
         "en": "ef_airway_stenosis"
     },
     "question": {
-        "en": "Airway stenosis (for example: subglottic stenosis; laryngeal stenosis)"
+        "en": "Airway Stenosis (for example: bilateral vocal fold paralysis; laryngeal stenosis)"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Unchecked"
+                    "en": "Unchecked "
                 },
                 "value": 0
             },

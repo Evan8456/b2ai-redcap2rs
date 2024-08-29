@@ -11,31 +11,31 @@
         "choices": [
             {
                 "name": {
-                    "en": "BCH"
+                    "en": "MIT "
                 },
-                "value": "bch"
+                "value": "mit"
             },
             {
                 "name": {
-                    "en": "MIT"
-                },
-                "value": " mit"
-            },
-            {
-                "name": {
-                    "en": "Mt. Sinai"
+                    "en": "Mt. Sinai "
                 },
                 "value": " mt_sinai"
             },
             {
                 "name": {
-                    "en": "USF"
+                    "en": "SickKids "
+                },
+                "value": " sickkids"
+            },
+            {
+                "name": {
+                    "en": "USF "
                 },
                 "value": " usf"
             },
             {
                 "name": {
-                    "en": "VUMC"
+                    "en": "VUMC "
                 },
                 "value": " vumc"
             },

@@ -11,13 +11,13 @@
         "choices": [
             {
                 "name": {
-                    "en": "Speech"
+                    "en": "Speech "
                 },
                 "value": "speech"
             },
             {
                 "name": {
-                    "en": "Breathe"
+                    "en": "Breathe "
                 },
                 "value": " breathe"
             },
