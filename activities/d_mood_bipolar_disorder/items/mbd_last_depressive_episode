@@ -1,0 +1,22 @@
+{
+    "id": "mbd_last_depressive_episode",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "3. Bipolar History"
+    },
+    "prefLabel": {
+        "en": "mbd_last_depressive_episode"
+    },
+    "question": {
+        "en": "When was your last depressive episode (feeling down and depressed more days than not over two weeks)?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "ui": {
+        "inputType": "date"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

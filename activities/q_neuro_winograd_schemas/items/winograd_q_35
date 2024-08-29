@@ -1,0 +1,33 @@
+{
+    "id": "winograd_q_35",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "winograd_q_35"
+    },
+    "question": {
+        "en": "35. Jim yelled at Kevin because he was so upset. Who was upset?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Jim "
+                },
+                "value": "correct"
+            },
+            {
+                "name": {
+                    "en": "Kevin"
+                },
+                "value": " incorrect"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

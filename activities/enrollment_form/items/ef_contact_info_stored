@@ -5,7 +5,7 @@
         "en": "ef_contact_info_stored"
     },
     "question": {
-        "en": "I want my contact information to be kept in a repository for this study which can be used to contact me to ask me to enroll in further studies or return important results. \n\nMy information will not be shared with third parties."
+        "en": "I want my contact information to be kept in a repository for this study which can be used to contact me to ask me to enroll in further studies or return important results. My information will not be shared with third parties."
     },
     "responseOptions": {
         "choices": [

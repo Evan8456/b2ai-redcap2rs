@@ -5,13 +5,13 @@
         "en": "spas_dys"
     },
     "question": {
-        "en": "Spasmodic dysphonia / Laryngeal Tremor"
+        "en": "Spasmodic Dysphonia / Laryngeal Tremor"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Unchecked"
+                    "en": "Unchecked "
                 },
                 "value": 0
             },

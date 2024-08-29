@@ -5,7 +5,7 @@
         "en": "enrollment_reason"
     },
     "question": {
-        "en": "Enrollment ReasonTo be completed when enrolling a person that declined initially."
+        "en": "Enrollment Reason\n\nTo be completed when enrolling a person that declined initially."
     },
     "responseOptions": {
         "valueType": [

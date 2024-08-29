@@ -1,0 +1,33 @@
+{
+    "id": "winograd_q_73",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "winograd_q_73"
+    },
+    "question": {
+        "en": "73. Ann asked Mary what time the library closes, but she had forgotten. Who had forgotten?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Mary "
+                },
+                "value": "correct"
+            },
+            {
+                "name": {
+                    "en": "Ann"
+                },
+                "value": " incorrect"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

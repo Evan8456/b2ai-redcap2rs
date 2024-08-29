@@ -1,0 +1,33 @@
+{
+    "id": "winograd_q_120",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "winograd_q_120"
+    },
+    "question": {
+        "en": "120. Mark told Pete many lies about himself, which Pete included in his book. He should have been more skeptical. Who should have been more skeptical?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Mark "
+                },
+                "value": "incorrect"
+            },
+            {
+                "name": {
+                    "en": "Pete"
+                },
+                "value": " correct"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

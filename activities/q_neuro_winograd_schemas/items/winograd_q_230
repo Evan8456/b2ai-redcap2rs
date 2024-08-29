@@ -1,0 +1,33 @@
+{
+    "id": "winograd_q_230",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "winograd_q_230"
+    },
+    "question": {
+        "en": "230. Jim signaled the barman and gestured toward his bathroom key. Whose bathroom key?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Jim "
+                },
+                "value": "incorrect"
+            },
+            {
+                "name": {
+                    "en": "The barman"
+                },
+                "value": " correct"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,39 @@
+{
+    "id": "consent_method",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "consent_method"
+    },
+    "question": {
+        "en": "Consent Method"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Paper Consent "
+                },
+                "value": "paper"
+            },
+            {
+                "name": {
+                    "en": "eConsent "
+                },
+                "value": " econsent"
+            },
+            {
+                "name": {
+                    "en": "Video Consent"
+                },
+                "value": " e_video_consent"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

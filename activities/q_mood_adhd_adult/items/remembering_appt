@@ -1,0 +1,51 @@
+{
+    "id": "remembering_appt",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "remembering_appt"
+    },
+    "question": {
+        "en": "How often do you have problems remembering appointments or obligations?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never "
+                },
+                "value": "never"
+            },
+            {
+                "name": {
+                    "en": "Rarely "
+                },
+                "value": " rarely"
+            },
+            {
+                "name": {
+                    "en": "Sometimes "
+                },
+                "value": " sometimes"
+            },
+            {
+                "name": {
+                    "en": "Often "
+                },
+                "value": " often"
+            },
+            {
+                "name": {
+                    "en": "Very Often"
+                },
+                "value": " veryOften"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

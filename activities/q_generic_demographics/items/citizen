@@ -1,0 +1,72 @@
+{
+    "id": "citizen",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Citizenship"
+    },
+    "prefLabel": {
+        "en": "citizen"
+    },
+    "question": {
+        "en": "Citizen"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Citizen "
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Permanent resident (Green card holder) "
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Non-citizen US/Canadian national "
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Refugee "
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Asylum seeker "
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Non-immigrant student "
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Non-immigrant worker "
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Prefer not to answer"
+                },
+                "value": 8
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

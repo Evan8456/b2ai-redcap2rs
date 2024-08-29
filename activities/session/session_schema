@@ -10,6 +10,7 @@
             "items/session_id",
             "items/session_status",
             "items/session_started_at",
+            "items/session_is_control_participant",
             "items/session_completed_at",
             "items/session_duration",
             "items/session_site"
@@ -33,6 +34,12 @@
                 "variableName": "session_started_at"
             },
             {
+                "isAbout": "items/session_is_control_participant",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "session_is_control_participant"
+            },
+            {
                 "isAbout": "items/session_completed_at",
                 "isVis": true,
                 "variableName": "session_completed_at"
@@ -51,6 +58,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.0.0",
+    "version": "3.14.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

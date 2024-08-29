@@ -1,0 +1,51 @@
+{
+    "id": "difficulty_unwinding",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "difficulty_unwinding"
+    },
+    "question": {
+        "en": "How often do you have difficulty unwinding and relaxing when you have time to yourself?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never "
+                },
+                "value": "never"
+            },
+            {
+                "name": {
+                    "en": "Rarely "
+                },
+                "value": " rarely"
+            },
+            {
+                "name": {
+                    "en": "Sometimes "
+                },
+                "value": " sometimes"
+            },
+            {
+                "name": {
+                    "en": "Often "
+                },
+                "value": " often"
+            },
+            {
+                "name": {
+                    "en": "Very Often"
+                },
+                "value": " veryOften"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
