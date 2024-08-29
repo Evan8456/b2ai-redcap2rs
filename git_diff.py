@@ -23,16 +23,19 @@ def get_staged_files():
 
 def is_version_only_change(file_path, repo):
     """Check if the only change in the file is the 'version' field."""
-    with open(file_path, 'r') as f:
-        working_content = json.load(f)
+    try:
+        with open(file_path, 'r') as f:
+            working_content = json.load(f)
 
-    last_commit_content = repo.git.show(f'HEAD:{file_path}')
-    last_commit_content = json.loads(last_commit_content)
+        last_commit_content = repo.git.show(f'HEAD:{file_path}')
+        last_commit_content = json.loads(last_commit_content)
 
-    working_version = working_content.pop("version", None)
-    last_commit_version = last_commit_content.pop("version", None)
+        working_version = working_content.pop("version", None)
+        last_commit_version = last_commit_content.pop("version", None)
 
-    return working_content == last_commit_content and working_version != last_commit_version
+        return working_content == last_commit_content and working_version != last_commit_version
+    except FileNotFoundError:
+        return False
 
 
 
