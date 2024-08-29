@@ -1,0 +1,19 @@
+{
+    "id": "upload_addendums_mit",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "upload_addendums_mit"
+    },
+    "question": {
+        "en": "Combined PDF-WCM English Addendum"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "documentUpload"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

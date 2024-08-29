@@ -11,19 +11,19 @@
         "choices": [
             {
                 "name": {
-                    "en": "I would like to change the font size "
+                    "en": "I would like to change the font size"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "I would like to change the font color (high contrast mode) "
+                    "en": "I would like to change the font color (high contrast mode)"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "I would like to use a screen reader "
+                    "en": "I would like to use a screen reader"
                 },
                 "value": 3
             },

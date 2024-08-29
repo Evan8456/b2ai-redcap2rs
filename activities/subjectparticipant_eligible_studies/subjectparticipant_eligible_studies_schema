@@ -8,12 +8,8 @@
     "ui": {
         "order": [
             "items/eligible_studies",
-            "items/is_control_participant",
-            "items/cond_sel_prompt",
             "items/laryng_cancer",
-            "items/laryngitis",
             "items/benign_cord_lesion",
-            "items/mtd",
             "items/rrp",
             "items/spas_dys",
             "items/voc_fold_paralysis",
@@ -51,39 +47,16 @@
                 "variableName": "eligible_studies"
             },
             {
-                "isAbout": "items/is_control_participant",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "is_control_participant"
-            },
-            {
-                "isAbout": "items/cond_sel_prompt",
-                "isVis": true,
-                "variableName": "cond_sel_prompt"
-            },
-            {
                 "isAbout": "items/laryng_cancer",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "laryng_cancer"
             },
             {
-                "isAbout": "items/laryngitis",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "laryngitis"
-            },
-            {
                 "isAbout": "items/benign_cord_lesion",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "benign_cord_lesion"
-            },
-            {
-                "isAbout": "items/mtd",
-                "isVis": true,
-                "valueRequired": true,
-                "variableName": "mtd"
             },
             {
                 "isAbout": "items/rrp",
@@ -256,6 +229,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.14.0",
+    "version": "3.0.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

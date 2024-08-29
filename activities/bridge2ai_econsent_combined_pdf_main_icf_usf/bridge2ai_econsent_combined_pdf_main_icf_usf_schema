@@ -1,0 +1,23 @@
+{
+    "id": "bridge2ai_econsent_combined_pdf_main_icf_usf_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "bridge2ai_econsent_combined_pdf_main_icf_usf"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/combined_pdf_main_icf_usf"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/combined_pdf_main_icf_usf",
+                "isVis": true,
+                "variableName": "combined_pdf_main_icf_usf"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "3.0.0",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

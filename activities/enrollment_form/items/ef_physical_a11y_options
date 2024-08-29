@@ -11,13 +11,13 @@
         "choices": [
             {
                 "name": {
-                    "en": "I would like to increase the size of the buttons "
+                    "en": "I would like to increase the size of the buttons"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "I have an alternative keyboard I'd like to connect instead "
+                    "en": "I have an alternative keyboard I'd like to connect instead"
                 },
                 "value": 2
             },

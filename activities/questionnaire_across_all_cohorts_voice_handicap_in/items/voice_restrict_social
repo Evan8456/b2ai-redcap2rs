@@ -1,0 +1,51 @@
+{
+    "id": "voice_restrict_social",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "voice_restrict_social"
+    },
+    "question": {
+        "en": "My voice difficulties restrict personal and social life."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": "never"
+            },
+            {
+                "name": {
+                    "en": "Almost Never"
+                },
+                "value": " almostNever"
+            },
+            {
+                "name": {
+                    "en": "Sometimes"
+                },
+                "value": " sometimes"
+            },
+            {
+                "name": {
+                    "en": "Almost Always"
+                },
+                "value": " almostAlways"
+            },
+            {
+                "name": {
+                    "en": "Always"
+                },
+                "value": " always"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

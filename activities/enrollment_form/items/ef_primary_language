@@ -14,19 +14,19 @@
         "choices": [
             {
                 "name": {
-                    "en": "English "
+                    "en": "English"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "French "
+                    "en": "French"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Spanish "
+                    "en": "Spanish"
                 },
                 "value": 3
             },

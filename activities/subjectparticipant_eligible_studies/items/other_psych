@@ -5,13 +5,13 @@
         "en": "other_psych"
     },
     "question": {
-        "en": "Other Psychiatric Disorder"
+        "en": "Other psychiatric disorder"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Unchecked "
+                    "en": "Unchecked"
                 },
                 "value": 0
             },
