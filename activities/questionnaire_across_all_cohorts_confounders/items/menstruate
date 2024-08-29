@@ -1,0 +1,48 @@
+{
+    "id": "menstruate",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "GYNECOLOGICAL"
+    },
+    "prefLabel": {
+        "en": "menstruate"
+    },
+    "question": {
+        "en": "Do you menstruate?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Does not apply"
+                },
+                "value": "doesNotApply"
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": " yes"
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": " no"
+            },
+            {
+                "name": {
+                    "en": "Prefer no to answer"
+                },
+                "value": " noAnswer"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

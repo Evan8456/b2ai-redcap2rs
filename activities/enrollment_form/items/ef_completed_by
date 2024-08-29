@@ -14,13 +14,13 @@
         "choices": [
             {
                 "name": {
-                    "en": "Self "
+                    "en": "Self"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Assistant "
+                    "en": "Assistant"
                 },
                 "value": 2
             },

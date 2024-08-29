@@ -1,0 +1,36 @@
+{
+    "id": "diagnosis_vfp_ds",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "2. Disease Subtype"
+    },
+    "prefLabel": {
+        "en": "diagnosis_vfp_ds"
+    },
+    "question": {
+        "en": "Which side is the paralysis?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Left"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Right"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

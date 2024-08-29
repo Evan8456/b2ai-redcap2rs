@@ -1,0 +1,19 @@
+{
+    "id": "diagnosis_bipolar_history_problems_depression",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "diagnosis_bipolar_history_problems_depression"
+    },
+    "question": {
+        "en": "Enter any history of problems"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

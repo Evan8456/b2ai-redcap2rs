@@ -1,0 +1,22 @@
+{
+    "id": "weight",
+    "category": "reproschema:Item",
+    "description": {
+        "en": "lbs"
+    },
+    "prefLabel": {
+        "en": "weight"
+    },
+    "question": {
+        "en": "Weight (pounds)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

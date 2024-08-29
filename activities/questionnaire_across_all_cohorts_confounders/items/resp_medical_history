@@ -1,0 +1,46 @@
+{
+    "id": "resp_medical_history",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "resp_medical_history"
+    },
+    "question": {
+        "en": "Have you had any of the interventions mentioned below? (check all that apply)\n\nRespiratory medical history"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Craniofacial or chest wall trauma"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Previous lobectomy"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Prior chest/airway surgery"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Prolonged intubation (more than a week)"
+                },
+                "value": 4
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

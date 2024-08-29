@@ -11,13 +11,13 @@
         "choices": [
             {
                 "name": {
-                    "en": "I would like to turn up the volume "
+                    "en": "I would like to turn up the volume"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "I would like to turn on closed captions "
+                    "en": "I would like to turn on closed captions"
                 },
                 "value": 2
             },

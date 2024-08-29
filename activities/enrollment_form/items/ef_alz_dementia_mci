@@ -8,13 +8,13 @@
         "en": "ef_alz_dementia_mci"
     },
     "question": {
-        "en": "Alzheimer's, Dementia, or Mild Cognitive Impairment"
+        "en": "Alzheimer's, dementia, or mild cognitive impairment"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Unchecked "
+                    "en": "Unchecked"
                 },
                 "value": 0
             },

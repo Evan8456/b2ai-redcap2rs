@@ -1,0 +1,33 @@
+{
+    "id": "consent_wcm_permission_1_mit",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "consent_wcm_permission_1_mit"
+    },
+    "question": {
+        "en": "YES,I give permission for my voice, speech, and respiratory sound data, demographic data, previously completed imaging data, and survey and/or validated questionnaireanswersto be stored for future unspecified research by the researchers of this study. I understand that the data and/or samples will be stored for at least 50years and will be destroyed after the research is completed."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -5,13 +5,13 @@
         "en": "voc_fold_paralysis"
     },
     "question": {
-        "en": "Unilateral Vocal Fold Paralysis"
+        "en": "Vocal fold paralysis"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Unchecked "
+                    "en": "Unchecked"
                 },
                 "value": 0
             },

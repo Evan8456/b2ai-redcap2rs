@@ -1,0 +1,51 @@
+{
+    "id": "avoiding_reminders",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "avoiding_reminders"
+    },
+    "question": {
+        "en": "Trying to avoid thoughts, feelings, or physical sensations that reminded you of a stressful experience?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0=Not at all"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1=A little bit"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2=Moderately"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3=Quite a bit"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "4=Extremely"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

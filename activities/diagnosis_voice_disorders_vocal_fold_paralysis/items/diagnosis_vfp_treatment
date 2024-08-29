@@ -1,0 +1,42 @@
+{
+    "id": "diagnosis_vfp_treatment",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "5. Treatment obtained"
+    },
+    "prefLabel": {
+        "en": "diagnosis_vfp_treatment"
+    },
+    "question": {
+        "en": "Has the patient undergone any treatment for his condition?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Surgery"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Speech therapy"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "No treatment"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
