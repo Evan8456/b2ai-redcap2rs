@@ -75,6 +75,7 @@ jobs:
       - name: Commit reproschema
         run: |
           git add b2ai-redcap2rs
+          git add activities
           git commit -a -m "$(date): update reproschema with redcap $VERSION_TAG"
           git push
           
