@@ -1,0 +1,19 @@
+{
+    "id": "researcher_date",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "researcher_date"
+    },
+    "question": {
+        "en": "Date"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "ui": {
+        "inputType": "date"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

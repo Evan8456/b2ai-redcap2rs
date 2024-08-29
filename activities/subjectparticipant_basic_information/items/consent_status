@@ -11,13 +11,13 @@
         "choices": [
             {
                 "name": {
-                    "en": "Pending "
+                    "en": "Pending"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Consented "
+                    "en": "Consented"
                 },
                 "value": 2
             },

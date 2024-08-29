@@ -5,13 +5,13 @@
         "en": "ef_gad"
     },
     "question": {
-        "en": "Anxiety Disorder"
+        "en": "Anxiety disorder"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Unchecked "
+                    "en": "Unchecked"
                 },
                 "value": 0
             },

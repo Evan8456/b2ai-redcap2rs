@@ -11,19 +11,19 @@
         "choices": [
             {
                 "name": {
-                    "en": "English "
+                    "en": "English"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "French "
+                    "en": "Espa\u00f1ol"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Spanish"
+                    "en": "Fran\u00e7ais"
                 },
                 "value": 3
             }

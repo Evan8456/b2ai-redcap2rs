@@ -1,0 +1,51 @@
+{
+    "id": "social_phobia_8",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "social_phobia_8"
+    },
+    "question": {
+        "en": "spent a lot of time preparing what to say or how to act in social situations"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Occasionally"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Half of the time"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Most of the time"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "All of the time"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -11,13 +11,13 @@
         "choices": [
             {
                 "name": {
-                    "en": "I would like the questions to be read to me using text-to-speech "
+                    "en": "I would like the questions to be read to me using text-to-speech"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "I would like a person to read the text to me "
+                    "en": "I would like a person to read the text to me"
                 },
                 "value": 2
             },

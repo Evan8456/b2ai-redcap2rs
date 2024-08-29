@@ -11,25 +11,25 @@
         "choices": [
             {
                 "name": {
-                    "en": "I am not interested in having my voice recorded "
+                    "en": "I am not interested in having my voice recorded"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "I do not have enough time today and want to be contacted later "
+                    "en": "I do not have enough time today and want to be contacted later"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "I do not have enough time and do not want to be contacted later "
+                    "en": "I do not have enough time and do not want to be contacted later"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "I prefer not to share any health information for research "
+                    "en": "I prefer not to share any health information for research"
                 },
                 "value": 4
             },

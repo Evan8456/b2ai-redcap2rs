@@ -1,0 +1,36 @@
+{
+    "id": "is_regular_smoker",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "SMOKING"
+    },
+    "prefLabel": {
+        "en": "is_regular_smoker"
+    },
+    "question": {
+        "en": "Have you been a regular smoker or not within the last 3 years?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            }
+        ],
+        "valueType": [
+            "xsd:boolean"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

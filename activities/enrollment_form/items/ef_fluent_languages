@@ -11,25 +11,25 @@
         "choices": [
             {
                 "name": {
-                    "en": "None "
+                    "en": "None"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "English "
+                    "en": "English"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "French "
+                    "en": "French"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Spanish "
+                    "en": "Spanish"
                 },
                 "value": 4
             },
