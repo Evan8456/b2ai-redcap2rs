@@ -5,7 +5,7 @@
         "en": "other_smoking_specify"
     },
     "question": {
-        "en": "If you selected \"other\" for smoking type, please specify:"
+        "en": "[LEGACY]\nIf you selected \"other\" for smoking type, please specify:"
     },
     "responseOptions": {
         "valueType": [

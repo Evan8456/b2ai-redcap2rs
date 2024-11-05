@@ -5,7 +5,7 @@
         "en": "mbd_previous_medication"
     },
     "question": {
-        "en": "Please list any previous psychiatric medications (to the best of your recollection), including medication names,\napproximate dates you were taking them, and why they were discontinued."
+        "en": "Please list any previous psychiatric medications (to the best of your recollection), including medication names,\napproximate dates you were taking them, and why they were discontinued.\n\nMOVED IT TO \"Q - Mood - Participant History\""
     },
     "responseOptions": {
         "valueType": [

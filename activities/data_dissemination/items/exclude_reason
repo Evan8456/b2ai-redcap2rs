@@ -1,0 +1,52 @@
+{
+    "id": "exclude_reason",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "exclude_reason"
+    },
+    "question": {
+        "en": "Check all that apply"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Missing Consent Form "
+                },
+                "value": "missing_consent"
+            },
+            {
+                "name": {
+                    "en": "Missing Diagnosis "
+                },
+                "value": " missing_diagnosis"
+            },
+            {
+                "name": {
+                    "en": "Participant withdrew from Study "
+                },
+                "value": " participant_withdrew"
+            },
+            {
+                "name": {
+                    "en": "Feasibility Participant "
+                },
+                "value": " feasibility_participant"
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": " other"
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

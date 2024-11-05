@@ -1,0 +1,51 @@
+{
+    "id": "peds_dry_raspy_hoarse",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "peds_dry_raspy_hoarse"
+    },
+    "question": {
+        "en": "My child's voice sounds dry, raspy, and/or hoarse."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never "
+                },
+                "value": "never"
+            },
+            {
+                "name": {
+                    "en": "Almost Never "
+                },
+                "value": " almostNever"
+            },
+            {
+                "name": {
+                    "en": "Sometimes "
+                },
+                "value": " sometimes"
+            },
+            {
+                "name": {
+                    "en": "Almost Always "
+                },
+                "value": " almostAlways"
+            },
+            {
+                "name": {
+                    "en": "Always"
+                },
+                "value": " always"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

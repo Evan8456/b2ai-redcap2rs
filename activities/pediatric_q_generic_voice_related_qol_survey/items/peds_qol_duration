@@ -1,0 +1,19 @@
+{
+    "id": "peds_qol_duration",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "peds_qol_duration"
+    },
+    "question": {
+        "en": "Questionnaire Duration (seconds)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

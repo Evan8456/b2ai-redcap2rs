@@ -1,0 +1,21 @@
+{
+    "id": "smoking_age_stopped_age",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "smoking_age_stopped_age"
+    },
+    "question": {
+        "en": "Age when you stopped smoking:"
+    },
+    "responseOptions": {
+        "maxValue": 125,
+        "minValue": 0,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

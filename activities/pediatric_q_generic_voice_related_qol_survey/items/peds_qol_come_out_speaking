@@ -1,0 +1,57 @@
+{
+    "id": "peds_qol_come_out_speaking",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "peds_qol_come_out_speaking"
+    },
+    "question": {
+        "en": "My child/ I sometimes does not know what will come out when they begin speaking."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "None "
+                },
+                "value": "none"
+            },
+            {
+                "name": {
+                    "en": "A small amount "
+                },
+                "value": " aSmallAmount"
+            },
+            {
+                "name": {
+                    "en": "A moderate amount "
+                },
+                "value": " aModerateAmount"
+            },
+            {
+                "name": {
+                    "en": "A lot "
+                },
+                "value": " aLot"
+            },
+            {
+                "name": {
+                    "en": "Problem is \"as bad as it can be\" "
+                },
+                "value": " asBadAsItCanBe"
+            },
+            {
+                "name": {
+                    "en": "Not applicable"
+                },
+                "value": " notApplicable"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,57 @@
+{
+    "id": "smoking_marijuana",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "smoking_marijuana"
+    },
+    "question": {
+        "en": "In the PAST THREE MONTHS, how often have you used marijuana (cannabis, pot, grass, hash, etc.)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never "
+                },
+                "value": "never"
+            },
+            {
+                "name": {
+                    "en": "Once or twice "
+                },
+                "value": " onceOrTwice"
+            },
+            {
+                "name": {
+                    "en": "Monthly "
+                },
+                "value": " monthly"
+            },
+            {
+                "name": {
+                    "en": "Weekly "
+                },
+                "value": " weekly"
+            },
+            {
+                "name": {
+                    "en": "Daily or almost daily "
+                },
+                "value": " dailyOrAlmostDaily"
+            },
+            {
+                "name": {
+                    "en": "Prefer not to answer"
+                },
+                "value": " noAnswer"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

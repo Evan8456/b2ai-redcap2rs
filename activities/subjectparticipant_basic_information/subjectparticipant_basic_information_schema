@@ -1,6 +1,12 @@
 {
     "id": "subjectparticipant_basic_information_schema",
     "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "rounddown((datediff( dob ,'today','y','ymd')),0)",
+            "variableName": "age"
+        }
+    ],
     "preamble": {
         "en": "Enrollment Details"
     },
@@ -28,6 +34,11 @@
                 "isAbout": "items/record_id",
                 "isVis": true,
                 "variableName": "record_id"
+            },
+            {
+                "isAbout": "items/age",
+                "isVis": true,
+                "variableName": "age"
             },
             {
                 "isAbout": "items/selected_language",
@@ -95,6 +106,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.14.0",
+    "version": "3.19.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

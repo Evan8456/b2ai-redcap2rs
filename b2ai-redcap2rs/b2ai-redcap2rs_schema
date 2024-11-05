@@ -13,6 +13,7 @@
             "../activities/subjectparticipant_basic_information/subjectparticipant_basic_information_schema",
             "../activities/subjectparticipant_contact_information/subjectparticipant_contact_information_schema",
             "../activities/subjectparticipant_eligible_studies/subjectparticipant_eligible_studies_schema",
+            "../activities/data_dissemination/data_dissemination_schema",
             "../activities/enrollment_form/enrollment_form_schema",
             "../activities/bridge2ai_paper_consent_all_sites_english/bridge2ai_paper_consent_all_sites_english_schema",
             "../activities/d_control/d_control_schema",
@@ -46,13 +47,20 @@
             "../activities/q_mood_dsm5_adult/q_mood_dsm5_adult_schema",
             "../activities/q_mood_ptsd_adult/q_mood_ptsd_adult_schema",
             "../activities/q_mood_adhd_adult/q_mood_adhd_adult_schema",
+            "../activities/q_mood_participant_history/q_mood_participant_history_schema",
             "../activities/q_resp_dyspnea_index_di/q_resp_dyspnea_index_di_schema",
             "../activities/q_resp_leicester_cough_questionnaire_lcq/q_resp_leicester_cough_questionnaire_lcq_schema",
             "../activities/q_neuro_winograd_schemas/q_neuro_winograd_schemas_schema",
             "../activities/q_neuro_wordcolor_stroop/q_neuro_wordcolor_stroop_schema",
             "../activities/q_neuro_productive_vocabulary/q_neuro_productive_vocabulary_schema",
             "../activities/q_neuro_random_item_generation/q_neuro_random_item_generation_schema",
-            "../activities/q_neuro_moca/q_neuro_moca_schema"
+            "../activities/q_neuro_moca/q_neuro_moca_schema",
+            "../activities/pediatric_d_healthy_developmentallytypical_childre/pediatric_d_healthy_developmentallytypical_childre_schema",
+            "../activities/pediatric_q_generic_demographics/pediatric_q_generic_demographics_schema",
+            "../activities/pediatric_q_generic_vhi_10/pediatric_q_generic_vhi_10_schema",
+            "../activities/pediatric_q_generic_voice_outcome_survey/pediatric_q_generic_voice_outcome_survey_schema",
+            "../activities/pediatric_q_generic_voice_related_qol_survey/pediatric_q_generic_voice_related_qol_survey_schema",
+            "../activities/pediatric_q_generic_phqa/pediatric_q_generic_phqa_schema"
         ],
         "addProperties": [
             {
@@ -78,6 +86,14 @@
                     "en": "Subjectparticipant Eligible Studies"
                 },
                 "variableName": "subjectparticipant_eligible_studies_schema"
+            },
+            {
+                "isAbout": "../activities/data_dissemination/data_dissemination_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Data Dissemination"
+                },
+                "variableName": "data_dissemination_schema"
             },
             {
                 "isAbout": "../activities/enrollment_form/enrollment_form_schema",
@@ -344,6 +360,14 @@
                 "variableName": "q_mood_adhd_adult_schema"
             },
             {
+                "isAbout": "../activities/q_mood_participant_history/q_mood_participant_history_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Q Mood Participant History"
+                },
+                "variableName": "q_mood_participant_history_schema"
+            },
+            {
                 "isAbout": "../activities/q_resp_dyspnea_index_di/q_resp_dyspnea_index_di_schema",
                 "isVis": true,
                 "prefLabel": {
@@ -398,10 +422,58 @@
                     "en": "Q Neuro Moca"
                 },
                 "variableName": "q_neuro_moca_schema"
+            },
+            {
+                "isAbout": "../activities/pediatric_d_healthy_developmentallytypical_childre/pediatric_d_healthy_developmentallytypical_childre_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Pediatric D Healthy Developmentallytypical Childre"
+                },
+                "variableName": "pediatric_d_healthy_developmentallytypical_childre_schema"
+            },
+            {
+                "isAbout": "../activities/pediatric_q_generic_demographics/pediatric_q_generic_demographics_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Pediatric Q Generic Demographics"
+                },
+                "variableName": "pediatric_q_generic_demographics_schema"
+            },
+            {
+                "isAbout": "../activities/pediatric_q_generic_vhi_10/pediatric_q_generic_vhi_10_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Pediatric Q Generic Vhi 10"
+                },
+                "variableName": "pediatric_q_generic_vhi_10_schema"
+            },
+            {
+                "isAbout": "../activities/pediatric_q_generic_voice_outcome_survey/pediatric_q_generic_voice_outcome_survey_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Pediatric Q Generic Voice Outcome Survey"
+                },
+                "variableName": "pediatric_q_generic_voice_outcome_survey_schema"
+            },
+            {
+                "isAbout": "../activities/pediatric_q_generic_voice_related_qol_survey/pediatric_q_generic_voice_related_qol_survey_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Pediatric Q Generic Voice Related Qol Survey"
+                },
+                "variableName": "pediatric_q_generic_voice_related_qol_survey_schema"
+            },
+            {
+                "isAbout": "../activities/pediatric_q_generic_phqa/pediatric_q_generic_phqa_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Pediatric Q Generic Phqa"
+                },
+                "variableName": "pediatric_q_generic_phqa_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "3.14.0",
+    "version": "3.19.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

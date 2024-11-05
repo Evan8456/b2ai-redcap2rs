@@ -5,7 +5,7 @@
         "en": "age_start_smoking"
     },
     "question": {
-        "en": "At what age did you start smoking?"
+        "en": "[LEGACY]\nAt what age did you start smoking?"
     },
     "responseOptions": {
         "valueType": [

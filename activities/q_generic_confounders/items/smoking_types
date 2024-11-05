@@ -5,7 +5,7 @@
         "en": "smoking_types"
     },
     "question": {
-        "en": "Checklist of different types (choose all that apply):"
+        "en": "[LEGACY]\nChecklist of different types (choose all that apply):"
     },
     "responseOptions": {
         "choices": [

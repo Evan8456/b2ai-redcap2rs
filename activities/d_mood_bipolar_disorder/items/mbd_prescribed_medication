@@ -8,7 +8,7 @@
         "en": "mbd_prescribed_medication"
     },
     "question": {
-        "en": "Have you ever been prescribed medication for mental or emotional problems (e.g., antidepressants, anxiolytics, antipsychotics, mood stabilizers, etc.)?"
+        "en": "Have you ever been prescribed medication for mental or emotional problems (e.g., antidepressants, anxiolytics, antipsychotics, mood stabilizers, etc.)?\n\nMOVED IT TO \"Q - Mood - Participant History\""
     },
     "responseOptions": {
         "choices": [

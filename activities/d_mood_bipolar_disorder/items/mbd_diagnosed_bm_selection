@@ -1,0 +1,51 @@
+{
+    "id": "mbd_diagnosed_bm_selection",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "mbd_diagnosed_bm_selection"
+    },
+    "question": {
+        "en": "Bipolar I and II Disorders"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "6A60 Bipolar type I disorder "
+                },
+                "value": "6A60"
+            },
+            {
+                "name": {
+                    "en": "6A61 Bipolar type II disorder "
+                },
+                "value": " 6A61"
+            },
+            {
+                "name": {
+                    "en": "6A62 Cyclothymic disorder "
+                },
+                "value": " 6A62"
+            },
+            {
+                "name": {
+                    "en": "6A6Y Other specified bipolar or related disorders "
+                },
+                "value": " 6A6Y"
+            },
+            {
+                "name": {
+                    "en": "6A6Z Bipolar or related disorders unspecified"
+                },
+                "value": " 6A6Z"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

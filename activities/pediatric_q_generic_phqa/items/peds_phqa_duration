@@ -1,0 +1,20 @@
+{
+    "id": "peds_phqa_duration",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "peds_phqa_duration"
+    },
+    "question": {
+        "en": "Questionnaire Duration (seconds)"
+    },
+    "responseOptions": {
+        "minValue": 0.0,
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

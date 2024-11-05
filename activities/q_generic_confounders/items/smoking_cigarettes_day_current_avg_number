@@ -1,0 +1,21 @@
+{
+    "id": "smoking_cigarettes_day_current_avg_number",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "smoking_cigarettes_day_current_avg_number"
+    },
+    "question": {
+        "en": "Number of cigarettes per day:"
+    },
+    "responseOptions": {
+        "maxValue": 1000,
+        "minValue": 0,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

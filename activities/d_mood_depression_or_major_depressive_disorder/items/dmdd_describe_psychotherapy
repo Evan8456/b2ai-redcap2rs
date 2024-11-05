@@ -5,7 +5,7 @@
         "en": "dmdd_describe_psychotherapy"
     },
     "question": {
-        "en": "Please briefly describe your psychotherapy history (e.g.,\ndates, reasons for seeking therapy, etc.)."
+        "en": "Please briefly describe your psychotherapy history (e.g.,\ndates, reasons for seeking therapy, etc.).\n\nMOVED IT TO \"Q - Mood - Participant History\""
     },
     "responseOptions": {
         "valueType": [

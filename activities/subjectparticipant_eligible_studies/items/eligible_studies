@@ -38,25 +38,25 @@
             },
             {
                 "name": {
-                    "en": "Pediatric Disorders [Ages 2-4] "
+                    "en": "Pediatric Disorders - Ages [2-4) "
                 },
                 "value": " age_2_4"
             },
             {
                 "name": {
-                    "en": "Pediatric Disorders [Ages 4-6] "
+                    "en": "Pediatric Disorders - Ages [4-6) "
                 },
                 "value": " age_4_6"
             },
             {
                 "name": {
-                    "en": "Pediatric Disorders [Ages 6-10] "
+                    "en": "Pediatric Disorders - Ages [6-10) "
                 },
                 "value": " age_6_10"
             },
             {
                 "name": {
-                    "en": "Pediatric Disorders [Ages 10+] "
+                    "en": "Pediatric Disorders - Ages 10+ "
                 },
                 "value": " age_10_plus"
             },

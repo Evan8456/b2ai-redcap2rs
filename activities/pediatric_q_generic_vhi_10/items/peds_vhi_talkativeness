@@ -1,0 +1,44 @@
+{
+    "id": "peds_vhi_talkativeness",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Pediatric VHI 10 Questionnaire"
+    },
+    "prefLabel": {
+        "en": "peds_vhi_talkativeness"
+    },
+    "question": {
+        "en": "I would rate my child's talkativeness as the following:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Quiet Talker "
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": " Average Talker "
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": " Extremely Talkative"
+                },
+                "value": 2
+            }
+        ],
+        "maxValue": 7.0,
+        "minValue": 1.0,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "slider"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

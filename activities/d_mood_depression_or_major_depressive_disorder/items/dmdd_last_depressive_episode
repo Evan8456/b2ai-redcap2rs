@@ -8,7 +8,7 @@
         "en": "dmdd_last_depressive_episode"
     },
     "question": {
-        "en": "When was your last depressive episode (feeling anxious more days than not over\ntwo weeks)?"
+        "en": "When was your last depressive episode (feeling depressed more days than not over\ntwo weeks)?"
     },
     "responseOptions": {
         "valueType": [

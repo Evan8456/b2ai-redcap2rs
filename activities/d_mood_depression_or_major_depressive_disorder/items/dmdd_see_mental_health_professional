@@ -5,7 +5,7 @@
         "en": "dmdd_see_mental_health_professional"
     },
     "question": {
-        "en": "Have you ever seen a mental health professional for talk therapy (could include social workers, psychiatrists, etc.)?"
+        "en": "Have you ever seen a mental health professional for talk therapy (could include social workers, psychiatrists, etc.)?\n\nMOVED IT TO \"Q - Mood - Participant History\""
     },
     "responseOptions": {
         "choices": [

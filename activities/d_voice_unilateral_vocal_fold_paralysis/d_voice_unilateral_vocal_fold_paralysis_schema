@@ -102,55 +102,46 @@
             {
                 "isAbout": "items/diagnosis_degree_os",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "diagnosis_degree_os"
             },
             {
                 "isAbout": "items/diagnosis_degree_os_2",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "diagnosis_degree_os_2"
             },
             {
                 "isAbout": "items/diagnosis_degree_r",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "diagnosis_degree_r"
             },
             {
                 "isAbout": "items/diagnosis_degree_r_2",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "diagnosis_degree_r_2"
             },
             {
                 "isAbout": "items/diagnosis_degree_b",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "diagnosis_degree_b"
             },
             {
                 "isAbout": "items/diagnosis_degree_b_2",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "diagnosis_degree_b_2"
             },
             {
                 "isAbout": "items/diagnosis_degree_s",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "diagnosis_degree_s"
             },
             {
                 "isAbout": "items/diagnosis_degree_s_2",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "diagnosis_degree_s_2"
             },
             {
                 "isAbout": "items/diagnosis_degree_p",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "diagnosis_degree_p"
             },
             {
@@ -161,13 +152,11 @@
             {
                 "isAbout": "items/diagnosis_degree_p_2",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "diagnosis_degree_p_2"
             },
             {
                 "isAbout": "items/diagnosis_degree_l",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "diagnosis_degree_l"
             },
             {
@@ -178,19 +167,16 @@
             {
                 "isAbout": "items/diagnosis_degree_l_2",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "diagnosis_degree_l_2"
             },
             {
                 "isAbout": "items/diagnosis_degree_comments",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "diagnosis_degree_comments"
             },
             {
                 "isAbout": "items/diagnosis_degree_comments_other",
                 "isVis": "diagnosis_degree_comments == 2",
-                "valueRequired": true,
                 "variableName": "diagnosis_degree_comments_other"
             },
             {
@@ -240,6 +226,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.14.0",
+    "version": "3.19.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,12 +1,6 @@
 {
     "id": "subjectparticipant_contact_information_schema",
     "category": "reproschema:Activity",
-    "compute": [
-        {
-            "jsExpression": "rounddown((datediff( dob ,'today','y','ymd')),0)",
-            "variableName": "age"
-        }
-    ],
     "preamble": {
         "en": "Contact Information"
     },
@@ -43,11 +37,6 @@
                 "variableName": "dob"
             },
             {
-                "isAbout": "items/age",
-                "isVis": true,
-                "variableName": "age"
-            },
-            {
                 "isAbout": "items/phone_number",
                 "isVis": true,
                 "valueRequired": true,
@@ -68,6 +57,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.14.0",
+    "version": "3.19.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

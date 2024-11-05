@@ -2,7 +2,7 @@
     "id": "diagnosis_ad_last_anxious_episode",
     "category": "reproschema:Item",
     "preamble": {
-        "en": "3. Depression History"
+        "en": "3. Anxiety History"
     },
     "prefLabel": {
         "en": "diagnosis_ad_last_anxious_episode"

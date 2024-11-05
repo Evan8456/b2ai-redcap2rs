@@ -8,6 +8,7 @@
     "ui": {
         "order": [
             "items/mbd_diagnosed_bm",
+            "items/mbd_diagnosed_bm_selection",
             "items/mbd_diagnosed_bipolar_i_ii_other",
             "items/mbd_diagnosed_other",
             "items/mbd_ever_seen_heard",
@@ -47,27 +48,29 @@
                 "variableName": "mbd_diagnosed_bm"
             },
             {
+                "isAbout": "items/mbd_diagnosed_bm_selection",
+                "isVis": "mbd_diagnosed_bm =='yes'",
+                "valueRequired": true,
+                "variableName": "mbd_diagnosed_bm_selection"
+            },
+            {
                 "isAbout": "items/mbd_diagnosed_bipolar_i_ii_other",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "mbd_diagnosed_bipolar_i_ii_other"
             },
             {
                 "isAbout": "items/mbd_diagnosed_other",
                 "isVis": "mbd_diagnosed_bipolar_i_ii_other =='other'",
-                "valueRequired": true,
                 "variableName": "mbd_diagnosed_other"
             },
             {
                 "isAbout": "items/mbd_ever_seen_heard",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "mbd_ever_seen_heard"
             },
             {
                 "isAbout": "items/mbd_had_manic_episode",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "mbd_had_manic_episode"
             },
             {
@@ -98,25 +101,21 @@
             {
                 "isAbout": "items/mbd_active_psy_med_problems",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "mbd_active_psy_med_problems"
             },
             {
                 "isAbout": "items/mbd_active_psy_med_prob_other",
                 "isVis": "mbd_active_psy_med_problems(other) =='1'",
-                "valueRequired": true,
                 "variableName": "mbd_active_psy_med_prob_other"
             },
             {
                 "isAbout": "items/mbd_hist_psy_med_problems",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "mbd_hist_psy_med_problems"
             },
             {
                 "isAbout": "items/mbd_hist_psy_med_prob_other",
                 "isVis": "mbd_hist_psy_med_problems(other) =='1'",
-                "valueRequired": true,
                 "variableName": "mbd_hist_psy_med_prob_other"
             },
             {
@@ -137,7 +136,6 @@
             {
                 "isAbout": "items/mbd_many_depressive_episodes",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "mbd_many_depressive_episodes"
             },
             {
@@ -148,7 +146,6 @@
             {
                 "isAbout": "items/mbd_many_manic_episodes",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "mbd_many_manic_episodes"
             },
             {
@@ -175,31 +172,26 @@
             {
                 "isAbout": "items/mbd_prescribed_medication",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "mbd_prescribed_medication"
             },
             {
                 "isAbout": "items/mbd_current_medication",
                 "isVis": "mbd_prescribed_medication =='yes'",
-                "valueRequired": true,
                 "variableName": "mbd_current_medication"
             },
             {
                 "isAbout": "items/mbd_previous_medication",
                 "isVis": "mbd_prescribed_medication =='yes'",
-                "valueRequired": true,
                 "variableName": "mbd_previous_medication"
             },
             {
                 "isAbout": "items/mbd_see_mental_health_professional",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "mbd_see_mental_health_professional"
             },
             {
                 "isAbout": "items/mbd_describe_psychotherapy",
                 "isVis": "mbd_see_mental_health_professional =='yes'",
-                "valueRequired": true,
                 "variableName": "mbd_describe_psychotherapy"
             },
             {
@@ -215,6 +207,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.14.0",
+    "version": "3.19.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

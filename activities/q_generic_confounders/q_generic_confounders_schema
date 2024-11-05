@@ -11,6 +11,21 @@
             "items/confounders_started_at",
             "items/confounders_completed_at",
             "items/confounders_duration",
+            "items/smoking_entire_life",
+            "items/smoking_occurrence",
+            "items/smoking_age_regular_cigarette_smoking",
+            "items/smoking_age_regular_cigarette_smoking_age",
+            "items/smoking_age_stopped",
+            "items/smoking_age_stopped_age",
+            "items/smoking_years_cigarettes",
+            "items/smoking_years_cigarettes_years",
+            "items/smoking_cigarettes_day_current_avg",
+            "items/smoking_cigarettes_day_current_avg_number",
+            "items/smoking_cigarettes_day_past_avg",
+            "items/smoking_cigarettes_day_past_avg_number",
+            "items/smoking_marijuana",
+            "items/smoking_electronic",
+            "items/smoking_electronic_current_occurence",
             "items/is_regular_smoker",
             "items/smoking_hx",
             "items/age_start_smoking",
@@ -127,6 +142,96 @@
                 "variableName": "confounders_duration"
             },
             {
+                "isAbout": "items/smoking_entire_life",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smoking_entire_life"
+            },
+            {
+                "isAbout": "items/smoking_occurrence",
+                "isVis": "smoking_entire_life =='yes'",
+                "valueRequired": true,
+                "variableName": "smoking_occurrence"
+            },
+            {
+                "isAbout": "items/smoking_age_regular_cigarette_smoking",
+                "isVis": "smoking_entire_life =='yes'",
+                "valueRequired": true,
+                "variableName": "smoking_age_regular_cigarette_smoking"
+            },
+            {
+                "isAbout": "items/smoking_age_regular_cigarette_smoking_age",
+                "isVis": "smoking_age_regular_cigarette_smoking =='specify'",
+                "valueRequired": true,
+                "variableName": "smoking_age_regular_cigarette_smoking_age"
+            },
+            {
+                "isAbout": "items/smoking_age_stopped",
+                "isVis": "smoking_occurrence =='notAtAll'",
+                "valueRequired": true,
+                "variableName": "smoking_age_stopped"
+            },
+            {
+                "isAbout": "items/smoking_age_stopped_age",
+                "isVis": "smoking_age_stopped =='specify'",
+                "valueRequired": true,
+                "variableName": "smoking_age_stopped_age"
+            },
+            {
+                "isAbout": "items/smoking_years_cigarettes",
+                "isVis": "smoking_occurrence =='notAtAll'",
+                "valueRequired": true,
+                "variableName": "smoking_years_cigarettes"
+            },
+            {
+                "isAbout": "items/smoking_years_cigarettes_years",
+                "isVis": "smoking_years_cigarettes =='specify'",
+                "valueRequired": true,
+                "variableName": "smoking_years_cigarettes_years"
+            },
+            {
+                "isAbout": "items/smoking_cigarettes_day_current_avg",
+                "isVis": "smoking_occurrence =='everyDay' || smoking_occurrence =='someDays'",
+                "valueRequired": true,
+                "variableName": "smoking_cigarettes_day_current_avg"
+            },
+            {
+                "isAbout": "items/smoking_cigarettes_day_current_avg_number",
+                "isVis": "smoking_cigarettes_day_current_avg =='specify'",
+                "valueRequired": true,
+                "variableName": "smoking_cigarettes_day_current_avg_number"
+            },
+            {
+                "isAbout": "items/smoking_cigarettes_day_past_avg",
+                "isVis": "smoking_entire_life =='yes'",
+                "valueRequired": true,
+                "variableName": "smoking_cigarettes_day_past_avg"
+            },
+            {
+                "isAbout": "items/smoking_cigarettes_day_past_avg_number",
+                "isVis": "smoking_cigarettes_day_past_avg =='specify'",
+                "valueRequired": true,
+                "variableName": "smoking_cigarettes_day_past_avg_number"
+            },
+            {
+                "isAbout": "items/smoking_marijuana",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smoking_marijuana"
+            },
+            {
+                "isAbout": "items/smoking_electronic",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "smoking_electronic"
+            },
+            {
+                "isAbout": "items/smoking_electronic_current_occurence",
+                "isVis": "smoking_electronic =='yes'",
+                "valueRequired": true,
+                "variableName": "smoking_electronic_current_occurence"
+            },
+            {
                 "isAbout": "items/is_regular_smoker",
                 "isVis": "alz_dementia_mci == '1'",
                 "variableName": "is_regular_smoker"
@@ -134,7 +239,6 @@
             {
                 "isAbout": "items/smoking_hx",
                 "isVis": "alz_dementia_mci ! == '1'",
-                "valueRequired": true,
                 "variableName": "smoking_hx"
             },
             {
@@ -612,6 +716,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.14.0",
+    "version": "3.19.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

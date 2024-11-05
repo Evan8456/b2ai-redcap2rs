@@ -8,6 +8,7 @@
     "ui": {
         "order": [
             "items/diagnosis_diagnosed_ad",
+            "items/diagnosis_diagnosed_ad_selection",
             "items/diagnosis_ad_active_psy_med_problems",
             "items/diagnosis_ad_active_psy_med_prob_other",
             "items/diagnosis_ad_hist_psy_med_problems",
@@ -27,27 +28,29 @@
                 "variableName": "diagnosis_diagnosed_ad"
             },
             {
+                "isAbout": "items/diagnosis_diagnosed_ad_selection",
+                "isVis": "diagnosis_diagnosed_ad =='yes'",
+                "valueRequired": true,
+                "variableName": "diagnosis_diagnosed_ad_selection"
+            },
+            {
                 "isAbout": "items/diagnosis_ad_active_psy_med_problems",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "diagnosis_ad_active_psy_med_problems"
             },
             {
                 "isAbout": "items/diagnosis_ad_active_psy_med_prob_other",
                 "isVis": "diagnosis_ad_active_psy_med_problems(other) =='1'",
-                "valueRequired": true,
                 "variableName": "diagnosis_ad_active_psy_med_prob_other"
             },
             {
                 "isAbout": "items/diagnosis_ad_hist_psy_med_problems",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "diagnosis_ad_hist_psy_med_problems"
             },
             {
                 "isAbout": "items/diagnosis_ad_hist_psy_med_prob_other",
                 "isVis": "diagnosis_ad_hist_psy_med_problems(other) =='1'",
-                "valueRequired": true,
                 "variableName": "diagnosis_ad_hist_psy_med_prob_other"
             },
             {
@@ -58,36 +61,31 @@
             {
                 "isAbout": "items/diagnosis_ad_prescribed_medication",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "diagnosis_ad_prescribed_medication"
             },
             {
                 "isAbout": "items/diagnosis_ad_current_medication",
                 "isVis": "diagnosis_ad_prescribed_medication =='yes'",
-                "valueRequired": true,
                 "variableName": "diagnosis_ad_current_medication"
             },
             {
                 "isAbout": "items/diagnosis_ad_previous_medication",
                 "isVis": "diagnosis_ad_prescribed_medication =='yes'",
-                "valueRequired": true,
                 "variableName": "diagnosis_ad_previous_medication"
             },
             {
                 "isAbout": "items/diagnosis_ad_see_mental_health_professional",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "diagnosis_ad_see_mental_health_professional"
             },
             {
                 "isAbout": "items/diagnosis_ad_describe_psychotherapy",
                 "isVis": "diagnosis_ad_see_mental_health_professional =='yes'",
-                "valueRequired": true,
                 "variableName": "diagnosis_ad_describe_psychotherapy"
             }
         ],
         "shuffle": false
     },
-    "version": "3.14.0",
+    "version": "3.19.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

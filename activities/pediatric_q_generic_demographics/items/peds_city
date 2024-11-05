@@ -1,0 +1,22 @@
+{
+    "id": "peds_city",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Address Information"
+    },
+    "prefLabel": {
+        "en": "peds_city"
+    },
+    "question": {
+        "en": "City"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
