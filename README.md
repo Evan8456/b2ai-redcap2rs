@@ -55,3 +55,6 @@ git push
 # if there is a conflict, you can use --force
 git push -f
 ```
+## Automatic Conversion Workflow
+The current repository contains an automatic workflow that is triggered when then there is a new release from
+[`bridge2ai-redcap`](https://github.com/eipm/bridge2ai-redcap). When triggered, the conversion steps listed above are automatically performed.
