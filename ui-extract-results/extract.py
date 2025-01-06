@@ -12,9 +12,9 @@ def to_bids(survey_data, record_id, session_path, columns):
     session_id = session_path.split("/")[0]
     questionnaire_name = survey_data[0]["used"][1].split("/")[-1]
     questions_answers = dict()
-    questions_answers["record_id"] = record_id
-    questions_answers["redcap_repeat_instrument"] = questionnaire_name
-    questions_answers["redcap_repeat_instance"] = 1
+    questions_answers["record_id"] = [record_id]
+    questions_answers["redcap_repeat_instrument"] = [questionnaire_name]
+    questions_answers["redcap_repeat_instance"] = [1]
     start_time = survey_data[0]["startedAtTime"]
     end_time = survey_data[0]["endedAtTime"]
     for i in range(len(survey_data)):
