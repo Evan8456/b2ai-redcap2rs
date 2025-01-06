@@ -122,23 +122,23 @@
         "addProperties": [
             {
                 "isAbout": "items/confounders_session_id",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "confounders_session_id"
             },
             {
                 "isAbout": "items/confounders_started_at",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "confounders_started_at"
             },
             {
                 "isAbout": "items/confounders_completed_at",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "confounders_completed_at"
             },
             {
                 "isAbout": "items/confounders_duration",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "confounders_duration"
             },
             {

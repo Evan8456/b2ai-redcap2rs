@@ -1,6 +1,13 @@
 {
     "id": "citizen",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "Citizenship"
     },
@@ -14,43 +21,43 @@
         "choices": [
             {
                 "name": {
-                    "en": "Citizen "
+                    "en": "Citizen"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Permanent resident (Green card holder) "
+                    "en": "Permanent resident (Green card holder)"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Non-citizen US/Canadian national "
+                    "en": "Non-citizen US/Canadian national"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Refugee "
+                    "en": "Refugee"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Asylum seeker "
+                    "en": "Asylum seeker"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Non-immigrant student "
+                    "en": "Non-immigrant student"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "Non-immigrant worker "
+                    "en": "Non-immigrant worker"
                 },
                 "value": 7
             },

@@ -1,6 +1,13 @@
 {
     "id": "other_gender_identity",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "other_gender_identity"
     },

@@ -1,6 +1,13 @@
 {
     "id": "neg_emotional_state",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "neg_emotional_state"
     },
@@ -11,25 +18,25 @@
         "choices": [
             {
                 "name": {
-                    "en": "0=Not at all "
+                    "en": "0=Not at all"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "1=A little bit "
+                    "en": "1=A little bit"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "2=Moderately "
+                    "en": "2=Moderately"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "3=Quite a bit "
+                    "en": "3=Quite a bit"
                 },
                 "value": 3
             },

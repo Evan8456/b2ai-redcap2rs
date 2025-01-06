@@ -76,28 +76,28 @@
         "addProperties": [
             {
                 "isAbout": "items/stroop_session_id",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "stroop_session_id"
             },
             {
                 "isAbout": "items/stroop_recording_acoustic_task_id",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "stroop_recording_acoustic_task_id"
             },
             {
                 "isAbout": "items/stroop_started_at",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "stroop_started_at"
             },
             {
                 "isAbout": "items/stroop_completed_at",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "stroop_completed_at"
             },
             {
                 "isAbout": "items/stroop_duration",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "stroop_duration"
             },
             {

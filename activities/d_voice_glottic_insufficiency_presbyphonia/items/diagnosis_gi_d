@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_gi_d",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "2. Disease Subtype/etiology"
     },
@@ -14,27 +21,27 @@
         "choices": [
             {
                 "name": {
-                    "en": "Vocal fold atrophy related to aging (Presbyphonia) "
+                    "en": "Vocal fold atrophy related to aging (Presbyphonia)"
                 },
                 "value": "vocalFoldAtrophyRelatedToAging"
             },
             {
                 "name": {
-                    "en": "Vocal fold atrophy related to other cause "
+                    "en": "Vocal fold atrophy related to other cause"
                 },
-                "value": " vocalFoldAtrophyRelatedToOtherCause"
+                "value": "vocalFoldAtrophyRelatedToOtherCause"
             },
             {
                 "name": {
-                    "en": "Bilateral sulcus "
+                    "en": "Bilateral sulcus"
                 },
-                "value": " bilateralSulcus"
+                "value": "bilateralSulcus"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": " other"
+                "value": "other"
             }
         ],
         "valueType": [

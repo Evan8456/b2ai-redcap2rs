@@ -1,6 +1,13 @@
 {
     "id": "acoustic_task_duration",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "acoustic_task_duration"
     },
@@ -8,13 +15,14 @@
         "en": "Acoustic Task Duration (seconds)"
     },
     "responseOptions": {
-        "minValue": 0.0,
+        "maxValue": NaN,
         "valueType": [
             "xsd:decimal"
         ]
     },
     "ui": {
-        "inputType": "float"
+        "inputType": "float",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

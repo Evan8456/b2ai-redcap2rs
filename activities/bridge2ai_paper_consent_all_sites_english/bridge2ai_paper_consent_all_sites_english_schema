@@ -35,7 +35,7 @@
             },
             {
                 "isAbout": "items/paper_consent_uploaded_by",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "paper_consent_uploaded_by"
             }

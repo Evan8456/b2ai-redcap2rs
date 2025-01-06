@@ -1,6 +1,13 @@
 {
     "id": "country",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "country"
     },
@@ -11,7 +18,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "USA "
+                    "en": "USA"
                 },
                 "value": 1
             },

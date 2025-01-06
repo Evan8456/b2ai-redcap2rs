@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_bipolar_severity_depression",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "5.\tDisease Severity\n\n(Legacy)"
     },
@@ -14,21 +21,21 @@
         "choices": [
             {
                 "name": {
-                    "en": "Mild "
+                    "en": "Mild"
                 },
                 "value": "mild"
             },
             {
                 "name": {
-                    "en": "Moderate "
+                    "en": "Moderate"
                 },
-                "value": " moderate"
+                "value": "moderate"
             },
             {
                 "name": {
                     "en": "Severe"
                 },
-                "value": " severe"
+                "value": "severe"
             }
         ],
         "valueType": [

@@ -1,6 +1,13 @@
 {
     "id": "winograd_q_138",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "winograd_q_138"
     },
@@ -11,7 +18,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "Jane invited Susan "
+                    "en": "Jane invited Susan"
                 },
                 "value": "incorrect"
             },
@@ -19,7 +26,7 @@
                 "name": {
                     "en": "Susan invited Jane"
                 },
-                "value": " correct"
+                "value": "correct"
             }
         ],
         "valueType": [

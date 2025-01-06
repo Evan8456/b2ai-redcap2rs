@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_parkinsons_treatment_obtained_yes_npi_other",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_parkinsons_treatment_obtained_yes_npi_other"
     },

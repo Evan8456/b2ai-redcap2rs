@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_as_etiology",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "3. Etiology"
     },
@@ -14,57 +21,57 @@
         "choices": [
             {
                 "name": {
-                    "en": "Not certain or TBD "
+                    "en": "Not certain or TBD"
                 },
                 "value": "tbd"
             },
             {
                 "name": {
-                    "en": "Iatrogenic (surgery or intubation) "
+                    "en": "Iatrogenic (surgery or intubation)"
                 },
-                "value": " iatrogenic"
+                "value": "iatrogenic"
             },
             {
                 "name": {
-                    "en": "Idiopathic "
+                    "en": "Idiopathic"
                 },
-                "value": " idiopathic"
+                "value": "idiopathic"
             },
             {
                 "name": {
-                    "en": "Auto-immune or granulomatous disease "
+                    "en": "Auto-immune or granulomatous disease"
                 },
-                "value": " autoImmune"
+                "value": "autoImmune"
             },
             {
                 "name": {
-                    "en": "Radiation "
+                    "en": "Radiation"
                 },
-                "value": " radiation"
+                "value": "radiation"
             },
             {
                 "name": {
-                    "en": "GERD "
+                    "en": "GERD"
                 },
-                "value": " gerd"
+                "value": "gerd"
             },
             {
                 "name": {
-                    "en": "Caustic Injury or Inhalation Injury "
+                    "en": "Caustic Injury or Inhalation Injury"
                 },
-                "value": " causticInjuryInhalationInjury"
+                "value": "causticInjuryInhalationInjury"
             },
             {
                 "name": {
-                    "en": "Infectious (Diphtheria TB Bacterial Tracheitis other) "
+                    "en": "Infectious (Diphtheria, TB, Bacterial Tracheitis, other)"
                 },
-                "value": " infectious"
+                "value": "infectious"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": " other"
+                "value": "other"
             }
         ],
         "valueType": [

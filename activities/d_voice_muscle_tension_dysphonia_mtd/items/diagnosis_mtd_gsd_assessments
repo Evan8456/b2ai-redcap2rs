@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_mtd_gsd_assessments",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_mtd_gsd_assessments"
     },
@@ -11,27 +18,27 @@
         "choices": [
             {
                 "name": {
-                    "en": "Detailed case history "
+                    "en": "Detailed case history"
                 },
                 "value": "detailed_case_history"
             },
             {
                 "name": {
-                    "en": "Aural-perceptual evaluation "
+                    "en": "Aural-perceptual evaluation"
                 },
-                "value": " aural_perceptual_evaluation"
+                "value": "aural_perceptual_evaluation"
             },
             {
                 "name": {
-                    "en": "Flexible/Rigid laryngoscopy "
+                    "en": "Flexible/Rigid laryngoscopy"
                 },
-                "value": " flexible_rigid_laryngoscopy"
+                "value": "flexible_rigid_laryngoscopy"
             },
             {
                 "name": {
                     "en": "Voice/speech evaluation"
                 },
-                "value": " voice_speech_evaluation"
+                "value": "voice_speech_evaluation"
             }
         ],
         "multipleChoice": true,

@@ -1,6 +1,13 @@
 {
     "id": "age_start_smoking",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "age_start_smoking"
     },
@@ -8,6 +15,8 @@
         "en": "[LEGACY]\nAt what age did you start smoking?"
     },
     "responseOptions": {
+        "maxValue": NaN,
+        "minValue": NaN,
         "valueType": [
             "xsd:decimal"
         ]

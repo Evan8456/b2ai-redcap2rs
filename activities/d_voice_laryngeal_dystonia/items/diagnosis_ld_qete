@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_ld_qete",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "1. Gold Standard Diagnosis"
     },
@@ -14,21 +21,21 @@
         "choices": [
             {
                 "name": {
-                    "en": "Laryngologist "
+                    "en": "Laryngologist"
                 },
                 "value": "laryngologist"
             },
             {
                 "name": {
-                    "en": "Speech-Language Pathology "
+                    "en": "Speech-Language Pathology"
                 },
-                "value": " speech_language_pathology"
+                "value": "speech_language_pathology"
             },
             {
                 "name": {
                     "en": "Neurologist specializing in movement disorders"
                 },
-                "value": " neurologist_specializing_disorders"
+                "value": "neurologist_specializing_disorders"
             }
         ],
         "multipleChoice": true,

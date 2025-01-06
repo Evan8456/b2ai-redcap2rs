@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_bl_treatment_select",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_bl_treatment_select"
     },
@@ -11,27 +18,27 @@
         "choices": [
             {
                 "name": {
-                    "en": "Voice/speech therapy "
+                    "en": "Voice/speech therapy"
                 },
                 "value": "voice_or_speech_therapy"
             },
             {
                 "name": {
-                    "en": "Laryngeal microsurgery "
+                    "en": "Laryngeal microsurgery"
                 },
-                "value": " laryngeal_microsurgery"
+                "value": "laryngeal_microsurgery"
             },
             {
                 "name": {
-                    "en": "Voice rest "
+                    "en": "Voice rest"
                 },
-                "value": " voice_rest"
+                "value": "voice_rest"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": " other"
+                "value": "other"
             }
         ],
         "multipleChoice": true,

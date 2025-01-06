@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_lc_etiology",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "3. Etiology"
     },
@@ -14,33 +21,33 @@
         "choices": [
             {
                 "name": {
-                    "en": "Smoking "
+                    "en": "Smoking"
                 },
                 "value": "smoking"
             },
             {
                 "name": {
-                    "en": "Alcohol "
+                    "en": "Alcohol"
                 },
-                "value": " alcohol"
+                "value": "alcohol"
             },
             {
                 "name": {
-                    "en": "Family history "
+                    "en": "Family history"
                 },
-                "value": " family_history"
+                "value": "family_history"
             },
             {
                 "name": {
-                    "en": "Human Papilloma Virus (HPV) "
+                    "en": "Human Papilloma Virus (HPV)"
                 },
-                "value": " hpv"
+                "value": "hpv"
             },
             {
                 "name": {
                     "en": "Exposure to other harmful substances"
                 },
-                "value": " exposure_other_harmful_substances"
+                "value": "exposure_other_harmful_substances"
             }
         ],
         "multipleChoice": true,

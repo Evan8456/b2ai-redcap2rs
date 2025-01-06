@@ -1,6 +1,13 @@
 {
     "id": "ph_health_problem",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "ph_health_problem"
     },
@@ -11,33 +18,33 @@
         "choices": [
             {
                 "name": {
-                    "en": "None "
+                    "en": "None"
                 },
                 "value": "none"
             },
             {
                 "name": {
-                    "en": "Mild "
+                    "en": "Mild"
                 },
-                "value": " mild"
+                "value": "mild"
             },
             {
                 "name": {
-                    "en": "Moderate "
+                    "en": "Moderate"
                 },
-                "value": " moderate"
+                "value": "moderate"
             },
             {
                 "name": {
-                    "en": "Severe "
+                    "en": "Severe"
                 },
-                "value": " severe"
+                "value": "severe"
             },
             {
                 "name": {
                     "en": "Extreme or cannot do"
                 },
-                "value": " extreme"
+                "value": "extreme"
             }
         ],
         "valueType": [

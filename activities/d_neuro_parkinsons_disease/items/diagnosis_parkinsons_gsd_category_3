@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_parkinsons_gsd_category_3",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_parkinsons_gsd_category_3"
     },
@@ -11,27 +18,27 @@
         "choices": [
             {
                 "name": {
-                    "en": "Clear beneficial response to dopaminergic therapy "
+                    "en": "Clear beneficial response to dopaminergic therapy"
                 },
                 "value": "response_dopaminergic_therapy"
             },
             {
                 "name": {
-                    "en": "Presence of levodopa-induced dyskinesia "
+                    "en": "Presence of levodopa-induced dyskinesia"
                 },
-                "value": " levodopa_induced_dyskinesia"
+                "value": "levodopa_induced_dyskinesia"
             },
             {
                 "name": {
-                    "en": "Rest tremor of a limb "
+                    "en": "Rest tremor of a limb"
                 },
-                "value": " rest_tremor"
+                "value": "rest_tremor"
             },
             {
                 "name": {
                     "en": "The presence of either olfactory loss or cardiac sympathetic denervation on MIBG scintigraphy (although the latter is rarely done in current practice)"
                 },
-                "value": " mibg"
+                "value": "mibg"
             }
         ],
         "multipleChoice": true,

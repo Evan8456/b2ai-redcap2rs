@@ -33,25 +33,25 @@
         "addProperties": [
             {
                 "isAbout": "items/adhd_session_id",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "adhd_session_id"
             },
             {
                 "isAbout": "items/adhd_started_at",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "adhd_started_at"
             },
             {
                 "isAbout": "items/adhd_completed_at",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "adhd_completed_at"
             },
             {
                 "isAbout": "items/adhd_duration",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "adhd_duration"
             },
             {

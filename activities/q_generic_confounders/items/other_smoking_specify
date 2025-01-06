@@ -1,6 +1,13 @@
 {
     "id": "other_smoking_specify",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "other_smoking_specify"
     },

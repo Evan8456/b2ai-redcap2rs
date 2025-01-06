@@ -1,6 +1,13 @@
 {
     "id": "ear_surgical",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "Have you had any of the interventions mentioned below? (check all that apply)"
     },
@@ -14,7 +21,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "Chronic ear surgery (e.g. mastoid) "
+                    "en": "Chronic ear surgery (e.g. mastoid)"
                 },
                 "value": 1
             },

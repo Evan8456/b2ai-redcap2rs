@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_lc_treatment_s",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_lc_treatment_s"
     },
@@ -11,7 +18,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "Endoscopic laser "
+                    "en": "Endoscopic laser"
                 },
                 "value": "endoscopic_laser"
             },
@@ -19,7 +26,7 @@
                 "name": {
                     "en": "Partial laryngectomy"
                 },
-                "value": " partial_laryngectomy"
+                "value": "partial_laryngectomy"
             }
         ],
         "multipleChoice": true,

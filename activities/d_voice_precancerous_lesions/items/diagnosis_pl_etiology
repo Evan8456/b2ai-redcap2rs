@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_pl_etiology",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "3. Etiology"
     },
@@ -14,21 +21,21 @@
         "choices": [
             {
                 "name": {
-                    "en": "Past or present smoking "
+                    "en": "Past or present smoking"
                 },
                 "value": "past_or_present_smoking"
             },
             {
                 "name": {
-                    "en": "Laryngopharyngeal reflux "
+                    "en": "Laryngopharyngeal reflux"
                 },
-                "value": " laryngopharyngeal_reflux"
+                "value": "laryngopharyngeal_reflux"
             },
             {
                 "name": {
                     "en": "Other irritants"
                 },
-                "value": " other_irritants"
+                "value": "other_irritants"
             }
         ],
         "multipleChoice": true,

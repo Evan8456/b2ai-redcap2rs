@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_uvfp_treatment_surgery_vfia",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_uvfp_treatment_surgery_vfia"
     },
@@ -11,27 +18,27 @@
         "choices": [
             {
                 "name": {
-                    "en": "CaHA "
+                    "en": "CaHA"
                 },
                 "value": "caha"
             },
             {
                 "name": {
-                    "en": "Gel "
+                    "en": "Gel"
                 },
-                "value": " gel"
+                "value": "gel"
             },
             {
                 "name": {
-                    "en": "Hyaluronic acid augmentation "
+                    "en": "Hyaluronic acid augmentation"
                 },
-                "value": " hyaluronic_acid_augmentation"
+                "value": "hyaluronic_acid_augmentation"
             },
             {
                 "name": {
                     "en": "Fat injection"
                 },
-                "value": " fat_injection"
+                "value": "fat_injection"
             }
         ],
         "multipleChoice": true,

@@ -1,6 +1,13 @@
 {
     "id": "dmdd_previous_medication",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "dmdd_previous_medication"
     },

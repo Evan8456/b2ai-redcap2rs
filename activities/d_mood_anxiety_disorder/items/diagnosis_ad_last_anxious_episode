@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_ad_last_anxious_episode",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "3. Anxiety History"
     },

@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_alz_dementia_mci_dt",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "2. Disease Type"
     },
@@ -14,45 +21,45 @@
         "choices": [
             {
                 "name": {
-                    "en": "Mild Cognitive Impairment (MCI) "
+                    "en": "Mild Cognitive Impairment (MCI)"
                 },
                 "value": "mci"
             },
             {
                 "name": {
-                    "en": "Typical Alzheimer's Disease (AD) "
+                    "en": "Typical Alzheimer's Disease (AD)"
                 },
-                "value": " ad"
+                "value": "ad"
             },
             {
                 "name": {
-                    "en": "Frontotemporal Dementia (FTD) "
+                    "en": "Frontotemporal Dementia (FTD)"
                 },
-                "value": " ftd"
+                "value": "ftd"
             },
             {
                 "name": {
-                    "en": "Lewy Body Dementia (LBD) "
+                    "en": "Lewy Body Dementia (LBD)"
                 },
-                "value": " lbd"
+                "value": "lbd"
             },
             {
                 "name": {
-                    "en": "Vascular Dementia (VaD) "
+                    "en": "Vascular Dementia (VaD)"
                 },
-                "value": " vad"
+                "value": "vad"
             },
             {
                 "name": {
-                    "en": "Mixed Dementia (e.g. AD and VaD) "
+                    "en": "Mixed Dementia (e.g., AD and VaD)"
                 },
-                "value": " mixed"
+                "value": "mixed"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": " other"
+                "value": "other"
             }
         ],
         "valueType": [

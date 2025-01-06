@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_bipolar_gsd_oquw",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_bipolar_gsd_oquw"
     },
@@ -11,27 +18,27 @@
         "choices": [
             {
                 "name": {
-                    "en": "Patient Health Questionnaire (PHQ-9) "
+                    "en": "Patient Health Questionnaire (PHQ-9)"
                 },
                 "value": "phq9"
             },
             {
                 "name": {
-                    "en": "HAM-D "
+                    "en": "HAM-D"
                 },
-                "value": " hamD"
+                "value": "hamD"
             },
             {
                 "name": {
-                    "en": "Beck Depression Inventory (BDI) "
+                    "en": "Beck Depression Inventory (BDI)"
                 },
-                "value": " bdi"
+                "value": "bdi"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": " other"
+                "value": "other"
             }
         ],
         "valueType": [

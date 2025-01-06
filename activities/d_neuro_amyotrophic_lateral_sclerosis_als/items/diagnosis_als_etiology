@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_als_etiology",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "3. Etiology"
     },
@@ -14,7 +21,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "Genetic factors "
+                    "en": "Genetic factors"
                 },
                 "value": "genetic_factors"
             },
@@ -22,7 +29,7 @@
                 "name": {
                     "en": "Environmental factors"
                 },
-                "value": " environmental_factors"
+                "value": "environmental_factors"
             }
         ],
         "multipleChoice": true,

@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_diagnosed_ad",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "1. Gold Standard Diagnosis"
     },
@@ -14,7 +21,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "Yes "
+                    "en": "Yes"
                 },
                 "value": "yes"
             },
@@ -22,7 +29,7 @@
                 "name": {
                     "en": "No"
                 },
-                "value": " no"
+                "value": "no"
             }
         ],
         "valueType": [

@@ -1,6 +1,13 @@
 {
     "id": "ef_select_language",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "Select a language"
     },
@@ -14,13 +21,13 @@
         "choices": [
             {
                 "name": {
-                    "en": "English "
+                    "en": "English"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Fran\u00e7ais "
+                    "en": "Fran\u00e7ais"
                 },
                 "value": 2
             },

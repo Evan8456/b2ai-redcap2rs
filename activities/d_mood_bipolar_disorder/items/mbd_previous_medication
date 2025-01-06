@@ -1,6 +1,13 @@
 {
     "id": "mbd_previous_medication",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "mbd_previous_medication"
     },

@@ -1,6 +1,13 @@
 {
     "id": "winograd_q_59",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "winograd_q_59"
     },
@@ -11,7 +18,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "The gap "
+                    "en": "The gap"
                 },
                 "value": "correct"
             },
@@ -19,7 +26,7 @@
                 "name": {
                     "en": "The wall"
                 },
-                "value": " incorrect"
+                "value": "incorrect"
             }
         ],
         "valueType": [

@@ -17,28 +17,28 @@
         "addProperties": [
             {
                 "isAbout": "items/random_session_id",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "random_session_id"
             },
             {
                 "isAbout": "items/random_recording_acoustic_task_id",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "random_recording_acoustic_task_id"
             },
             {
                 "isAbout": "items/random_started_at",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "random_started_at"
             },
             {
                 "isAbout": "items/random_completed_at",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "random_completed_at"
             },
             {
                 "isAbout": "items/random_duration",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "random_duration"
             },
             {

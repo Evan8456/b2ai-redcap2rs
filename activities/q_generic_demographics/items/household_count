@@ -1,6 +1,13 @@
 {
     "id": "household_count",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "household_count"
     },
@@ -8,6 +15,8 @@
         "en": "How many people live in your household? Please specify a number"
     },
     "responseOptions": {
+        "maxValue": NaN,
+        "minValue": NaN,
         "valueType": [
             "xsd:decimal"
         ]

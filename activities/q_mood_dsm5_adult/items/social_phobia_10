@@ -1,6 +1,13 @@
 {
     "id": "social_phobia_10",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "social_phobia_10"
     },
@@ -11,25 +18,25 @@
         "choices": [
             {
                 "name": {
-                    "en": "Never "
+                    "en": "Never"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "Occasionally "
+                    "en": "Occasionally"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Half of the time "
+                    "en": "Half of the time"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Most of the time "
+                    "en": "Most of the time"
                 },
                 "value": 3
             },

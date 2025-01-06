@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_vfp_gsd",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "1. Gold Standard Diagnosis"
     },
@@ -14,13 +21,13 @@
         "choices": [
             {
                 "name": {
-                    "en": "No "
+                    "en": "No"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "Yes "
+                    "en": "Yes"
                 },
                 "value": 1
             },

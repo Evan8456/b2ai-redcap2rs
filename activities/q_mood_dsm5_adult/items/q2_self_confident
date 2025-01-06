@@ -1,6 +1,13 @@
 {
     "id": "q2_self_confident",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "q2_self_confident"
     },
@@ -11,25 +18,25 @@
         "choices": [
             {
                 "name": {
-                    "en": "I do not feel more self-confident than usual. "
+                    "en": "I do not feel more self-confident than usual."
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "I occasionally feel more self-confident than usual. "
+                    "en": "I occasionally feel more self-confident than usual."
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "I often feel more self-confident than usual. "
+                    "en": "I often feel more self-confident than usual."
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "I frequently feel more self-confident than usual. "
+                    "en": "I frequently feel more self-confident than usual."
                 },
                 "value": 4
             },

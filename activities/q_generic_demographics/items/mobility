@@ -1,6 +1,13 @@
 {
     "id": "mobility",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "mobility"
     },
@@ -11,21 +18,21 @@
         "choices": [
             {
                 "name": {
-                    "en": "No "
+                    "en": "No"
                 },
                 "value": "no"
             },
             {
                 "name": {
-                    "en": "Yes "
+                    "en": "Yes"
                 },
-                "value": " yes"
+                "value": "yes"
             },
             {
                 "name": {
                     "en": "Prefer not to answer"
                 },
-                "value": " noAnswer"
+                "value": "noAnswer"
             }
         ],
         "valueType": [

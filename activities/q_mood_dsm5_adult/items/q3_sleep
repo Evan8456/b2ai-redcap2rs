@@ -1,6 +1,13 @@
 {
     "id": "q3_sleep",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "q3_sleep"
     },
@@ -11,25 +18,25 @@
         "choices": [
             {
                 "name": {
-                    "en": "I do not need less sleep than usual. "
+                    "en": "I do not need less sleep than usual."
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "I occasionally need less sleep than usual. "
+                    "en": "I occasionally need less sleep than usual."
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "I often need less sleep than usual. "
+                    "en": "I often need less sleep than usual."
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "I frequently need less sleep than usual. "
+                    "en": "I frequently need less sleep than usual."
                 },
                 "value": 4
             },

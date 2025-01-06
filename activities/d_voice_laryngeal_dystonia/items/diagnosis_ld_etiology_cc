@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_ld_etiology_cc",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_ld_etiology_cc"
     },
@@ -11,33 +18,33 @@
         "choices": [
             {
                 "name": {
-                    "en": "Essential Tremor of the hands "
+                    "en": "Essential Tremor of the hands"
                 },
                 "value": "essential_tremor_of_the_hands"
             },
             {
                 "name": {
-                    "en": "Essential tremor of the head "
+                    "en": "Essential tremor of the head"
                 },
-                "value": " essential_tremor_of_the_head"
+                "value": "essential_tremor_of_the_head"
             },
             {
                 "name": {
-                    "en": "Jaw tremor "
+                    "en": "Jaw tremor"
                 },
-                "value": " jaw_tremor"
+                "value": "jaw_tremor"
             },
             {
                 "name": {
-                    "en": "Dystonia of the head and neck "
+                    "en": "Dystonia of the head and neck"
                 },
-                "value": " dystonia_of_the_head_and_neck"
+                "value": "dystonia_of_the_head_and_neck"
             },
             {
                 "name": {
                     "en": "Other type of dystonia"
                 },
-                "value": " other_type_of_dystonia"
+                "value": "other_type_of_dystonia"
             }
         ],
         "multipleChoice": true,

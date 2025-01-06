@@ -1,6 +1,13 @@
 {
     "id": "smoking_age_regular_cigarette_smoking",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "smoking_age_regular_cigarette_smoking"
     },
@@ -11,21 +18,21 @@
         "choices": [
             {
                 "name": {
-                    "en": "Specify "
+                    "en": "Specify"
                 },
                 "value": "specify"
             },
             {
                 "name": {
-                    "en": "Don't know "
+                    "en": "Don't know"
                 },
-                "value": " doNotKnow"
+                "value": "doNotKnow"
             },
             {
                 "name": {
                     "en": "Prefer not to answer"
                 },
-                "value": " noAnswer"
+                "value": "noAnswer"
             }
         ],
         "valueType": [

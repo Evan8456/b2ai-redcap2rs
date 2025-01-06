@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_parkinsons_treatment_obtained_yes_npi",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_parkinsons_treatment_obtained_yes_npi"
     },
@@ -11,33 +18,33 @@
         "choices": [
             {
                 "name": {
-                    "en": "Physical therapy "
+                    "en": "Physical therapy"
                 },
                 "value": "physical_therapy"
             },
             {
                 "name": {
-                    "en": "Occupational therapy "
+                    "en": "Occupational therapy"
                 },
-                "value": " occupational_therapy"
+                "value": "occupational_therapy"
             },
             {
                 "name": {
-                    "en": "Speech therapy "
+                    "en": "Speech therapy"
                 },
-                "value": " speech_therapy"
+                "value": "speech_therapy"
             },
             {
                 "name": {
-                    "en": "Deep Brain Stimulation (DBS) therapy "
+                    "en": "Deep Brain Stimulation (DBS) therapy"
                 },
-                "value": " dbs"
+                "value": "dbs"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": " other"
+                "value": "other"
             }
         ],
         "multipleChoice": true,

@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_alz_dementia_mci_ds_cdr",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_alz_dementia_mci_ds_cdr"
     },
@@ -11,27 +18,27 @@
         "choices": [
             {
                 "name": {
-                    "en": "CDR 0.5 (Very mild impairment) "
+                    "en": "CDR 0.5 (Very mild impairment)"
                 },
                 "value": "cdr0_5"
             },
             {
                 "name": {
-                    "en": "CDR 1 (Mild impairment) "
+                    "en": "CDR 1 (Mild impairment)"
                 },
-                "value": " cdr1"
+                "value": "cdr1"
             },
             {
                 "name": {
-                    "en": "CDR 2 (Moderate impairment) "
+                    "en": "CDR 2 (Moderate impairment)"
                 },
-                "value": " cdr2"
+                "value": "cdr2"
             },
             {
                 "name": {
                     "en": "CDR 3 (Severe impairment)"
                 },
-                "value": " cdr3"
+                "value": "cdr3"
             }
         ],
         "valueType": [

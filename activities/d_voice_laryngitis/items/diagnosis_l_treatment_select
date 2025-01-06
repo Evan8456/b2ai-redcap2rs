@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_l_treatment_select",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_l_treatment_select"
     },
@@ -11,21 +18,21 @@
         "choices": [
             {
                 "name": {
-                    "en": "Medical treatment "
+                    "en": "Medical treatment"
                 },
                 "value": "medical_treatment"
             },
             {
                 "name": {
-                    "en": "Vocal hygiene and patient education "
+                    "en": "Vocal hygiene and patient education"
                 },
-                "value": " vocal_hygiene_and_patient_education"
+                "value": "vocal_hygiene_and_patient_education"
             },
             {
                 "name": {
                     "en": "Voice/Speech therapy"
                 },
-                "value": " voice_or_speech_therapy"
+                "value": "voice_or_speech_therapy"
             }
         ],
         "multipleChoice": true,

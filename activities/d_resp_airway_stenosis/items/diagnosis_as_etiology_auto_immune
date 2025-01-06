@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_as_etiology_auto_immune",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_as_etiology_auto_immune"
     },
@@ -11,21 +18,21 @@
         "choices": [
             {
                 "name": {
-                    "en": "Granulomatosis with polyangiitis (GPA) (Formerly known as Wegner's disease) "
+                    "en": "Granulomatosis with polyangiitis (GPA) (Formerly known as Wegner's disease)"
                 },
                 "value": "gpa"
             },
             {
                 "name": {
-                    "en": "Relapsing Polychondritis "
+                    "en": "Relapsing Polychondritis"
                 },
-                "value": " relapsingPolychondritis"
+                "value": "relapsingPolychondritis"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": " other"
+                "value": "other"
             }
         ],
         "valueType": [

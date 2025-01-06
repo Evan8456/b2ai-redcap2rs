@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_als_treatment_and_management_yes_medications",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_als_treatment_and_management_yes_medications"
     },
@@ -11,39 +18,39 @@
         "choices": [
             {
                 "name": {
-                    "en": "Riluzole "
+                    "en": "Riluzole"
                 },
                 "value": "riluzole"
             },
             {
                 "name": {
-                    "en": "Edaravone "
+                    "en": "Edaravone"
                 },
-                "value": " edaravone"
+                "value": "edaravone"
             },
             {
                 "name": {
-                    "en": "Sodium phenylbutyrate/taurursodiol "
+                    "en": "Sodium phenylbutyrate/taurursodiol"
                 },
-                "value": " sodium"
+                "value": "sodium"
             },
             {
                 "name": {
-                    "en": "Tofersen "
+                    "en": "Tofersen"
                 },
-                "value": " tofersen"
+                "value": "tofersen"
             },
             {
                 "name": {
-                    "en": "Symptomatic treatment (e.g. for spasticity pain) "
+                    "en": "Symptomatic treatment (e.g., for spasticity, pain)"
                 },
-                "value": " symptomatic_treatment"
+                "value": "symptomatic_treatment"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": " other"
+                "value": "other"
             }
         ],
         "multipleChoice": true,

@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_bl_etiology",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "3. Etiology"
     },
@@ -14,21 +21,21 @@
         "choices": [
             {
                 "name": {
-                    "en": "Phonotrauma "
+                    "en": "Phonotrauma"
                 },
                 "value": "phonotrauma"
             },
             {
                 "name": {
-                    "en": "HPV virus (RRP) "
+                    "en": "HPV virus (RRP)"
                 },
-                "value": " rrp"
+                "value": "rrp"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": " other"
+                "value": "other"
             }
         ],
         "valueType": [

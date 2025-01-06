@@ -1,6 +1,13 @@
 {
     "id": "alz_dementia_mci",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "Neurological and Neurodegenerative Disorders"
     },
@@ -14,7 +21,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "Unchecked "
+                    "en": "Unchecked"
                 },
                 "value": 0
             },

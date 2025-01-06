@@ -1,6 +1,13 @@
 {
     "id": "winograd_q_153",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "winograd_q_153"
     },
@@ -11,7 +18,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "Cooper "
+                    "en": "Cooper"
                 },
                 "value": "correct"
             },
@@ -19,7 +26,7 @@
                 "name": {
                     "en": "Thomson"
                 },
-                "value": " incorrect"
+                "value": "incorrect"
             }
         ],
         "valueType": [

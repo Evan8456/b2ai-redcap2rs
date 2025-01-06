@@ -16,25 +16,25 @@
         "addProperties": [
             {
                 "isAbout": "items/voice_severity_session_id",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "voice_severity_session_id"
             },
             {
                 "isAbout": "items/voice_severity_started_at",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "voice_severity_started_at"
             },
             {
                 "isAbout": "items/voice_severity_completed_at",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "voice_severity_completed_at"
             },
             {
                 "isAbout": "items/voice_severity_duration",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "voice_severity_duration"
             },
             {

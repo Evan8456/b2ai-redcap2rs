@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_vfp_degree_legend",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_vfp_degree_legend"
     },

@@ -1,6 +1,13 @@
 {
     "id": "substance_use_recovery",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "substance_use_recovery"
     },

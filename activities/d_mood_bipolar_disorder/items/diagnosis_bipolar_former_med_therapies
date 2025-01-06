@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_bipolar_former_med_therapies",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_bipolar_former_med_therapies"
     },

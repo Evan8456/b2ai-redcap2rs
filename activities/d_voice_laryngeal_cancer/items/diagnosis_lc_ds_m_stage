@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_lc_ds_m_stage",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_lc_ds_m_stage"
     },
@@ -11,7 +18,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "M0: no distant metastasis "
+                    "en": "M0: no distant metastasis"
                 },
                 "value": "m0"
             },
@@ -19,7 +26,7 @@
                 "name": {
                     "en": "M1: Any distant metastasis"
                 },
-                "value": " m1"
+                "value": "m1"
             }
         ],
         "valueType": [

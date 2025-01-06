@@ -1,6 +1,13 @@
 {
     "id": "di_air_in",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "Please answer the following questions using a 0-4 rating scale.\n\n0 = Never; 1 = Almost never; 2 = Sometimes; 3 = Almost always; 4 = Always"
     },
@@ -14,33 +21,33 @@
         "choices": [
             {
                 "name": {
-                    "en": "Never "
+                    "en": "Never"
                 },
                 "value": "never"
             },
             {
                 "name": {
-                    "en": "Almost never "
+                    "en": "Almost never"
                 },
-                "value": " almostNever"
+                "value": "almostNever"
             },
             {
                 "name": {
-                    "en": "Sometimes "
+                    "en": "Sometimes"
                 },
-                "value": " sometimes"
+                "value": "sometimes"
             },
             {
                 "name": {
-                    "en": "Almost always "
+                    "en": "Almost always"
                 },
-                "value": " almostAlways"
+                "value": "almostAlways"
             },
             {
                 "name": {
                     "en": "Always"
                 },
-                "value": " always"
+                "value": "always"
             }
         ],
         "valueType": [

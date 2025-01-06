@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_as_ds_ac_grade_4",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_as_ds_ac_grade_4"
     },
@@ -11,21 +18,21 @@
         "choices": [
             {
                 "name": {
-                    "en": "Grade 4T "
+                    "en": "Grade 4T"
                 },
                 "value": "grade4t"
             },
             {
                 "name": {
-                    "en": "Grade 4G "
+                    "en": "Grade 4G"
                 },
-                "value": " grade4g"
+                "value": "grade4g"
             },
             {
                 "name": {
                     "en": "Grade 4TG"
                 },
-                "value": " grade4tg"
+                "value": "grade4tg"
             }
         ],
         "valueType": [

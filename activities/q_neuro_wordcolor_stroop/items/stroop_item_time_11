@@ -1,6 +1,13 @@
 {
     "id": "stroop_item_time_11",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "stroop_item_time_11"
     },

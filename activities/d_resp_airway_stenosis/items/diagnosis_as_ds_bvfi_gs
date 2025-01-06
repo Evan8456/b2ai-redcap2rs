@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_as_ds_bvfi_gs",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_as_ds_bvfi_gs"
     },
@@ -11,33 +18,33 @@
         "choices": [
             {
                 "name": {
-                    "en": "Posterior Glottic Stenosis "
+                    "en": "Posterior Glottic Stenosis"
                 },
                 "value": "posteriorGlotticStenosis"
             },
             {
                 "name": {
-                    "en": "Bilateral Vocal Fold Paralysis "
+                    "en": "Bilateral Vocal Fold Paralysis"
                 },
-                "value": " bilateralVocalFoldParalysis"
+                "value": "bilateralVocalFoldParalysis"
             },
             {
                 "name": {
-                    "en": "Anterior glottic Web "
+                    "en": "Anterior glottic Web"
                 },
-                "value": " anteriorGlotticWeb"
+                "value": "anteriorGlotticWeb"
             },
             {
                 "name": {
-                    "en": "Not certain or TBD "
+                    "en": "Not certain or TBD"
                 },
-                "value": " tbd"
+                "value": "tbd"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": " other"
+                "value": "other"
             }
         ],
         "valueType": [

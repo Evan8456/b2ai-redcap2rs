@@ -1,6 +1,13 @@
 {
     "id": "winograd_q_205",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "winograd_q_205"
     },
@@ -11,7 +18,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "The coffee "
+                    "en": "The coffee"
                 },
                 "value": "correct"
             },
@@ -19,7 +26,7 @@
                 "name": {
                     "en": "The pen"
                 },
-                "value": " incorrect"
+                "value": "incorrect"
             }
         ],
         "valueType": [

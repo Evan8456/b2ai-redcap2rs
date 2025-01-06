@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_ld_degree_s_1",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_ld_degree_s_1"
     },
@@ -11,25 +18,27 @@
         "choices": [
             {
                 "name": {
-                    "en": "MI "
+                    "en": "MI"
                 },
-                "value": 0
+                "value": "MI"
             },
             {
                 "name": {
-                    "en": " MO "
+                    "en": "MO"
                 },
-                "value": 1
+                "value": "MO"
             },
             {
                 "name": {
-                    "en": " SE"
+                    "en": "SE"
                 },
-                "value": 2
+                "value": "SE"
             }
         ],
+        "maxValue": NaN,
+        "minValue": NaN,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

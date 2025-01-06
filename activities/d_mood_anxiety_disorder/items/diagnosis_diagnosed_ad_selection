@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_diagnosed_ad_selection",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_diagnosed_ad_selection"
     },
@@ -11,99 +18,99 @@
         "choices": [
             {
                 "name": {
-                    "en": "6B80 Anorexia nervosa "
+                    "en": "6B80 Anorexia nervosa"
                 },
                 "value": "6B80"
             },
             {
                 "name": {
-                    "en": "6B81 Bulimia nervosa "
+                    "en": "6B81 Bulimia nervosa"
                 },
-                "value": " 6B81"
+                "value": "6B81"
             },
             {
                 "name": {
-                    "en": "6B82 Binge eating disorder "
+                    "en": "6B82 Binge eating disorder"
                 },
-                "value": " 6B82"
+                "value": "6B82"
             },
             {
                 "name": {
-                    "en": "6B83 Avoidant-restrictive food intake disorder "
+                    "en": "6B83 Avoidant-restrictive food intake disorder"
                 },
-                "value": " 6B83"
+                "value": "6B83"
             },
             {
                 "name": {
-                    "en": "6B84 Pica "
+                    "en": "6B84 Pica"
                 },
-                "value": " 6B84"
+                "value": "6B84"
             },
             {
                 "name": {
-                    "en": "6B85 Rumination-regurgitation disorder "
+                    "en": "6B85 Rumination-regurgitation disorder"
                 },
-                "value": " 6B85"
+                "value": "6B85"
             },
             {
                 "name": {
-                    "en": "6B8Y Other specified feeding or eating disorders "
+                    "en": "6B8Y Other specified feeding or eating disorders"
                 },
-                "value": " 6B8Y"
+                "value": "6B8Y"
             },
             {
                 "name": {
-                    "en": "6B8Z Feeding or eating disorders unspecified "
+                    "en": "6B8Z Feeding or eating disorders, unspecified"
                 },
-                "value": " 6B8Z"
+                "value": "6B8Z"
             },
             {
                 "name": {
-                    "en": "6B00 Generalized Anxiety Disorder "
+                    "en": "6B00 Generalized Anxiety Disorder"
                 },
-                "value": " 6B00"
+                "value": "6B00"
             },
             {
                 "name": {
-                    "en": "6B01 Panic Disorder "
+                    "en": "6B01 Panic Disorder"
                 },
-                "value": " 6B01"
+                "value": "6B01"
             },
             {
                 "name": {
-                    "en": "6B02 Agoraphobia "
+                    "en": "6B02 Agoraphobia"
                 },
-                "value": " 6B02"
+                "value": "6B02"
             },
             {
                 "name": {
-                    "en": "6B04 Social Anxiety Disorder "
+                    "en": "6B04 Social Anxiety Disorder"
                 },
-                "value": " 6B04"
+                "value": "6B04"
             },
             {
                 "name": {
-                    "en": "6B05 Separation Anxiety Disorder "
+                    "en": "6B05 Separation Anxiety Disorder"
                 },
-                "value": " 6B05"
+                "value": "6B05"
             },
             {
                 "name": {
-                    "en": "6B06 Selective Mutism "
+                    "en": "6B06 Selective Mutism"
                 },
-                "value": " 6B06"
+                "value": "6B06"
             },
             {
                 "name": {
-                    "en": "6B0Y Other Specified Anxiety or Fear-Related Disorders "
+                    "en": "6B0Y Other Specified Anxiety or Fear-Related Disorders"
                 },
-                "value": " 6B0Y"
+                "value": "6B0Y"
             },
             {
                 "name": {
-                    "en": "6B0Z Anxiety or fear-related disorders unspecified"
+                    "en": "6B0Z Anxiety or fear-related disorders, unspecified"
                 },
-                "value": " 6B0Z"
+                "value": "6B0Z"
             }
         ],
         "valueType": [

@@ -25,84 +25,84 @@
         "addProperties": [
             {
                 "isAbout": "items/recording_id",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "recording_id"
             },
             {
                 "isAbout": "items/recording_acoustic_task_id",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "recording_acoustic_task_id"
             },
             {
                 "isAbout": "items/recording_session_id",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "recording_session_id"
             },
             {
                 "isAbout": "items/recording_name",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "recording_name"
             },
             {
                 "isAbout": "items/recording_filepath",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "recording_filepath"
             },
             {
                 "isAbout": "items/recording_storage_account",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "recording_storage_account"
             },
             {
                 "isAbout": "items/recording_file_share",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "recording_file_share"
             },
             {
                 "isAbout": "items/recording_duration",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "recording_duration"
             },
             {
                 "isAbout": "items/recording_size",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "recording_size"
             },
             {
                 "isAbout": "items/recording_created_at",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "recording_created_at"
             },
             {
                 "isAbout": "items/recording_profile_name",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "recording_profile_name"
             },
             {
                 "isAbout": "items/recording_profile_version",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "recording_profile_version"
             },
             {
                 "isAbout": "items/recording_input_gain",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "recording_input_gain"
             },
             {
                 "isAbout": "items/recording_microphone",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "recording_microphone"
             }

@@ -1,6 +1,13 @@
 {
     "id": "employ_status",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "Employment Status"
     },
@@ -14,49 +21,49 @@
         "choices": [
             {
                 "name": {
-                    "en": "Employed freelance "
+                    "en": "Employed, freelance"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Employed full time "
+                    "en": "Employed, full time"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Employed part time "
+                    "en": "Employed, part time"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Employed multiple part time jobs "
+                    "en": "Employed, multiple part time jobs"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Student "
+                    "en": "Student"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Self-employed "
+                    "en": "Self-employed"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "Retired "
+                    "en": "Retired"
                 },
                 "value": 7
             },
             {
                 "name": {
-                    "en": "Unemployed "
+                    "en": "Unemployed"
                 },
                 "value": 8
             },

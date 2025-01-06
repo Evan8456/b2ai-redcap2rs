@@ -294,37 +294,37 @@
         "addProperties": [
             {
                 "isAbout": "items/winograd_session_id",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "winograd_session_id"
             },
             {
                 "isAbout": "items/winograd_started_at",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "winograd_started_at"
             },
             {
                 "isAbout": "items/winograd_completed_at",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "winograd_completed_at"
             },
             {
                 "isAbout": "items/winograd_duration",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "winograd_duration"
             },
             {
                 "isAbout": "items/winograd_score",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "winograd_score"
             },
             {
                 "isAbout": "items/winograd_number_questions",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "winograd_number_questions"
             },
             {
                 "isAbout": "items/winograd_questions_asked",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "winograd_questions_asked"
             },
             {

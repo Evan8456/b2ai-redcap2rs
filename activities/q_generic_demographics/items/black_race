@@ -1,6 +1,13 @@
 {
     "id": "black_race",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "black_race"
     },
@@ -11,61 +18,61 @@
         "choices": [
             {
                 "name": {
-                    "en": "African American "
+                    "en": "African American"
                 },
                 "value": 20586
             },
             {
                 "name": {
-                    "en": "African "
+                    "en": "African"
                 },
                 "value": 20602
             },
             {
                 "name": {
-                    "en": "Bahamian "
+                    "en": "Bahamian"
                 },
                 "value": 20677
             },
             {
                 "name": {
-                    "en": "Barbadian "
+                    "en": "Barbadian"
                 },
                 "value": 20685
             },
             {
                 "name": {
-                    "en": "Dominican "
+                    "en": "Dominican"
                 },
                 "value": 20693
             },
             {
                 "name": {
-                    "en": "Dominica Islander "
+                    "en": "Dominica Islander"
                 },
                 "value": 20701
             },
             {
                 "name": {
-                    "en": "Haitian "
+                    "en": "Haitian"
                 },
                 "value": 20719
             },
             {
                 "name": {
-                    "en": "Jamaican "
+                    "en": "Jamaican"
                 },
                 "value": 20727
             },
             {
                 "name": {
-                    "en": "Tobagoan "
+                    "en": "Tobagoan"
                 },
                 "value": 20735
             },
             {
                 "name": {
-                    "en": "Trinidadian "
+                    "en": "Trinidadian"
                 },
                 "value": 20743
             },

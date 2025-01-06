@@ -1,6 +1,13 @@
 {
     "id": "specify_current_neuro",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "specify_current_neuro"
     },

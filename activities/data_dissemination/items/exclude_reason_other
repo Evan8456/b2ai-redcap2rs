@@ -1,6 +1,13 @@
 {
     "id": "exclude_reason_other",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "exclude_reason_other"
     },

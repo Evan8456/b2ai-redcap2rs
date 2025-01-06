@@ -1,6 +1,13 @@
 {
     "id": "dmdd_prescribed_medication",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "4. Treatment obtained"
     },
@@ -14,7 +21,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "Yes "
+                    "en": "Yes"
                 },
                 "value": "yes"
             },
@@ -22,7 +29,7 @@
                 "name": {
                     "en": "No"
                 },
-                "value": " no"
+                "value": "no"
             }
         ],
         "valueType": [

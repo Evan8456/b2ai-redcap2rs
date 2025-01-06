@@ -34,25 +34,25 @@
         "addProperties": [
             {
                 "isAbout": "items/leicester_cough_session_id",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "leicester_cough_session_id"
             },
             {
                 "isAbout": "items/leicester_cough_started_at",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "leicester_cough_started_at"
             },
             {
                 "isAbout": "items/leicester_cough_completed_at",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "leicester_cough_completed_at"
             },
             {
                 "isAbout": "items/leicester_cough_duration",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "leicester_cough_duration"
             },

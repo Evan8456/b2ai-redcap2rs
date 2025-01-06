@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_as_ds_ccsr",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_as_ds_ccsr"
     },
@@ -11,27 +18,27 @@
         "choices": [
             {
                 "name": {
-                    "en": "No the patient does not have stridor "
+                    "en": "No, the patient does not have stridor"
                 },
                 "value": "noStridor"
             },
             {
                 "name": {
-                    "en": "Yes mild stridor "
+                    "en": "Yes, mild stridor"
                 },
-                "value": " mildStridor"
+                "value": "mildStridor"
             },
             {
                 "name": {
-                    "en": "Yes moderate stridor "
+                    "en": "Yes, moderate stridor"
                 },
-                "value": " moderateStridor"
+                "value": "moderateStridor"
             },
             {
                 "name": {
-                    "en": "Yes severe stridor"
+                    "en": "Yes, severe stridor"
                 },
-                "value": " severeStridor"
+                "value": "severeStridor"
             }
         ],
         "valueType": [

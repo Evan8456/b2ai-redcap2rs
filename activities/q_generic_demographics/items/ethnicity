@@ -1,6 +1,13 @@
 {
     "id": "ethnicity",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "ethnicity"
     },
@@ -11,21 +18,21 @@
         "choices": [
             {
                 "name": {
-                    "en": "Hispanic or Latino "
+                    "en": "Hispanic or Latino"
                 },
                 "value": "yes"
             },
             {
                 "name": {
-                    "en": "Not Hispanic or Latino "
+                    "en": "Not Hispanic or Latino"
                 },
-                "value": " no"
+                "value": "no"
             },
             {
                 "name": {
                     "en": "Prefer not to answer"
                 },
-                "value": " noAnswer"
+                "value": "noAnswer"
             }
         ],
         "valueType": [

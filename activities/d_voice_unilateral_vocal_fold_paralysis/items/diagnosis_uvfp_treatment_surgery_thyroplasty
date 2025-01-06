@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_uvfp_treatment_surgery_thyroplasty",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_uvfp_treatment_surgery_thyroplasty"
     },
@@ -11,7 +18,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "Gore-Tex "
+                    "en": "Gore-Tex"
                 },
                 "value": "goretex"
             },
@@ -19,7 +26,7 @@
                 "name": {
                     "en": "Silastic"
                 },
-                "value": " silastic"
+                "value": "silastic"
             }
         ],
         "multipleChoice": true,

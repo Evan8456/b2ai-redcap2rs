@@ -1,6 +1,13 @@
 {
     "id": "easily_agitated",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "easily_agitated"
     },
@@ -11,19 +18,19 @@
         "choices": [
             {
                 "name": {
-                    "en": "Not at all "
+                    "en": "Not at all"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "Several days "
+                    "en": "Several days"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "More than half the days "
+                    "en": "More than half the days"
                 },
                 "value": 2
             },

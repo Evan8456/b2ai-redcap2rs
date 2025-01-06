@@ -1,6 +1,13 @@
 {
     "id": "consent_status",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "consent_status"
     },
@@ -11,13 +18,13 @@
         "choices": [
             {
                 "name": {
-                    "en": "Pending "
+                    "en": "Pending"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Consented "
+                    "en": "Consented"
                 },
                 "value": 2
             },

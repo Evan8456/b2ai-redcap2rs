@@ -1,6 +1,13 @@
 {
     "id": "traumatic_event_date",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "traumatic_event_date"
     },

@@ -1,6 +1,13 @@
 {
     "id": "painkillers",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "During the past TWO (2) WEEKS, about how often did you use any of the following substances or medications for reasons or in doses other than prescribed?"
     },
@@ -14,33 +21,33 @@
         "choices": [
             {
                 "name": {
-                    "en": "Not at all "
+                    "en": "Not at all"
                 },
                 "value": "none"
             },
             {
                 "name": {
-                    "en": "One or two days "
+                    "en": "One or two days"
                 },
-                "value": " oneOrTwoDays"
+                "value": "oneOrTwoDays"
             },
             {
                 "name": {
-                    "en": "Several days "
+                    "en": "Several days"
                 },
-                "value": " severalDays"
+                "value": "severalDays"
             },
             {
                 "name": {
-                    "en": "More than half the days "
+                    "en": "More than half the days"
                 },
-                "value": " moreThanHalfTheDays"
+                "value": "moreThanHalfTheDays"
             },
             {
                 "name": {
                     "en": "Nearly every day"
                 },
-                "value": " nearlyEveryDay"
+                "value": "nearlyEveryDay"
             }
         ],
         "valueType": [

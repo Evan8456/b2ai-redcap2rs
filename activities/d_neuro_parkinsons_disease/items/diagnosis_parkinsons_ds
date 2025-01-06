@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_parkinsons_ds",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "4. Disease Severity"
     },
@@ -14,33 +21,33 @@
         "choices": [
             {
                 "name": {
-                    "en": "Stage 1 (Unilateral involvement only) "
+                    "en": "Stage 1 (Unilateral involvement only)"
                 },
                 "value": "stage1"
             },
             {
                 "name": {
-                    "en": "Stage 2 (Bilateral involvement without impairment of balance) "
+                    "en": "Stage 2 (Bilateral involvement without impairment of balance)"
                 },
-                "value": " stage2"
+                "value": "stage2"
             },
             {
                 "name": {
-                    "en": "Stage 3 (Bilateral involvement with mild to moderate impairment of balance) "
+                    "en": "Stage 3 (Bilateral involvement with mild to moderate impairment of balance)"
                 },
-                "value": " stage3"
+                "value": "stage3"
             },
             {
                 "name": {
-                    "en": "Stage 4 (Severe disability but still able to walk or stand unassisted) "
+                    "en": "Stage 4 (Severe disability but still able to walk or stand unassisted)"
                 },
-                "value": " stage4"
+                "value": "stage4"
             },
             {
                 "name": {
                     "en": "Stage 5 (Wheelchair-bound or bedridden unless aided)"
                 },
-                "value": " stage5"
+                "value": "stage5"
             }
         ],
         "valueType": [

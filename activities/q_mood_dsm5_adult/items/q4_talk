@@ -1,6 +1,13 @@
 {
     "id": "q4_talk",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "q4_talk"
     },
@@ -11,25 +18,25 @@
         "choices": [
             {
                 "name": {
-                    "en": "I do not talk more than usual. "
+                    "en": "I do not talk more than usual."
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "I occasionally talk more than usual. "
+                    "en": "I occasionally talk more than usual."
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "I often talk more than usual. "
+                    "en": "I often talk more than usual."
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "I frequently talk more than usual. "
+                    "en": "I frequently talk more than usual."
                 },
                 "value": 4
             },

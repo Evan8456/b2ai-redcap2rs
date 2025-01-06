@@ -1,6 +1,13 @@
 {
     "id": "flashbacks",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "People sometimes have problems after extremely stressful events or experiences. How much have you been bothered during the PAST SEVEN (7) DAYS by each of the following problems that occurred or became worse after an extremely stressful event/experience?\n\n0=Not at all, 1=A little bit, 2=Moderately, 3=Quite a bit, 4=Extremely\""
     },
@@ -14,25 +21,25 @@
         "choices": [
             {
                 "name": {
-                    "en": "0=Not at all "
+                    "en": "0=Not at all"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "1=A little bit "
+                    "en": "1=A little bit"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "2=Moderately "
+                    "en": "2=Moderately"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "3=Quite a bit "
+                    "en": "3=Quite a bit"
                 },
                 "value": 3
             },

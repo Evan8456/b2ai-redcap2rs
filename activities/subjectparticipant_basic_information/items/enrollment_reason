@@ -1,6 +1,13 @@
 {
     "id": "enrollment_reason",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "enrollment_reason"
     },

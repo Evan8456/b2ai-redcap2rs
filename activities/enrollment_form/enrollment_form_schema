@@ -448,22 +448,22 @@
             },
             {
                 "isAbout": "items/ef_enrollment_origin",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "ef_enrollment_origin"
             },
             {
                 "isAbout": "items/ef_started_at",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "ef_started_at"
             },
             {
                 "isAbout": "items/ef_completed_at",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "ef_completed_at"
             },
             {
                 "isAbout": "items/ef_duration",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "ef_duration"
             }
         ],

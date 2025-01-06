@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_as_as_s",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_as_as_s"
     },
@@ -11,21 +18,21 @@
         "choices": [
             {
                 "name": {
-                    "en": "Mild "
+                    "en": "Mild"
                 },
                 "value": "mild"
             },
             {
                 "name": {
-                    "en": "Moderate "
+                    "en": "Moderate"
                 },
-                "value": " moderate"
+                "value": "moderate"
             },
             {
                 "name": {
                     "en": "Severe"
                 },
-                "value": " severe"
+                "value": "severe"
             }
         ],
         "valueType": [

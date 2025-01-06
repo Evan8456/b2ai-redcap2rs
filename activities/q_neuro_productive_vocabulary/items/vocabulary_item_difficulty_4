@@ -1,6 +1,13 @@
 {
     "id": "vocabulary_item_difficulty_4",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "vocabulary_item_difficulty_4"
     },
@@ -11,13 +18,13 @@
         "choices": [
             {
                 "name": {
-                    "en": "1 "
+                    "en": "1"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "2 "
+                    "en": "2"
                 },
                 "value": 2
             },

@@ -1,6 +1,13 @@
 {
     "id": "random_item_generation_category",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "Random item generation / semantic fluency"
     },
@@ -14,63 +21,63 @@
         "choices": [
             {
                 "name": {
-                    "en": "Numbers "
+                    "en": "Numbers"
                 },
                 "value": "numbers"
             },
             {
                 "name": {
-                    "en": "Letters "
+                    "en": "Letters"
                 },
-                "value": " letters"
+                "value": "letters"
             },
             {
                 "name": {
-                    "en": "First names "
+                    "en": "First names"
                 },
-                "value": " firstNames"
+                "value": "firstNames"
             },
             {
                 "name": {
-                    "en": "City names "
+                    "en": "City names"
                 },
-                "value": " cityNames"
+                "value": "cityNames"
             },
             {
                 "name": {
-                    "en": "Country names "
+                    "en": "Country names"
                 },
-                "value": " countryNames"
+                "value": "countryNames"
             },
             {
                 "name": {
-                    "en": "Jobs "
+                    "en": "Jobs"
                 },
-                "value": " jobs"
+                "value": "jobs"
             },
             {
                 "name": {
-                    "en": "Fruits "
+                    "en": "Fruits"
                 },
-                "value": " fruits"
+                "value": "fruits"
             },
             {
                 "name": {
-                    "en": "Drinks "
+                    "en": "Drinks"
                 },
-                "value": " drinks"
+                "value": "drinks"
             },
             {
                 "name": {
-                    "en": "Animals "
+                    "en": "Animals"
                 },
-                "value": " animals"
+                "value": "animals"
             },
             {
                 "name": {
                     "en": "English words starting with \"t\""
                 },
-                "value": " wordStartingWithT"
+                "value": "wordStartingWithT"
             }
         ],
         "valueType": [

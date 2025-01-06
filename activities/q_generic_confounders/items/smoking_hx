@@ -1,6 +1,13 @@
 {
     "id": "smoking_hx",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "smoking_hx"
     },
@@ -11,27 +18,27 @@
         "choices": [
             {
                 "name": {
-                    "en": "I've never smoked regularly "
+                    "en": "I've never smoked regularly"
                 },
                 "value": "never"
             },
             {
                 "name": {
-                    "en": "I used to smoke "
+                    "en": "I used to smoke"
                 },
-                "value": " past"
+                "value": "past"
             },
             {
                 "name": {
-                    "en": "I currently smoke "
+                    "en": "I currently smoke"
                 },
-                "value": " currently"
+                "value": "currently"
             },
             {
                 "name": {
                     "en": "Prefer not to answer"
                 },
-                "value": " noAnswer"
+                "value": "noAnswer"
             }
         ],
         "valueType": [

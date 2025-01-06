@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_pl_ds",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "2. Disease Subtype"
     },
@@ -14,27 +21,27 @@
         "choices": [
             {
                 "name": {
-                    "en": "Keratosis "
+                    "en": "Keratosis"
                 },
                 "value": "keratosis"
             },
             {
                 "name": {
-                    "en": "Leukoplakia "
+                    "en": "Leukoplakia"
                 },
-                "value": " leukoplakia"
+                "value": "leukoplakia"
             },
             {
                 "name": {
-                    "en": "Erythroplakia "
+                    "en": "Erythroplakia"
                 },
-                "value": " erythroplakia"
+                "value": "erythroplakia"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": " other"
+                "value": "other"
             }
         ],
         "multipleChoice": true,

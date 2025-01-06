@@ -24,25 +24,25 @@
         "addProperties": [
             {
                 "isAbout": "items/peds_qol_session_id",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "peds_qol_session_id"
             },
             {
                 "isAbout": "items/peds_qol_started_at",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "peds_qol_started_at"
             },
             {
                 "isAbout": "items/peds_qol_completed_at",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "peds_qol_completed_at"
             },
             {
                 "isAbout": "items/peds_qol_duration",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "peds_qol_duration"
             },
             {

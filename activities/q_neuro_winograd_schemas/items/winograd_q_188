@@ -1,6 +1,13 @@
 {
     "id": "winograd_q_188",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "winograd_q_188"
     },
@@ -11,7 +18,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "The fish "
+                    "en": "The fish"
                 },
                 "value": "incorrect"
             },
@@ -19,7 +26,7 @@
                 "name": {
                     "en": "The scientists"
                 },
-                "value": " correct"
+                "value": "correct"
             }
         ],
         "valueType": [

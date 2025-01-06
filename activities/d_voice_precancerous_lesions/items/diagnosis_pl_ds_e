@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_pl_ds_e",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_pl_ds_e"
     },
@@ -11,7 +18,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "With dysplasia "
+                    "en": "With dysplasia"
                 },
                 "value": "withDysplasia"
             },
@@ -19,7 +26,7 @@
                 "name": {
                     "en": "Without dysplasia"
                 },
-                "value": " withoutDysplasia"
+                "value": "withoutDysplasia"
             }
         ],
         "valueType": [

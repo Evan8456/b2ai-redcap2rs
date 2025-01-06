@@ -28,7 +28,7 @@
             },
             {
                 "isAbout": "items/moca_pdf_uploaded_by",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "moca_pdf_uploaded_by"
             }

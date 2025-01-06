@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_alz_dementia_mci_treatment_obtained_yes_npi",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_alz_dementia_mci_treatment_obtained_yes_npi"
     },
@@ -11,45 +18,45 @@
         "choices": [
             {
                 "name": {
-                    "en": "Day program "
+                    "en": "Day program"
                 },
                 "value": "day_program"
             },
             {
                 "name": {
-                    "en": "Cognitive stimulation therapy "
+                    "en": "Cognitive stimulation therapy"
                 },
-                "value": " cognitive_simulation_therapy"
+                "value": "cognitive_simulation_therapy"
             },
             {
                 "name": {
-                    "en": "Reality orientation therapy "
+                    "en": "Reality orientation therapy"
                 },
-                "value": " reality_orientation_therapy"
+                "value": "reality_orientation_therapy"
             },
             {
                 "name": {
-                    "en": "Reminiscence therapy "
+                    "en": "Reminiscence therapy"
                 },
-                "value": " reminiscence_therapy"
+                "value": "reminiscence_therapy"
             },
             {
                 "name": {
-                    "en": "Physical exercise program "
+                    "en": "Physical exercise program"
                 },
-                "value": " physical_exercise_program"
+                "value": "physical_exercise_program"
             },
             {
                 "name": {
-                    "en": "Dietary modifications "
+                    "en": "Dietary modifications"
                 },
-                "value": " dietary_modifications"
+                "value": "dietary_modifications"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": " other"
+                "value": "other"
             }
         ],
         "multipleChoice": true,

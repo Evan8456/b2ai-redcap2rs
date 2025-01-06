@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_as_ds_mcg",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "4. Disease Severity"
     },
@@ -14,27 +21,27 @@
         "choices": [
             {
                 "name": {
-                    "en": "Grade I "
+                    "en": "Grade I"
                 },
                 "value": "gradeI"
             },
             {
                 "name": {
-                    "en": "Grade II "
+                    "en": "Grade II"
                 },
-                "value": " gradeII"
+                "value": "gradeII"
             },
             {
                 "name": {
-                    "en": "Grade III "
+                    "en": "Grade III"
                 },
-                "value": " gradeIII"
+                "value": "gradeIII"
             },
             {
                 "name": {
                     "en": "Grade IV"
                 },
-                "value": " gradeIV"
+                "value": "gradeIV"
             }
         ],
         "valueType": [

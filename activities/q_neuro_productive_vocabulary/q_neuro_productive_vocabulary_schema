@@ -34,28 +34,28 @@
         "addProperties": [
             {
                 "isAbout": "items/vocabulary_session_id",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "vocabulary_session_id"
             },
             {
                 "isAbout": "items/vocabulary_recording_acoustic_task_id",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "vocabulary_recording_acoustic_task_id"
             },
             {
                 "isAbout": "items/vocabulary_started_at",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "vocabulary_started_at"
             },
             {
                 "isAbout": "items/vocabulary_completed_at",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "vocabulary_completed_at"
             },
             {
                 "isAbout": "items/vocabulary_duration",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "vocabulary_duration"
             },
             {

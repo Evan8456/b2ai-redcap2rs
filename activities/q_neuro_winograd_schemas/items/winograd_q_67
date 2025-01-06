@@ -1,6 +1,13 @@
 {
     "id": "winograd_q_67",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "winograd_q_67"
     },
@@ -11,7 +18,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "The announcement "
+                    "en": "The announcement"
                 },
                 "value": "correct"
             },
@@ -19,7 +26,7 @@
                 "name": {
                     "en": "The subway"
                 },
-                "value": " incorrect"
+                "value": "incorrect"
             }
         ],
         "valueType": [

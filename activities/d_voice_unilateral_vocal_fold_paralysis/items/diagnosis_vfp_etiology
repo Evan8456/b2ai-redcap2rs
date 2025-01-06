@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_vfp_etiology",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "3. Etiology"
     },
@@ -14,25 +21,25 @@
         "choices": [
             {
                 "name": {
-                    "en": "Idiopathic "
+                    "en": "Idiopathic"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Iatrogenic (surgery/intubation) "
+                    "en": "Iatrogenic (surgery/intubation)"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Tumor invading RLN "
+                    "en": "Tumor invading RLN"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Radiation "
+                    "en": "Radiation"
                 },
                 "value": 4
             },

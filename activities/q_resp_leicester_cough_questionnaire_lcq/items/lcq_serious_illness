@@ -1,6 +1,13 @@
 {
     "id": "lcq_serious_illness",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "lcq_serious_illness"
     },
@@ -11,45 +18,45 @@
         "choices": [
             {
                 "name": {
-                    "en": "None of the time "
+                    "en": "None of the time"
                 },
                 "value": "noneOfTheTime"
             },
             {
                 "name": {
-                    "en": "Hardly any of the time "
+                    "en": "Hardly any of the time"
                 },
-                "value": " hardlyAnyOfTheTime"
+                "value": "hardlyAnyOfTheTime"
             },
             {
                 "name": {
-                    "en": "A little of the time "
+                    "en": "A little of the time"
                 },
-                "value": " aLittleOfTheTime"
+                "value": "aLittleOfTheTime"
             },
             {
                 "name": {
-                    "en": "Some of the time "
+                    "en": "Some of the time"
                 },
-                "value": " someOfTheTime"
+                "value": "someOfTheTime"
             },
             {
                 "name": {
-                    "en": "A good bit of the time "
+                    "en": "A good bit of the time"
                 },
-                "value": " aGoodBitOfTheTime"
+                "value": "aGoodBitOfTheTime"
             },
             {
                 "name": {
-                    "en": "Most of the time "
+                    "en": "Most of the time"
                 },
-                "value": " mostOfTheTime"
+                "value": "mostOfTheTime"
             },
             {
                 "name": {
                     "en": "All of the time"
                 },
-                "value": " allOfTheTime"
+                "value": "allOfTheTime"
             }
         ],
         "valueType": [

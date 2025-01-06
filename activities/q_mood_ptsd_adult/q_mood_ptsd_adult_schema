@@ -26,25 +26,25 @@
         "addProperties": [
             {
                 "isAbout": "items/ptsd_session_id",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "ptsd_session_id"
             },
             {
                 "isAbout": "items/ptsd_started_at",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "ptsd_started_at"
             },
             {
                 "isAbout": "items/ptsd_completed_at",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "ptsd_completed_at"
             },
             {
                 "isAbout": "items/ptsd_duration",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "ptsd_duration"
             },
             {

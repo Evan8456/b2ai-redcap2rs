@@ -1,6 +1,13 @@
 {
     "id": "consent_method",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "consent_method"
     },
@@ -11,21 +18,21 @@
         "choices": [
             {
                 "name": {
-                    "en": "Paper Consent "
+                    "en": "Paper Consent"
                 },
                 "value": "paper"
             },
             {
                 "name": {
-                    "en": "eConsent "
+                    "en": "eConsent"
                 },
-                "value": " econsent"
+                "value": "econsent"
             },
             {
                 "name": {
                     "en": "Video Consent"
                 },
-                "value": " e_video_consent"
+                "value": "e_video_consent"
             }
         ],
         "valueType": [

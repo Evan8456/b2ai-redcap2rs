@@ -1,6 +1,13 @@
 {
     "id": "winograd_q_1",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "Winograd Questionnaire"
     },
@@ -14,7 +21,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "The city councilmen "
+                    "en": "The city councilmen"
                 },
                 "value": "correct"
             },
@@ -22,7 +29,7 @@
                 "name": {
                     "en": "The demonstrators"
                 },
-                "value": " incorrect"
+                "value": "incorrect"
             }
         ],
         "valueType": [

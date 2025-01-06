@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_bl_ds",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "2. Disease Subtype"
     },
@@ -14,57 +21,57 @@
         "choices": [
             {
                 "name": {
-                    "en": "Vocal fold nodules "
+                    "en": "Vocal fold nodules"
                 },
                 "value": "vocalFoldNodules"
             },
             {
                 "name": {
-                    "en": "Vocal fold polyp "
+                    "en": "Vocal fold polyp"
                 },
-                "value": " vocalFoldPolyp"
+                "value": "vocalFoldPolyp"
             },
             {
                 "name": {
-                    "en": "Vocal fold cyst "
+                    "en": "Vocal fold cyst"
                 },
-                "value": " vocalFoldCyst"
+                "value": "vocalFoldCyst"
             },
             {
                 "name": {
-                    "en": "Reinke's edema "
+                    "en": "Reinke's edema"
                 },
-                "value": " reinkesEdema"
+                "value": "reinkesEdema"
             },
             {
                 "name": {
-                    "en": "Vocal fold ulcers "
+                    "en": "Vocal fold ulcers"
                 },
-                "value": " vocalFoldUlcers"
+                "value": "vocalFoldUlcers"
             },
             {
                 "name": {
-                    "en": "Recurrent respiratory papilloma "
+                    "en": "Recurrent respiratory papilloma"
                 },
-                "value": " recurrentRespiratoryPapilloma"
+                "value": "recurrentRespiratoryPapilloma"
             },
             {
                 "name": {
-                    "en": "Fibrous masse (s) "
+                    "en": "Fibrous masse (s)"
                 },
-                "value": " fibrousMasses"
+                "value": "fibrousMasses"
             },
             {
                 "name": {
-                    "en": "Rheumatoid nodules "
+                    "en": "Rheumatoid nodules"
                 },
-                "value": " rheumatoidNodules"
+                "value": "rheumatoidNodules"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": " other"
+                "value": "other"
             }
         ],
         "valueType": [

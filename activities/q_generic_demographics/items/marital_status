@@ -1,6 +1,13 @@
 {
     "id": "marital_status",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "marital_status"
     },
@@ -11,37 +18,37 @@
         "choices": [
             {
                 "name": {
-                    "en": "Single "
+                    "en": "Single"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Married "
+                    "en": "Married"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "In a relationship "
+                    "en": "In a relationship"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Not married "
+                    "en": "Not married"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Separated "
+                    "en": "Separated"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Divorced "
+                    "en": "Divorced"
                 },
                 "value": 6
             },

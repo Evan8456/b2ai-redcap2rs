@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_mtd_treatment_select",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_mtd_treatment_select"
     },
@@ -11,33 +18,33 @@
         "choices": [
             {
                 "name": {
-                    "en": "Vocal hygiene and patient education "
+                    "en": "Vocal hygiene and patient education"
                 },
                 "value": "vocal_hygiene_and_patient_education"
             },
             {
                 "name": {
-                    "en": "Voice/speech therapy "
+                    "en": "Voice/speech therapy"
                 },
-                "value": " voice_or_speech_therapy"
+                "value": "voice_or_speech_therapy"
             },
             {
                 "name": {
-                    "en": "Circumlaryngeal manual therapy "
+                    "en": "Circumlaryngeal manual therapy"
                 },
-                "value": " circumlaryngeal_manual_therapy"
+                "value": "circumlaryngeal_manual_therapy"
             },
             {
                 "name": {
-                    "en": "Surgery for secondary organic lesions "
+                    "en": "Surgery for secondary organic lesions"
                 },
-                "value": " surgery_for_secondary_organic_lesions"
+                "value": "surgery_for_secondary_organic_lesions"
             },
             {
                 "name": {
                     "en": "Other medical treatment"
                 },
-                "value": " other"
+                "value": "other"
             }
         ],
         "multipleChoice": true,

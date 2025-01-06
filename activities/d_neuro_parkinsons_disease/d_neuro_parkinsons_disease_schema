@@ -1,6 +1,24 @@
 {
     "id": "d_neuro_parkinsons_disease_schema",
     "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "if(( diagnosis_parkinsons_gsd_category_1(bradykinesia) && ( diagnosis_parkinsons_gsd_category_1(tremor) || diagnosis_parkinsons_gsd_category_1(rigidity) )), 'Yes', 'No')",
+            "variableName": "diagnosis_parkinsons_gsd_category_1_calculation"
+        },
+        {
+            "jsExpression": "if(( diagnosis_parkinsons_gsd_category_2(cerebellar_abnormalities) || diagnosis_parkinsons_gsd_category_2(supranuclear_gaze_palsy) || diagnosis_parkinsons_gsd_category_2(bvf_ftd_ppa) || diagnosis_parkinsons_gsd_category_2(lower_limbs) || diagnosis_parkinsons_gsd_category_2(dopamine_treatment) || diagnosis_parkinsons_gsd_category_2(absence_of_response) || diagnosis_parkinsons_gsd_category_2(cortical_sensory_loss) || diagnosis_parkinsons_gsd_category_2(dat_scan) || diagnosis_parkinsons_gsd_category_2(alternative_condition) ), 'No', 'Yes')",
+            "variableName": "diagnosis_parkinsons_gsd_category_2_calculation"
+        },
+        {
+            "jsExpression": "if( diagnosis_parkinsons_gsd_category_3(response_dopaminergic_therapy) + diagnosis_parkinsons_gsd_category_3(levodopa_induced_dyskinesia) + diagnosis_parkinsons_gsd_category_3(rest_tremor) + diagnosis_parkinsons_gsd_category_3(mibg) > 1, 'Yes', 'No')",
+            "variableName": "diagnosis_parkinsons_gsd_category_3_calculation"
+        },
+        {
+            "jsExpression": "if( diagnosis_parkinsons_gsd_category_1_calculation == 'Yes' && diagnosis_parkinsons_gsd_category_2_calculation == 'Yes' && diagnosis_parkinsons_gsd_category_3_calculation == 'Yes' , 'Yes', 'No')",
+            "variableName": "diagnosis_parkinsons_gsd_calculation"
+        }
+    ],
     "prefLabel": {
         "en": "d_neuro_parkinsons_disease"
     },
@@ -8,12 +26,8 @@
     "ui": {
         "order": [
             "items/diagnosis_parkinsons_gsd_category_1",
-            "items/diagnosis_parkinsons_gsd_category_1_calculation",
             "items/diagnosis_parkinsons_gsd_category_2",
-            "items/diagnosis_parkinsons_gsd_category_2_calculation",
             "items/diagnosis_parkinsons_gsd_category_3",
-            "items/diagnosis_parkinsons_gsd_category_3_calculation",
-            "items/diagnosis_parkinsons_gsd_calculation",
             "items/diagnosis_parkinsons_disease_subtype",
             "items/diagnosis_parkinsons_disease_subtype_other",
             "items/diagnosis_parkinsons_etiology",
@@ -45,7 +59,7 @@
             },
             {
                 "isAbout": "items/diagnosis_parkinsons_gsd_category_1_calculation",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "diagnosis_parkinsons_gsd_category_1_calculation"
             },
             {
@@ -55,7 +69,7 @@
             },
             {
                 "isAbout": "items/diagnosis_parkinsons_gsd_category_2_calculation",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "diagnosis_parkinsons_gsd_category_2_calculation"
             },
             {
@@ -66,12 +80,12 @@
             },
             {
                 "isAbout": "items/diagnosis_parkinsons_gsd_category_3_calculation",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "diagnosis_parkinsons_gsd_category_3_calculation"
             },
             {
                 "isAbout": "items/diagnosis_parkinsons_gsd_calculation",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "diagnosis_parkinsons_gsd_calculation"
             },
             {

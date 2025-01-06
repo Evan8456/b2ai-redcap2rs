@@ -1,6 +1,13 @@
 {
     "id": "dmdd_describe_psychotherapy",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "dmdd_describe_psychotherapy"
     },

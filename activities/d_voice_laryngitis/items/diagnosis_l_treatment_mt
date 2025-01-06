@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_l_treatment_mt",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "description": {
         "en": "weeks ago"
     },
@@ -14,33 +21,33 @@
         "choices": [
             {
                 "name": {
-                    "en": "Antibiotics "
+                    "en": "Antibiotics"
                 },
                 "value": "antibiotics"
             },
             {
                 "name": {
-                    "en": "Antifungals "
+                    "en": "Antifungals"
                 },
-                "value": " antifungals"
+                "value": "antifungals"
             },
             {
                 "name": {
-                    "en": "Steroids PO "
+                    "en": "Steroids PO"
                 },
-                "value": " steroids_po"
+                "value": "steroids_po"
             },
             {
                 "name": {
-                    "en": "Inhaled steroids "
+                    "en": "Inhaled steroids"
                 },
-                "value": " inhaled_steroids"
+                "value": "inhaled_steroids"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": " other"
+                "value": "other"
             }
         ],
         "multipleChoice": true,

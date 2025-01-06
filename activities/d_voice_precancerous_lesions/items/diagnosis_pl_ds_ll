@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_pl_ds_ll",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "4. Disease Severity"
     },
@@ -14,33 +21,33 @@
         "choices": [
             {
                 "name": {
-                    "en": "Right vocal fold "
+                    "en": "Right vocal fold"
                 },
                 "value": "right_vocal_fold"
             },
             {
                 "name": {
-                    "en": "Left vocal fold "
+                    "en": "Left vocal fold"
                 },
-                "value": " left_vocal_fold"
+                "value": "left_vocal_fold"
             },
             {
                 "name": {
-                    "en": "Both vocal folds "
+                    "en": "Both vocal folds"
                 },
-                "value": " both_vocal_folds"
+                "value": "both_vocal_folds"
             },
             {
                 "name": {
-                    "en": "Ventricular folds (right or left) "
+                    "en": "Ventricular folds (right or left)"
                 },
-                "value": " ventricular_folds"
+                "value": "ventricular_folds"
             },
             {
                 "name": {
                     "en": "Subglottal areas"
                 },
-                "value": " subglottal_areas"
+                "value": "subglottal_areas"
             }
         ],
         "multipleChoice": true,

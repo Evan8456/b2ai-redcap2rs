@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_lc_gsd_uots",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_lc_gsd_uots"
     },
@@ -11,33 +18,33 @@
         "choices": [
             {
                 "name": {
-                    "en": "CT of the neck "
+                    "en": "CT of the neck"
                 },
                 "value": "ct_neck"
             },
             {
                 "name": {
-                    "en": "CT of the chest "
+                    "en": "CT of the chest"
                 },
-                "value": " ct_chest"
+                "value": "ct_chest"
             },
             {
                 "name": {
-                    "en": "MRI of the neck "
+                    "en": "MRI of the neck"
                 },
-                "value": " mri_neck"
+                "value": "mri_neck"
             },
             {
                 "name": {
-                    "en": "PET-CT "
+                    "en": "PET-CT"
                 },
-                "value": " pet_ct"
+                "value": "pet_ct"
             },
             {
                 "name": {
                     "en": "Ultrasound of the neck"
                 },
-                "value": " ultrasound_neck"
+                "value": "ultrasound_neck"
             }
         ],
         "multipleChoice": true,

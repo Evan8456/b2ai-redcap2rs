@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_alz_dementia_mci_treatment_obtained_yes_medications",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_alz_dementia_mci_treatment_obtained_yes_medications"
     },
@@ -11,21 +18,21 @@
         "choices": [
             {
                 "name": {
-                    "en": "Cholinesterase inhibitors (e.g. Donepezil Rivastigmine Galantamine) "
+                    "en": "Cholinesterase inhibitors (e.g., Donepezil, Rivastigmine, Galantamine)"
                 },
                 "value": "cholinesterase_inhibitors"
             },
             {
                 "name": {
-                    "en": "NMDA receptor antagonist (e.g. Memantine) "
+                    "en": "NMDA receptor antagonist (e.g., Memantine)"
                 },
-                "value": " nmda_receptor_antagonist"
+                "value": "nmda_receptor_antagonist"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": " other"
+                "value": "other"
             }
         ],
         "multipleChoice": true,

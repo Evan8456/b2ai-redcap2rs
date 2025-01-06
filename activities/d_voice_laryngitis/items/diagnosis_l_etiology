@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_l_etiology",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "3. Etiology"
     },
@@ -14,27 +21,27 @@
         "choices": [
             {
                 "name": {
-                    "en": "Infection "
+                    "en": "Infection"
                 },
                 "value": "infection"
             },
             {
                 "name": {
-                    "en": "Environmental irritants "
+                    "en": "Environmental irritants"
                 },
-                "value": " environmental_irritants"
+                "value": "environmental_irritants"
             },
             {
                 "name": {
-                    "en": "Vocal misuse and abuse "
+                    "en": "Vocal misuse and abuse"
                 },
-                "value": " vocal_misuse_and_abuse"
+                "value": "vocal_misuse_and_abuse"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": " other"
+                "value": "other"
             }
         ],
         "multipleChoice": true,

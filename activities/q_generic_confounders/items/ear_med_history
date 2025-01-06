@@ -1,6 +1,13 @@
 {
     "id": "ear_med_history",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "Ear, Nose, Throat Medical History\n\nDo you have any of these voice, communication, or hearing conditions? (check all that apply)"
     },
@@ -14,13 +21,13 @@
         "choices": [
             {
                 "name": {
-                    "en": "Chronic ear infection "
+                    "en": "Chronic ear infection"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Cochlear implant "
+                    "en": "Cochlear implant"
                 },
                 "value": 2
             },

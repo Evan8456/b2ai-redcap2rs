@@ -1,6 +1,13 @@
 {
     "id": "voice_difficult_hear",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "Voice Handicap Index (VHI-10)"
     },
@@ -14,33 +21,33 @@
         "choices": [
             {
                 "name": {
-                    "en": "Never "
+                    "en": "Never"
                 },
                 "value": "never"
             },
             {
                 "name": {
-                    "en": "Almost Never "
+                    "en": "Almost Never"
                 },
-                "value": " almostNever"
+                "value": "almostNever"
             },
             {
                 "name": {
-                    "en": "Sometimes "
+                    "en": "Sometimes"
                 },
-                "value": " sometimes"
+                "value": "sometimes"
             },
             {
                 "name": {
-                    "en": "Almost Always "
+                    "en": "Almost Always"
                 },
-                "value": " almostAlways"
+                "value": "almostAlways"
             },
             {
                 "name": {
                     "en": "Always"
                 },
-                "value": " always"
+                "value": "always"
             }
         ],
         "valueType": [

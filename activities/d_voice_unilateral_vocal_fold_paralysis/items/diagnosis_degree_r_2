@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_degree_r_2",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_degree_r_2"
     },
@@ -11,7 +18,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "Consistent "
+                    "en": "Consistent"
                 },
                 "value": 1
             },

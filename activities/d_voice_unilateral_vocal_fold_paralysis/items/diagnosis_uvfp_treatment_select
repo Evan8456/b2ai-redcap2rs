@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_uvfp_treatment_select",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_uvfp_treatment_select"
     },
@@ -11,21 +18,21 @@
         "choices": [
             {
                 "name": {
-                    "en": "Surgery / Procedure "
+                    "en": "Surgery / Procedure"
                 },
                 "value": "surgery"
             },
             {
                 "name": {
-                    "en": "Speech therapy "
+                    "en": "Speech therapy"
                 },
-                "value": " speech_therapy"
+                "value": "speech_therapy"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": " other"
+                "value": "other"
             }
         ],
         "multipleChoice": true,

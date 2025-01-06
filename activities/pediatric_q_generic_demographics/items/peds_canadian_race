@@ -1,6 +1,13 @@
 {
     "id": "peds_canadian_race",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "peds_canadian_race"
     },
@@ -11,21 +18,21 @@
         "choices": [
             {
                 "name": {
-                    "en": "First Nation "
+                    "en": "First Nation"
                 },
                 "value": "ca_first_nation"
             },
             {
                 "name": {
-                    "en": "Inuk/inuit "
+                    "en": "Inuk/inuit"
                 },
-                "value": " ca_inuit"
+                "value": "ca_inuit"
             },
             {
                 "name": {
                     "en": "Metis"
                 },
-                "value": " ca_metis"
+                "value": "ca_metis"
             }
         ],
         "multipleChoice": true,

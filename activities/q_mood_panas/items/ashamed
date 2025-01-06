@@ -1,6 +1,13 @@
 {
     "id": "ashamed",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "ashamed"
     },
@@ -11,25 +18,25 @@
         "choices": [
             {
                 "name": {
-                    "en": "1 "
+                    "en": "1"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "2 "
+                    "en": "2"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "3 "
+                    "en": "3"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "4 "
+                    "en": "4"
                 },
                 "value": 4
             },

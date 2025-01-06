@@ -1,6 +1,13 @@
 {
     "id": "white_race",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "white_race"
     },
@@ -11,13 +18,13 @@
         "choices": [
             {
                 "name": {
-                    "en": "European "
+                    "en": "European"
                 },
                 "value": 21089
             },
             {
                 "name": {
-                    "en": "Middle Eastern Or North African "
+                    "en": "Middle Eastern Or North African"
                 },
                 "value": 21188
             },

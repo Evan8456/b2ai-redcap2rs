@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_als_dp",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "5. Disease Progression"
     },
@@ -14,21 +21,21 @@
         "choices": [
             {
                 "name": {
-                    "en": "Early Stage "
+                    "en": "Early Stage"
                 },
                 "value": "earlyStage"
             },
             {
                 "name": {
-                    "en": "Intermediate Stage "
+                    "en": "Intermediate Stage"
                 },
-                "value": " intermediateStage"
+                "value": "intermediateStage"
             },
             {
                 "name": {
                     "en": "Advanced Stage"
                 },
-                "value": " advancedStage"
+                "value": "advancedStage"
             }
         ],
         "valueType": [

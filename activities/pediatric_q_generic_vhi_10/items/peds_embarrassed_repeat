@@ -1,6 +1,13 @@
 {
     "id": "peds_embarrassed_repeat",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "peds_embarrassed_repeat"
     },
@@ -11,33 +18,33 @@
         "choices": [
             {
                 "name": {
-                    "en": "Never "
+                    "en": "Never"
                 },
                 "value": "never"
             },
             {
                 "name": {
-                    "en": "Almost Never "
+                    "en": "Almost Never"
                 },
-                "value": " almostNever"
+                "value": "almostNever"
             },
             {
                 "name": {
-                    "en": "Sometimes "
+                    "en": "Sometimes"
                 },
-                "value": " sometimes"
+                "value": "sometimes"
             },
             {
                 "name": {
-                    "en": "Almost Always "
+                    "en": "Almost Always"
                 },
-                "value": " almostAlways"
+                "value": "almostAlways"
             },
             {
                 "name": {
                     "en": "Always"
                 },
-                "value": " always"
+                "value": "always"
             }
         ],
         "valueType": [

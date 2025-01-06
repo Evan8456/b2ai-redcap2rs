@@ -1,6 +1,13 @@
 {
     "id": "stroop_item_color_3",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "stroop_item_color_3"
     },
@@ -11,33 +18,33 @@
         "choices": [
             {
                 "name": {
-                    "en": "red "
+                    "en": "red"
                 },
                 "value": "red"
             },
             {
                 "name": {
-                    "en": "green "
+                    "en": "green"
                 },
-                "value": " green"
+                "value": "green"
             },
             {
                 "name": {
-                    "en": "blue "
+                    "en": "blue"
                 },
-                "value": " blue"
+                "value": "blue"
             },
             {
                 "name": {
-                    "en": "purple "
+                    "en": "purple"
                 },
-                "value": " purple"
+                "value": "purple"
             },
             {
                 "name": {
                     "en": "brown"
                 },
-                "value": " brown"
+                "value": "brown"
             }
         ],
         "valueType": [

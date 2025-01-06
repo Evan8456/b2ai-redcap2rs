@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_as_gsd_yes",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_as_gsd_yes"
     },
@@ -11,7 +18,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "Confirmed by bronchoscopy or laryngoscopy "
+                    "en": "Confirmed by bronchoscopy or laryngoscopy"
                 },
                 "value": "bronchoscopy"
             },
@@ -19,7 +26,7 @@
                 "name": {
                     "en": "Confirmed by CT imaging"
                 },
-                "value": " ct"
+                "value": "ct"
             }
         ],
         "multipleChoice": true,

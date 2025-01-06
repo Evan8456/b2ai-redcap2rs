@@ -1,6 +1,13 @@
 {
     "id": "ef_learn_about_this_study",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "How did you learn about this study?"
     },
@@ -14,39 +21,39 @@
         "choices": [
             {
                 "name": {
-                    "en": "Through my physician/provider "
+                    "en": "Through my physician/provider"
                 },
                 "value": "physician"
             },
             {
                 "name": {
-                    "en": "A flyer "
+                    "en": "A flyer"
                 },
-                "value": " flyer"
+                "value": "flyer"
             },
             {
                 "name": {
-                    "en": "Social Media "
+                    "en": "Social Media"
                 },
-                "value": " social_media"
+                "value": "social_media"
             },
             {
                 "name": {
-                    "en": "Bridge2AI Website "
+                    "en": "Bridge2AI Website"
                 },
-                "value": " bridge2ai_website"
+                "value": "bridge2ai_website"
             },
             {
                 "name": {
-                    "en": "At an event "
+                    "en": "At an event"
                 },
-                "value": " event"
+                "value": "event"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": " other"
+                "value": "other"
             }
         ],
         "valueType": [

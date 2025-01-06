@@ -1,6 +1,13 @@
 {
     "id": "smoking_freq",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "smoking_freq"
     },
@@ -11,39 +18,39 @@
         "choices": [
             {
                 "name": {
-                    "en": "Multiple times a day "
+                    "en": "Multiple times a day"
                 },
                 "value": "multipleTimes"
             },
             {
                 "name": {
-                    "en": "About once a day "
+                    "en": "About once a day"
                 },
-                "value": " onceDay"
+                "value": "onceDay"
             },
             {
                 "name": {
-                    "en": "A few times a week "
+                    "en": "A few times a week"
                 },
-                "value": " fewWeek"
+                "value": "fewWeek"
             },
             {
                 "name": {
-                    "en": "A few times a month "
+                    "en": "A few times a month"
                 },
-                "value": " fewMonth"
+                "value": "fewMonth"
             },
             {
                 "name": {
-                    "en": "A few times a year "
+                    "en": "A few times a year"
                 },
-                "value": " fewYear"
+                "value": "fewYear"
             },
             {
                 "name": {
                     "en": "Prefer not to answer"
                 },
-                "value": " noAnswer"
+                "value": "noAnswer"
             }
         ],
         "valueType": [

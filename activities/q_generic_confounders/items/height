@@ -1,6 +1,13 @@
 {
     "id": "height",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "description": {
         "en": "inches"
     },
@@ -14,6 +21,8 @@
         "en": "Height"
     },
     "responseOptions": {
+        "maxValue": NaN,
+        "minValue": NaN,
         "valueType": [
             "xsd:decimal"
         ]

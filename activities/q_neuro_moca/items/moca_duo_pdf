@@ -1,6 +1,13 @@
 {
     "id": "moca_duo_pdf",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "moca_duo_pdf"
     },

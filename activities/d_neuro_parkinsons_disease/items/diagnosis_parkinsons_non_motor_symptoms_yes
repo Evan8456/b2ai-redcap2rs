@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_parkinsons_non_motor_symptoms_yes",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_parkinsons_non_motor_symptoms_yes"
     },

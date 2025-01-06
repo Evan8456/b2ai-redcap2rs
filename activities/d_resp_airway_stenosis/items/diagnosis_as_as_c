@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_as_as_c",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_as_as_c"
     },
@@ -11,21 +18,21 @@
         "choices": [
             {
                 "name": {
-                    "en": "Inspiratory "
+                    "en": "Inspiratory"
                 },
                 "value": "inspiratory"
             },
             {
                 "name": {
-                    "en": "Expiratory "
+                    "en": "Expiratory"
                 },
-                "value": " expiratory"
+                "value": "expiratory"
             },
             {
                 "name": {
                     "en": "Biphasic"
                 },
-                "value": " biphasic"
+                "value": "biphasic"
             }
         ],
         "valueType": [

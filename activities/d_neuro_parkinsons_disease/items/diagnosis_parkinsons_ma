@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_parkinsons_ma",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "5. Motor Assessment"
     },
@@ -14,7 +21,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "Unified Parkinson's Disease Rating Scale (UPDRS) "
+                    "en": "Unified Parkinson's Disease Rating Scale (UPDRS)"
                 },
                 "value": "updrs"
             },
@@ -22,7 +29,7 @@
                 "name": {
                     "en": "Other motor assessment tool"
                 },
-                "value": " other"
+                "value": "other"
             }
         ],
         "multipleChoice": true,

@@ -1,6 +1,13 @@
 {
     "id": "paper_consent_enrollment_institution",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "paper_consent_enrollment_institution"
     },
@@ -11,45 +18,45 @@
         "choices": [
             {
                 "name": {
-                    "en": "BCH "
+                    "en": "BCH"
                 },
                 "value": "bch"
             },
             {
                 "name": {
-                    "en": "MIT "
+                    "en": "MIT"
                 },
-                "value": " mit"
+                "value": "mit"
             },
             {
                 "name": {
-                    "en": "Mt. Sinai "
+                    "en": "Mt. Sinai"
                 },
-                "value": " mt_sinai"
+                "value": "mt_sinai"
             },
             {
                 "name": {
-                    "en": "SickKids "
+                    "en": "SickKids"
                 },
-                "value": " sickkids"
+                "value": "sickkids"
             },
             {
                 "name": {
-                    "en": "USF "
+                    "en": "USF"
                 },
-                "value": " usf"
+                "value": "usf"
             },
             {
                 "name": {
-                    "en": "VUMC "
+                    "en": "VUMC"
                 },
-                "value": " vumc"
+                "value": "vumc"
             },
             {
                 "name": {
                     "en": "WCM"
                 },
-                "value": " wcm"
+                "value": "wcm"
             }
         ],
         "valueType": [

@@ -19,24 +19,24 @@
         "addProperties": [
             {
                 "isAbout": "items/peds_os_session_id",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "peds_os_session_id"
             },
             {
                 "isAbout": "items/peds_os_started_at",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "peds_os_started_at"
             },
             {
                 "isAbout": "items/peds_os_completed_at",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "peds_os_completed_at"
             },
             {
                 "isAbout": "items/peds_os_duration",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "peds_os_duration"
             },
             {

@@ -1,6 +1,13 @@
 {
     "id": "ef_phone_number",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "description": {
         "en": "###-###-####"
     },

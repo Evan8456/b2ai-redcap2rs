@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_alz_dementia_mci_ca_adas_cog_score",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_alz_dementia_mci_ca_adas_cog_score"
     },

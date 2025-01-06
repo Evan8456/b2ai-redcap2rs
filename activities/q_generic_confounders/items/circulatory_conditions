@@ -1,6 +1,13 @@
 {
     "id": "circulatory_conditions",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "Circulatory and Other Conditions"
     },
@@ -14,31 +21,31 @@
         "choices": [
             {
                 "name": {
-                    "en": "Atrial fibrillation "
+                    "en": "Atrial fibrillation"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Cardiac condition "
+                    "en": "Cardiac condition"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Chronic pericarditis "
+                    "en": "Chronic pericarditis"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Congestive heart failure "
+                    "en": "Congestive heart failure"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Coronary heart disease "
+                    "en": "Coronary heart disease"
                 },
                 "value": 5
             },

@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_parkinsons_treatment_obtained_yes_medications",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_parkinsons_treatment_obtained_yes_medications"
     },
@@ -11,33 +18,33 @@
         "choices": [
             {
                 "name": {
-                    "en": "Levodopa "
+                    "en": "Levodopa"
                 },
                 "value": "levodopa"
             },
             {
                 "name": {
-                    "en": "Dopamine agonists "
+                    "en": "Dopamine agonists"
                 },
-                "value": " dopamine_agonists"
+                "value": "dopamine_agonists"
             },
             {
                 "name": {
-                    "en": "MAO-B inhibitors "
+                    "en": "MAO-B inhibitors"
                 },
-                "value": " mao_b"
+                "value": "mao_b"
             },
             {
                 "name": {
-                    "en": "Amantadine "
+                    "en": "Amantadine"
                 },
-                "value": " amantadine"
+                "value": "amantadine"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": " other"
+                "value": "other"
             }
         ],
         "multipleChoice": true,

@@ -1,6 +1,13 @@
 {
     "id": "peds_sexual_orientation",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "peds_sexual_orientation"
     },
@@ -11,33 +18,33 @@
         "choices": [
             {
                 "name": {
-                    "en": "Bisexual "
+                    "en": "Bisexual"
                 },
                 "value": "bisexual"
             },
             {
                 "name": {
-                    "en": "Heterosexual "
+                    "en": "Heterosexual"
                 },
-                "value": " heterosexual"
+                "value": "heterosexual"
             },
             {
                 "name": {
-                    "en": "Homosexual "
+                    "en": "Homosexual"
                 },
-                "value": " homosexual"
+                "value": "homosexual"
             },
             {
                 "name": {
-                    "en": "Other (Please specify) "
+                    "en": "Other (Please specify)"
                 },
-                "value": " other"
+                "value": "other"
             },
             {
                 "name": {
                     "en": "Prefer not to answer"
                 },
-                "value": " noAnswer"
+                "value": "noAnswer"
             }
         ],
         "valueType": [

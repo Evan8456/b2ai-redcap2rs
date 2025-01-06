@@ -1,6 +1,13 @@
 {
     "id": "smoking_age_stopped_age",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "smoking_age_stopped_age"
     },
@@ -9,7 +16,6 @@
     },
     "responseOptions": {
         "maxValue": 125,
-        "minValue": 0,
         "valueType": [
             "xsd:integer"
         ]

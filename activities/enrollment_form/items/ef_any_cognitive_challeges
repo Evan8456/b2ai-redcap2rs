@@ -1,6 +1,13 @@
 {
     "id": "ef_any_cognitive_challeges",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "ef_any_cognitive_challeges"
     },

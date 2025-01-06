@@ -28,25 +28,25 @@
         "addProperties": [
             {
                 "isAbout": "items/custom_affect_scale_session_id",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "custom_affect_scale_session_id"
             },
             {
                 "isAbout": "items/custom_affect_scale_started_at",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "custom_affect_scale_started_at"
             },
             {
                 "isAbout": "items/custom_affect_scale_completed_at",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "custom_affect_scale_completed_at"
             },
             {
                 "isAbout": "items/custom_affect_scale_duration",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "custom_affect_scale_duration"
             },
             {

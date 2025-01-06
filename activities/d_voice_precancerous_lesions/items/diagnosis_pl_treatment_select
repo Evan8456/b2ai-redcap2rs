@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_pl_treatment_select",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_pl_treatment_select"
     },
@@ -11,45 +18,45 @@
         "choices": [
             {
                 "name": {
-                    "en": "Surveillance only (previous diagnosis) "
+                    "en": "Surveillance only (previous diagnosis)"
                 },
                 "value": "surveillance_only"
             },
             {
                 "name": {
-                    "en": "Laser resection "
+                    "en": "Laser resection"
                 },
-                "value": " laser_resection"
+                "value": "laser_resection"
             },
             {
                 "name": {
-                    "en": "Laser ablation "
+                    "en": "Laser ablation"
                 },
-                "value": " laser_ablation"
+                "value": "laser_ablation"
             },
             {
                 "name": {
-                    "en": "Microlaryngeal surgery without laser "
+                    "en": "Microlaryngeal surgery without laser"
                 },
-                "value": " microlaryngeal_surgery_without_laser"
+                "value": "microlaryngeal_surgery_without_laser"
             },
             {
                 "name": {
-                    "en": "Radiotherapy for persistent or recurrent lesions "
+                    "en": "Radiotherapy for persistent or recurrent lesions"
                 },
-                "value": " radiotherapy_persistent_or_recurrent_lesions"
+                "value": "radiotherapy_persistent_or_recurrent_lesions"
             },
             {
                 "name": {
-                    "en": "Voice/speech therapy "
+                    "en": "Voice/speech therapy"
                 },
-                "value": " voice_or_speech_therapy"
+                "value": "voice_or_speech_therapy"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": " other"
+                "value": "other"
             }
         ],
         "multipleChoice": true,

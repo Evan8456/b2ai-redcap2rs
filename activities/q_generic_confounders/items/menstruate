@@ -1,6 +1,13 @@
 {
     "id": "menstruate",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "Gynecological"
     },
@@ -14,27 +21,27 @@
         "choices": [
             {
                 "name": {
-                    "en": "Does not apply "
+                    "en": "Does not apply"
                 },
                 "value": "doesNotApply"
             },
             {
                 "name": {
-                    "en": "Yes "
+                    "en": "Yes"
                 },
-                "value": " yes"
+                "value": "yes"
             },
             {
                 "name": {
-                    "en": "No "
+                    "en": "No"
                 },
-                "value": " no"
+                "value": "no"
             },
             {
                 "name": {
                     "en": "Prefer not to answer"
                 },
-                "value": " noAnswer"
+                "value": "noAnswer"
             }
         ],
         "valueType": [

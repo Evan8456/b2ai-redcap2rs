@@ -1,6 +1,13 @@
 {
     "id": "difficulty_waiting",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "difficulty_waiting"
     },
@@ -11,33 +18,33 @@
         "choices": [
             {
                 "name": {
-                    "en": "Never "
+                    "en": "Never"
                 },
                 "value": "never"
             },
             {
                 "name": {
-                    "en": "Rarely "
+                    "en": "Rarely"
                 },
-                "value": " rarely"
+                "value": "rarely"
             },
             {
                 "name": {
-                    "en": "Sometimes "
+                    "en": "Sometimes"
                 },
-                "value": " sometimes"
+                "value": "sometimes"
             },
             {
                 "name": {
-                    "en": "Often "
+                    "en": "Often"
                 },
-                "value": " often"
+                "value": "often"
             },
             {
                 "name": {
                     "en": "Very Often"
                 },
-                "value": " veryOften"
+                "value": "veryOften"
             }
         ],
         "valueType": [

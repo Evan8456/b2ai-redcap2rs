@@ -1,6 +1,13 @@
 {
     "id": "native_american_race",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "native_american_race"
     },
@@ -11,7 +18,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "American Indian "
+                    "en": "American Indian"
                 },
                 "value": 10041
             },

@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_als_na_alsfrs_r_score",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "6. Neurological Assessment\nPlease provide results from relevant neurological assessments:"
     },

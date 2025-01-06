@@ -1,6 +1,13 @@
 {
     "id": "peds_phqa_feeling_depressed",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "How often have you been bothered by each of the following symptoms during the past two weeks? For each symptom select the answer that best describes how you have been feeling."
     },
@@ -14,27 +21,27 @@
         "choices": [
             {
                 "name": {
-                    "en": "Not at all "
+                    "en": "Not at all"
                 },
                 "value": "notAtAll"
             },
             {
                 "name": {
-                    "en": "Several days "
+                    "en": "Several days"
                 },
-                "value": " severalDays"
+                "value": "severalDays"
             },
             {
                 "name": {
-                    "en": "More than half the days "
+                    "en": "More than half the days"
                 },
-                "value": " moreThanHalfTheDays"
+                "value": "moreThanHalfTheDays"
             },
             {
                 "name": {
                     "en": "Nearly every day"
                 },
-                "value": " nearlyEveryDay"
+                "value": "nearlyEveryDay"
             }
         ],
         "valueType": [

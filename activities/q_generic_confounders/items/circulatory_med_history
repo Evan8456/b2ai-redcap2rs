@@ -1,6 +1,13 @@
 {
     "id": "circulatory_med_history",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "circulatory_med_history"
     },
@@ -11,25 +18,25 @@
         "choices": [
             {
                 "name": {
-                    "en": "Chronic kidney disease "
+                    "en": "Chronic kidney disease"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Diabetes "
+                    "en": "Diabetes"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Infectious disease "
+                    "en": "Infectious disease"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Obesity "
+                    "en": "Obesity"
                 },
                 "value": 4
             },

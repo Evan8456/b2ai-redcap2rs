@@ -1,6 +1,13 @@
 {
     "id": "mph_duration",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "mph_duration"
     },
@@ -8,7 +15,7 @@
         "en": "Questionnaire Duration (seconds)"
     },
     "responseOptions": {
-        "minValue": 0.0,
+        "maxValue": NaN,
         "valueType": [
             "xsd:decimal"
         ]

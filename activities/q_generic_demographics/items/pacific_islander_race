@@ -1,6 +1,13 @@
 {
     "id": "pacific_islander_race",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "pacific_islander_race"
     },
@@ -11,19 +18,19 @@
         "choices": [
             {
                 "name": {
-                    "en": "Polynesian "
+                    "en": "Polynesian"
                 },
                 "value": 20784
             },
             {
                 "name": {
-                    "en": "Micronesian "
+                    "en": "Micronesian"
                 },
                 "value": 20859
             },
             {
                 "name": {
-                    "en": "Melanesian "
+                    "en": "Melanesian"
                 },
                 "value": 21006
             },

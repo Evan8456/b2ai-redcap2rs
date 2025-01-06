@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_l_determined_by",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_l_determined_by"
     },
@@ -11,21 +18,21 @@
         "choices": [
             {
                 "name": {
-                    "en": "Laryngologist "
+                    "en": "Laryngologist"
                 },
                 "value": "laryngologist"
             },
             {
                 "name": {
-                    "en": "Otolaryngologist "
+                    "en": "Otolaryngologist"
                 },
-                "value": " otolaryngologist"
+                "value": "otolaryngologist"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": " other"
+                "value": "other"
             }
         ],
         "multipleChoice": true,

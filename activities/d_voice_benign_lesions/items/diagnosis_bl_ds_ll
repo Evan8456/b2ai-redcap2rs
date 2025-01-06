@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_bl_ds_ll",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "4. Disease Severity"
     },
@@ -14,21 +21,21 @@
         "choices": [
             {
                 "name": {
-                    "en": "Right vocal fold "
+                    "en": "Right vocal fold"
                 },
                 "value": "rightVocalFold"
             },
             {
                 "name": {
-                    "en": "Left vocal fold "
+                    "en": "Left vocal fold"
                 },
-                "value": " leftVocalFold"
+                "value": "leftVocalFold"
             },
             {
                 "name": {
                     "en": "Both vocal folds"
                 },
-                "value": " bothVocalFolds"
+                "value": "bothVocalFolds"
             }
         ],
         "valueType": [

@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_als_cp",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "4. Clinical Presentation"
     },
@@ -14,27 +21,27 @@
         "choices": [
             {
                 "name": {
-                    "en": "Upper Motor Neuron Signs (e.g. spasticity hyperreflexia) "
+                    "en": "Upper Motor Neuron Signs (e.g., spasticity, hyperreflexia)"
                 },
                 "value": "upper_motor_neuron"
             },
             {
                 "name": {
-                    "en": "Lower Motor Neuron Signs (e.g. muscle weakness atrophy fasciculations) "
+                    "en": "Lower Motor Neuron Signs (e.g., muscle weakness, atrophy, fasciculations)"
                 },
-                "value": " lower_motor_neuron"
+                "value": "lower_motor_neuron"
             },
             {
                 "name": {
-                    "en": "Bulbar Symptoms (e.g. dysarthria dysphagia) "
+                    "en": "Bulbar Symptoms (e.g., dysarthria, dysphagia)"
                 },
-                "value": " bulbar_symptoms"
+                "value": "bulbar_symptoms"
             },
             {
                 "name": {
                     "en": "Respiratory Involvement"
                 },
-                "value": " respiratory_involvement"
+                "value": "respiratory_involvement"
             }
         ],
         "multipleChoice": true,

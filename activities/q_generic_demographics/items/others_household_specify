@@ -1,6 +1,13 @@
 {
     "id": "others_household_specify",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "others_household_specify"
     },

@@ -1,6 +1,13 @@
 {
     "id": "head_med_history",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "head_med_history"
     },
@@ -11,7 +18,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "Radiation around head and neck "
+                    "en": "Radiation around head and neck"
                 },
                 "value": 1
             },

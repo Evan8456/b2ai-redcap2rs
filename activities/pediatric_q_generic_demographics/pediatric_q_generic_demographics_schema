@@ -42,23 +42,23 @@
         "addProperties": [
             {
                 "isAbout": "items/peds_demographics_session_id",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "peds_demographics_session_id"
             },
             {
                 "isAbout": "items/peds_demographics_started_at",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "peds_demographics_started_at"
             },
             {
                 "isAbout": "items/peds_demographics_completed_at",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "peds_demographics_completed_at"
             },
             {
                 "isAbout": "items/peds_demographics_duration",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "peds_demographics_duration"
             },
             {

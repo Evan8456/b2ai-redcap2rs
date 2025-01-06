@@ -1,6 +1,13 @@
 {
     "id": "caffeine_intake",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "Caffeine intake"
     },
@@ -11,6 +18,8 @@
         "en": "How many small (8oz or 230ml) cups of coffee OR shots of espresso OR caffeinated teas do you drink on a typical day?"
     },
     "responseOptions": {
+        "maxValue": NaN,
+        "minValue": NaN,
         "valueType": [
             "xsd:decimal"
         ]

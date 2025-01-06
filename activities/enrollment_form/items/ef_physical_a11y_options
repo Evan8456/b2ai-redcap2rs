@@ -1,6 +1,13 @@
 {
     "id": "ef_physical_a11y_options",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "ef_physical_a11y_options"
     },
@@ -11,13 +18,13 @@
         "choices": [
             {
                 "name": {
-                    "en": "I would like to increase the size of the buttons "
+                    "en": "I would like to increase the size of the buttons"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "I have an alternative keyboard I'd like to connect instead "
+                    "en": "I have an alternative keyboard I'd like to connect instead"
                 },
                 "value": 2
             },

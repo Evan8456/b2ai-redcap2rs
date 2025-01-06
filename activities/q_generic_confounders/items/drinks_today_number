@@ -1,6 +1,13 @@
 {
     "id": "drinks_today_number",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "drinks_today_number"
     },
@@ -8,6 +15,8 @@
         "en": "How many drinks did you have?"
     },
     "responseOptions": {
+        "maxValue": NaN,
+        "minValue": NaN,
         "valueType": [
             "xsd:decimal"
         ]

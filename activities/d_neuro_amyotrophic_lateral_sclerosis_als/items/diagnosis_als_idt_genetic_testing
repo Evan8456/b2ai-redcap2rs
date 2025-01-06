@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_als_idt_genetic_testing",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_als_idt_genetic_testing"
     },

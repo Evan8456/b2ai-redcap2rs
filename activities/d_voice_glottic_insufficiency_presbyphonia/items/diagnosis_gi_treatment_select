@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_gi_treatment_select",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_gi_treatment_select"
     },
@@ -11,27 +18,27 @@
         "choices": [
             {
                 "name": {
-                    "en": "Voice/speech therapy "
+                    "en": "Voice/speech therapy"
                 },
                 "value": "voice_or_speech_therapy"
             },
             {
                 "name": {
-                    "en": "Injection laryngoplasty "
+                    "en": "Injection laryngoplasty"
                 },
-                "value": " injection_laryngoplasty"
+                "value": "injection_laryngoplasty"
             },
             {
                 "name": {
-                    "en": "Bilateral medialization thyroplasty "
+                    "en": "Bilateral medialization thyroplasty"
                 },
-                "value": " bilateral_medialization_thyroplasty"
+                "value": "bilateral_medialization_thyroplasty"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": " other"
+                "value": "other"
             }
         ],
         "multipleChoice": true,

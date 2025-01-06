@@ -1,6 +1,13 @@
 {
     "id": "mbd_active_psy_med_problems",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "2. Medical and Psychiatric comorbidities"
     },
@@ -14,51 +21,51 @@
         "choices": [
             {
                 "name": {
-                    "en": "ADHD "
+                    "en": "ADHD"
                 },
                 "value": "adhd"
             },
             {
                 "name": {
-                    "en": "Anxiety "
+                    "en": "Anxiety"
                 },
-                "value": " anxiety"
+                "value": "anxiety"
             },
             {
                 "name": {
-                    "en": "OCD "
+                    "en": "OCD"
                 },
-                "value": " ocd"
+                "value": "ocd"
             },
             {
                 "name": {
-                    "en": "Stroke "
+                    "en": "Stroke"
                 },
-                "value": " stroke"
+                "value": "stroke"
             },
             {
                 "name": {
-                    "en": "Epilepsy "
+                    "en": "Epilepsy"
                 },
-                "value": " epilepsy"
+                "value": "epilepsy"
             },
             {
                 "name": {
-                    "en": "Laryngeal cancer "
+                    "en": "Laryngeal cancer"
                 },
-                "value": " laryngeal_cancer"
+                "value": "laryngeal_cancer"
             },
             {
                 "name": {
-                    "en": "Seasonal allergies "
+                    "en": "Seasonal allergies"
                 },
-                "value": " seasonal_allergies"
+                "value": "seasonal_allergies"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": " other"
+                "value": "other"
             }
         ],
         "multipleChoice": true,

@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_bl_treatment_lm",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_bl_treatment_lm"
     },
@@ -11,7 +18,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "With laser "
+                    "en": "With laser"
                 },
                 "value": "withLaser"
             },
@@ -19,7 +26,7 @@
                 "name": {
                     "en": "Without laser"
                 },
-                "value": " withoutLaser"
+                "value": "withoutLaser"
             }
         ],
         "valueType": [

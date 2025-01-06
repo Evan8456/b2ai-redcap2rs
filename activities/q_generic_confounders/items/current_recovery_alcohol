@@ -1,6 +1,13 @@
 {
     "id": "current_recovery_alcohol",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "current_recovery_alcohol"
     },

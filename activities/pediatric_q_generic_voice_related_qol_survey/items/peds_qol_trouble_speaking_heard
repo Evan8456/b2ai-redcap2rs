@@ -1,6 +1,13 @@
 {
     "id": "peds_qol_trouble_speaking_heard",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "Please answer these questions based on what your child's voice (your own voice if you are a teenage respondent) has been like over the last 2 weeks. Consider how severe the problem is, when you get it and how frequently it happens. Please rate each item below on how bad it is (the amount of each problem). Because of my child's voice, how much of a problem is this?"
     },
@@ -14,39 +21,39 @@
         "choices": [
             {
                 "name": {
-                    "en": "None "
+                    "en": "None"
                 },
                 "value": "none"
             },
             {
                 "name": {
-                    "en": "A small amount "
+                    "en": "A small amount"
                 },
-                "value": " aSmallAmount"
+                "value": "aSmallAmount"
             },
             {
                 "name": {
-                    "en": "A moderate amount "
+                    "en": "A moderate amount"
                 },
-                "value": " aModerateAmount"
+                "value": "aModerateAmount"
             },
             {
                 "name": {
-                    "en": "A lot "
+                    "en": "A lot"
                 },
-                "value": " aLot"
+                "value": "aLot"
             },
             {
                 "name": {
-                    "en": "Problem is \"as bad as it can be\" "
+                    "en": "Problem is \"as bad as it can be\""
                 },
-                "value": " asBadAsItCanBe"
+                "value": "asBadAsItCanBe"
             },
             {
                 "name": {
                     "en": "Not applicable"
                 },
-                "value": " notApplicable"
+                "value": "notApplicable"
             }
         ],
         "valueType": [

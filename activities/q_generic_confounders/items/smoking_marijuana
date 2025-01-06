@@ -1,6 +1,13 @@
 {
     "id": "smoking_marijuana",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "smoking_marijuana"
     },
@@ -11,39 +18,39 @@
         "choices": [
             {
                 "name": {
-                    "en": "Never "
+                    "en": "Never"
                 },
                 "value": "never"
             },
             {
                 "name": {
-                    "en": "Once or twice "
+                    "en": "Once or twice"
                 },
-                "value": " onceOrTwice"
+                "value": "onceOrTwice"
             },
             {
                 "name": {
-                    "en": "Monthly "
+                    "en": "Monthly"
                 },
-                "value": " monthly"
+                "value": "monthly"
             },
             {
                 "name": {
-                    "en": "Weekly "
+                    "en": "Weekly"
                 },
-                "value": " weekly"
+                "value": "weekly"
             },
             {
                 "name": {
-                    "en": "Daily or almost daily "
+                    "en": "Daily or almost daily"
                 },
-                "value": " dailyOrAlmostDaily"
+                "value": "dailyOrAlmostDaily"
             },
             {
                 "name": {
                     "en": "Prefer not to answer"
                 },
-                "value": " noAnswer"
+                "value": "noAnswer"
             }
         ],
         "valueType": [

@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_als_treatment_and_management_yes_supportive_care",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_als_treatment_and_management_yes_supportive_care"
     },
@@ -11,45 +18,45 @@
         "choices": [
             {
                 "name": {
-                    "en": "Physical therapy "
+                    "en": "Physical therapy"
                 },
                 "value": "physical_therapy"
             },
             {
                 "name": {
-                    "en": "Occupational therapy "
+                    "en": "Occupational therapy"
                 },
-                "value": " occupational_therapy"
+                "value": "occupational_therapy"
             },
             {
                 "name": {
-                    "en": "Speech therapy "
+                    "en": "Speech therapy"
                 },
-                "value": " speech_therapy"
+                "value": "speech_therapy"
             },
             {
                 "name": {
-                    "en": "Respiratory support (e.g. non-invasive ventilation) "
+                    "en": "Respiratory support (e.g., non-invasive ventilation)"
                 },
-                "value": " respiratory_support"
+                "value": "respiratory_support"
             },
             {
                 "name": {
-                    "en": "Nutrition and swallowing support "
+                    "en": "Nutrition and swallowing support"
                 },
-                "value": " nutrition_support"
+                "value": "nutrition_support"
             },
             {
                 "name": {
-                    "en": "Psychotherapy "
+                    "en": "Psychotherapy"
                 },
-                "value": " psychotherapy"
+                "value": "psychotherapy"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": " other"
+                "value": "other"
             }
         ],
         "multipleChoice": true,

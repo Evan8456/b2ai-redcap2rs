@@ -1,6 +1,13 @@
 {
     "id": "medications",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "Medications"
     },
@@ -14,103 +21,103 @@
         "choices": [
             {
                 "name": {
-                    "en": "Antibiotics "
+                    "en": "Antibiotics"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Anti-histamines (allergy medications) "
+                    "en": "Anti-histamines (allergy medications)"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Anti-Hypertensive Medications (Blood Pressure Medication) "
+                    "en": "Anti-Hypertensive Medications (Blood Pressure Medication)"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Diuretics (ex: Lasix) "
+                    "en": "Diuretics (ex: Lasix)"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Decongestants "
+                    "en": "Decongestants"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Muscle relaxants (ex: Baclofen) "
+                    "en": "Muscle relaxants (ex: Baclofen)"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "Hormone use "
+                    "en": "Hormone use"
                 },
                 "value": 7
             },
             {
                 "name": {
-                    "en": "Inhaled corticosteroids "
+                    "en": "Inhaled corticosteroids"
                 },
                 "value": 8
             },
             {
                 "name": {
-                    "en": "Oral steroids "
+                    "en": "Oral steroids"
                 },
                 "value": 9
             },
             {
                 "name": {
-                    "en": "Anti-anxiety medications: (ex: Benzodiazepine) "
+                    "en": "Anti-anxiety medications: (ex: Benzodiazepine)"
                 },
                 "value": 10
             },
             {
                 "name": {
-                    "en": "Chronic Pain medication "
+                    "en": "Chronic Pain medication"
                 },
                 "value": 11
             },
             {
                 "name": {
-                    "en": "Psychotropic/antipsychotic medications (ex: Clozapine) "
+                    "en": "Psychotropic/antipsychotic medications (ex: Clozapine)"
                 },
                 "value": 12
             },
             {
                 "name": {
-                    "en": "Antidepressants (ex: amitryptiline) "
+                    "en": "Antidepressants (ex: amitryptiline)"
                 },
                 "value": 13
             },
             {
                 "name": {
-                    "en": "Immune suppressors (ex: Methotrexate) "
+                    "en": "Immune suppressors (ex: Methotrexate)"
                 },
                 "value": 14
             },
             {
                 "name": {
-                    "en": "Reflux medications (ex: Pantoprazole Nexium) "
+                    "en": "Reflux medications (ex: Pantoprazole, Nexium)"
                 },
                 "value": 15
             },
             {
                 "name": {
-                    "en": "Anticholinergics (ex: Ventolin) "
+                    "en": "Anticholinergics (ex: Ventolin)"
                 },
                 "value": 16
             },
             {
                 "name": {
-                    "en": "Anticoagulants (blood thinners) "
+                    "en": "Anticoagulants (blood thinners)"
                 },
                 "value": 17
             },

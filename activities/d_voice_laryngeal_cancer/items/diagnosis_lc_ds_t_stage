@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_lc_ds_t_stage",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "4. Disease Severity"
     },
@@ -14,51 +21,51 @@
         "choices": [
             {
                 "name": {
-                    "en": "Tis (carcinoma in situ) "
+                    "en": "Tis (carcinoma in situ)"
                 },
                 "value": "tis"
             },
             {
                 "name": {
-                    "en": "T1a "
+                    "en": "T1a"
                 },
-                "value": " t1a"
+                "value": "t1a"
             },
             {
                 "name": {
-                    "en": "T1b "
+                    "en": "T1b"
                 },
-                "value": " t1b"
+                "value": "t1b"
             },
             {
                 "name": {
-                    "en": "T2 "
+                    "en": "T2"
                 },
-                "value": " t2"
+                "value": "t2"
             },
             {
                 "name": {
-                    "en": "T3 "
+                    "en": "T3"
                 },
-                "value": " t3"
+                "value": "t3"
             },
             {
                 "name": {
-                    "en": "T4a "
+                    "en": "T4a"
                 },
-                "value": " t4a"
+                "value": "t4a"
             },
             {
                 "name": {
-                    "en": "T4b "
+                    "en": "T4b"
                 },
-                "value": " t4b"
+                "value": "t4b"
             },
             {
                 "name": {
                     "en": "Unknown yet"
                 },
-                "value": " unknownYet"
+                "value": "unknownYet"
             }
         ],
         "valueType": [

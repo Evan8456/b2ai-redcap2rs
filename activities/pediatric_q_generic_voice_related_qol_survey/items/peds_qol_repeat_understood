@@ -1,6 +1,13 @@
 {
     "id": "peds_qol_repeat_understood",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "peds_qol_repeat_understood"
     },
@@ -11,39 +18,39 @@
         "choices": [
             {
                 "name": {
-                    "en": "None "
+                    "en": "None"
                 },
                 "value": "none"
             },
             {
                 "name": {
-                    "en": "A small amount "
+                    "en": "A small amount"
                 },
-                "value": " aSmallAmount"
+                "value": "aSmallAmount"
             },
             {
                 "name": {
-                    "en": "A moderate amount "
+                    "en": "A moderate amount"
                 },
-                "value": " aModerateAmount"
+                "value": "aModerateAmount"
             },
             {
                 "name": {
-                    "en": "A lot "
+                    "en": "A lot"
                 },
-                "value": " aLot"
+                "value": "aLot"
             },
             {
                 "name": {
-                    "en": "Problem is \"as bad as it can be\" "
+                    "en": "Problem is \"as bad as it can be\""
                 },
-                "value": " asBadAsItCanBe"
+                "value": "asBadAsItCanBe"
             },
             {
                 "name": {
                     "en": "Not applicable"
                 },
-                "value": " notApplicable"
+                "value": "notApplicable"
             }
         ],
         "valueType": [

@@ -1,6 +1,13 @@
 {
     "id": "other_edu_level",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "other_edu_level"
     },

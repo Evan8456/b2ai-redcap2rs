@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_bipolar_gsd",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_bipolar_gsd"
     },
@@ -11,27 +18,27 @@
         "choices": [
             {
                 "name": {
-                    "en": "Bipolar I disorder "
+                    "en": "Bipolar I disorder"
                 },
                 "value": "bipolar_1"
             },
             {
                 "name": {
-                    "en": "Bipolar II disorder "
+                    "en": "Bipolar II disorder"
                 },
-                "value": " bipolar_2"
+                "value": "bipolar_2"
             },
             {
                 "name": {
-                    "en": "Cyclothymic disorder (cyclothymia) "
+                    "en": "Cyclothymic disorder (cyclothymia)"
                 },
-                "value": " cyclothymia"
+                "value": "cyclothymia"
             },
             {
                 "name": {
                     "en": "Other specified and unspecified bipolar and related disorders"
                 },
-                "value": " other"
+                "value": "other"
             }
         ],
         "valueType": [

@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_lc_gsd_bpr",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_lc_gsd_bpr"
     },
@@ -11,21 +18,21 @@
         "choices": [
             {
                 "name": {
-                    "en": "Yes "
+                    "en": "Yes"
                 },
                 "value": "yes"
             },
             {
                 "name": {
-                    "en": "No "
+                    "en": "No"
                 },
-                "value": " no"
+                "value": "no"
             },
             {
                 "name": {
                     "en": "Not certain"
                 },
-                "value": " notCertain"
+                "value": "notCertain"
             }
         ],
         "valueType": [

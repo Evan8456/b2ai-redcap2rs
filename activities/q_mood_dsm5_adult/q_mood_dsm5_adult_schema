@@ -53,25 +53,25 @@
         "addProperties": [
             {
                 "isAbout": "items/dsm_5_session_id",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "dsm_5_session_id"
             },
             {
                 "isAbout": "items/dsm_5_started_at",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "dsm_5_started_at"
             },
             {
                 "isAbout": "items/dsm_5_completed_at",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "dsm_5_completed_at"
             },
             {
                 "isAbout": "items/dsm_5_duration",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "dsm_5_duration"
             },
             {

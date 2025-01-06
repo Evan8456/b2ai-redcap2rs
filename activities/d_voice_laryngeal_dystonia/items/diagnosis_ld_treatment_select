@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_ld_treatment_select",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_ld_treatment_select"
     },
@@ -11,39 +18,39 @@
         "choices": [
             {
                 "name": {
-                    "en": "Botox injections "
+                    "en": "Botox injections"
                 },
                 "value": "botox_injections"
             },
             {
                 "name": {
-                    "en": "Voice/speech therapy "
+                    "en": "Voice/speech therapy"
                 },
-                "value": " voice_or_speech_therapy"
+                "value": "voice_or_speech_therapy"
             },
             {
                 "name": {
-                    "en": "Vibrotactile stimulation "
+                    "en": "Vibrotactile stimulation"
                 },
-                "value": " vibrotactile_stimulation"
+                "value": "vibrotactile_stimulation"
             },
             {
                 "name": {
-                    "en": "Deep brain stimulation "
+                    "en": "Deep brain stimulation"
                 },
-                "value": " deep_brain_stimulation"
+                "value": "deep_brain_stimulation"
             },
             {
                 "name": {
-                    "en": "Magnetic resonance imaging-guided focused ultrasound (MRgFUS) "
+                    "en": "Magnetic resonance imaging-guided focused ultrasound (MRgFUS)"
                 },
-                "value": " mrgfus"
+                "value": "mrgfus"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": " other"
+                "value": "other"
             }
         ],
         "multipleChoice": true,

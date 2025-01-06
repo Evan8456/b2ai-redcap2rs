@@ -1,6 +1,13 @@
 {
     "id": "peds_phqa_trouble_concentrate",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "peds_phqa_trouble_concentrate"
     },
@@ -11,27 +18,27 @@
         "choices": [
             {
                 "name": {
-                    "en": "Not at all "
+                    "en": "Not at all"
                 },
                 "value": "notAtAll"
             },
             {
                 "name": {
-                    "en": "Several days "
+                    "en": "Several days"
                 },
-                "value": " severalDays"
+                "value": "severalDays"
             },
             {
                 "name": {
-                    "en": "More than half the days "
+                    "en": "More than half the days"
                 },
-                "value": " moreThanHalfTheDays"
+                "value": "moreThanHalfTheDays"
             },
             {
                 "name": {
                     "en": "Nearly every day"
                 },
-                "value": " nearlyEveryDay"
+                "value": "nearlyEveryDay"
             }
         ],
         "valueType": [

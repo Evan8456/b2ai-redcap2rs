@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_lc_treatment_select",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_lc_treatment_select"
     },
@@ -11,39 +18,39 @@
         "choices": [
             {
                 "name": {
-                    "en": "Radiation "
+                    "en": "Radiation"
                 },
                 "value": "radiation"
             },
             {
                 "name": {
-                    "en": "Chemotherapy "
+                    "en": "Chemotherapy"
                 },
-                "value": " chemotherapy"
+                "value": "chemotherapy"
             },
             {
                 "name": {
-                    "en": "Immunotherapy "
+                    "en": "Immunotherapy"
                 },
-                "value": " immunotherapy"
+                "value": "immunotherapy"
             },
             {
                 "name": {
-                    "en": "Surgery "
+                    "en": "Surgery"
                 },
-                "value": " surgery"
+                "value": "surgery"
             },
             {
                 "name": {
-                    "en": "Voice/Speech therapy "
+                    "en": "Voice/Speech therapy"
                 },
-                "value": " voice_or_speech_therapy"
+                "value": "voice_or_speech_therapy"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": " other"
+                "value": "other"
             }
         ],
         "multipleChoice": true,

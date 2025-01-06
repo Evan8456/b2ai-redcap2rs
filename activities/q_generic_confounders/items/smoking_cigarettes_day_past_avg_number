@@ -1,6 +1,13 @@
 {
     "id": "smoking_cigarettes_day_past_avg_number",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "smoking_cigarettes_day_past_avg_number"
     },
@@ -9,7 +16,6 @@
     },
     "responseOptions": {
         "maxValue": 1000,
-        "minValue": 0,
         "valueType": [
             "xsd:integer"
         ]

@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_l_sd_known",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "2. Disease Subtype"
     },
@@ -14,7 +21,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "Yes "
+                    "en": "Yes"
                 },
                 "value": "yes"
             },
@@ -22,7 +29,7 @@
                 "name": {
                     "en": "Not certain"
                 },
-                "value": " notCertain"
+                "value": "notCertain"
             }
         ],
         "valueType": [

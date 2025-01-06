@@ -1,6 +1,13 @@
 {
     "id": "ef_completed_by",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "Who is participating in completing this survey?"
     },
@@ -14,13 +21,13 @@
         "choices": [
             {
                 "name": {
-                    "en": "Self "
+                    "en": "Self"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Assistant "
+                    "en": "Assistant"
                 },
                 "value": 2
             },

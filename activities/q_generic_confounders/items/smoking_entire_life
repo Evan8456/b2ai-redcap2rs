@@ -1,6 +1,13 @@
 {
     "id": "smoking_entire_life",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "Smoking"
     },
@@ -14,27 +21,27 @@
         "choices": [
             {
                 "name": {
-                    "en": "Yes "
+                    "en": "Yes"
                 },
                 "value": "yes"
             },
             {
                 "name": {
-                    "en": "No "
+                    "en": "No"
                 },
-                "value": " no"
+                "value": "no"
             },
             {
                 "name": {
-                    "en": "Don't know "
+                    "en": "Don't know"
                 },
-                "value": " doNotKnow"
+                "value": "doNotKnow"
             },
             {
                 "name": {
                     "en": "Prefer not to answer"
                 },
-                "value": " noAnswer"
+                "value": "noAnswer"
             }
         ],
         "valueType": [

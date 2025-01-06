@@ -1,6 +1,13 @@
 {
     "id": "mph_started_at",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "mph_started_at"
     },

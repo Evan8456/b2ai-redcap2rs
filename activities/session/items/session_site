@@ -1,6 +1,13 @@
 {
     "id": "session_site",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "session_site"
     },
@@ -11,39 +18,39 @@
         "choices": [
             {
                 "name": {
-                    "en": "MIT "
+                    "en": "MIT"
                 },
                 "value": "mit"
             },
             {
                 "name": {
-                    "en": "Mt. Sinai "
+                    "en": "Mt. Sinai"
                 },
-                "value": " mt_sinai"
+                "value": "mt_sinai"
             },
             {
                 "name": {
-                    "en": "SickKids "
+                    "en": "SickKids"
                 },
-                "value": " sickkids"
+                "value": "sickkids"
             },
             {
                 "name": {
-                    "en": "USF "
+                    "en": "USF"
                 },
-                "value": " usf"
+                "value": "usf"
             },
             {
                 "name": {
-                    "en": "VUMC "
+                    "en": "VUMC"
                 },
-                "value": " vumc"
+                "value": "vumc"
             },
             {
                 "name": {
                     "en": "WCM"
                 },
-                "value": " wcm"
+                "value": "wcm"
             }
         ],
         "valueType": [
@@ -51,7 +58,8 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "radio",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,6 +1,12 @@
 {
     "id": "q_generic_voice_handicap_index_vhi10_schema",
     "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "sum( if( voice_difficult_hear =='never', 0, if( voice_difficult_hear =='almostNever', 1, if( voice_difficult_hear =='sometimes', 2, if( voice_difficult_hear =='almostAlways', 3, if( voice_difficult_hear =='always', 4, 0))))) , if( tough_to_understand =='never', 0, if( tough_to_understand =='almostNever', 1, if( tough_to_understand =='sometimes', 2, if( tough_to_understand =='almostAlways', 3, if( tough_to_understand =='always', 4, 0))))) , if( voice_restrict_social =='never', 0, if( voice_restrict_social =='almostNever', 1, if( voice_restrict_social =='sometimes', 2, if( voice_restrict_social =='almostAlways', 3, if( voice_restrict_social =='always', 4, 0))))) , if( left_out_convo =='never', 0, if( left_out_convo =='almostNever', 1, if( left_out_convo =='sometimes', 2, if( left_out_convo =='almostAlways', 3, if( left_out_convo =='always', 4, 0))))) , if( voice_lose_income =='never', 0, if( voice_lose_income =='almostNever', 1, if( voice_lose_income =='sometimes', 2, if( voice_lose_income =='almostAlways', 3, if( voice_lose_income =='always', 4, 0))))) , if( strain_voice =='never', 0, if( strain_voice =='almostNever', 1, if( strain_voice =='sometimes', 2, if( strain_voice =='almostAlways', 3, if( strain_voice =='always', 4, 0))))) , if( voice_clarity =='never', 0, if( voice_clarity =='almostNever', 1, if( voice_clarity =='sometimes', 2, if( voice_clarity =='almostAlways', 3, if( voice_clarity =='always', 4, 0))))) , if( voice_upsetting =='never', 0, if( voice_upsetting =='almostNever', 1, if( voice_upsetting =='sometimes', 2, if( voice_upsetting =='almostAlways', 3, if( voice_upsetting =='always', 4, 0))))) , if( voice_handicapped =='never', 0, if( voice_handicapped =='almostNever', 1, if( voice_handicapped =='sometimes', 2, if( voice_handicapped =='almostAlways', 3, if( voice_handicapped =='always', 4, 0))))) , if( ask_whats_wrong_voice =='never', 0, if( ask_whats_wrong_voice =='almostNever', 1, if( ask_whats_wrong_voice =='sometimes', 2, if( ask_whats_wrong_voice =='almostAlways', 3, if( ask_whats_wrong_voice =='always', 4, 0))))) )",
+            "variableName": "vhi_10_calc_score"
+        }
+    ],
     "prefLabel": {
         "en": "q_generic_voice_handicap_index_vhi10"
     },
@@ -25,26 +31,31 @@
         "addProperties": [
             {
                 "isAbout": "items/vhi_session_id",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "vhi_session_id"
             },
             {
                 "isAbout": "items/vhi_started_at",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "vhi_started_at"
             },
             {
                 "isAbout": "items/vhi_completed_at",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "vhi_completed_at"
             },
             {
                 "isAbout": "items/vhi_duration",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "vhi_duration"
+            },
+            {
+                "isAbout": "items/vhi_10_calc_score",
+                "isVis": false,
+                "variableName": "vhi_10_calc_score"
             },
             {
                 "isAbout": "items/voice_difficult_hear",
@@ -109,6 +120,6 @@
         ],
         "shuffle": false
     },
-    "version": "3.20.0",
+    "version": "3.21.0",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

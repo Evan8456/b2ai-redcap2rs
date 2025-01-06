@@ -1,6 +1,13 @@
 {
     "id": "peds_specify_gender_identity",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "peds_specify_gender_identity"
     },
@@ -11,7 +18,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "Cis: same gender as the sex assigned at birth "
+                    "en": "Cis: same gender as the sex assigned at birth"
                 },
                 "value": "cis"
             },
@@ -19,7 +26,7 @@
                 "name": {
                     "en": "Trans"
                 },
-                "value": " trans"
+                "value": "trans"
             }
         ],
         "valueType": [

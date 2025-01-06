@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_as_ds_bc",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_as_ds_bc"
     },
@@ -11,27 +18,27 @@
         "choices": [
             {
                 "name": {
-                    "en": "(a) Class 1 "
+                    "en": "(a) Class 1"
                 },
                 "value": "class1"
             },
             {
                 "name": {
-                    "en": "(b) Class 2 "
+                    "en": "(b) Class 2"
                 },
-                "value": " class2"
+                "value": "class2"
             },
             {
                 "name": {
-                    "en": "(c) Class 3 "
+                    "en": "(c) Class 3"
                 },
-                "value": " class3"
+                "value": "class3"
             },
             {
                 "name": {
                     "en": "(d) Class 4"
                 },
-                "value": " class4"
+                "value": "class4"
             }
         ],
         "valueType": [

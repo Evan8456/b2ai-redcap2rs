@@ -1,6 +1,13 @@
 {
     "id": "dmdd_active_psy_med_prob_other",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "dmdd_active_psy_med_prob_other"
     },

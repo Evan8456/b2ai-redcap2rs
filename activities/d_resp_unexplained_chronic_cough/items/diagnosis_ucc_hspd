@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_ucc_hspd",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_ucc_hspd"
     },
@@ -11,51 +18,51 @@
         "choices": [
             {
                 "name": {
-                    "en": "Lung cancer "
+                    "en": "Lung cancer"
                 },
                 "value": "lung_cancer"
             },
             {
                 "name": {
-                    "en": "COPD "
+                    "en": "COPD"
                 },
-                "value": " copd"
+                "value": "copd"
             },
             {
                 "name": {
-                    "en": "Asthma "
+                    "en": "Asthma"
                 },
-                "value": " asthma"
+                "value": "asthma"
             },
             {
                 "name": {
-                    "en": "TB infection "
+                    "en": "TB infection"
                 },
-                "value": " tb_infection"
+                "value": "tb_infection"
             },
             {
                 "name": {
-                    "en": "Bronchiectasis "
+                    "en": "Bronchiectasis"
                 },
-                "value": " bronchiectasis"
+                "value": "bronchiectasis"
             },
             {
                 "name": {
-                    "en": "Pulmonary granuloma "
+                    "en": "Pulmonary granuloma"
                 },
-                "value": " pulmonary_granuloma"
+                "value": "pulmonary_granuloma"
             },
             {
                 "name": {
-                    "en": "Idiopathic pulmonary fibrosis "
+                    "en": "Idiopathic pulmonary fibrosis"
                 },
-                "value": " idiopathic_pulmonary_fibrosis"
+                "value": "idiopathic_pulmonary_fibrosis"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": " other"
+                "value": "other"
             }
         ],
         "multipleChoice": true,

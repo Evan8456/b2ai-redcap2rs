@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_als_treatment_and_management_yes",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_als_treatment_and_management_yes"
     },
@@ -11,7 +18,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "Medications "
+                    "en": "Medications"
                 },
                 "value": "medications"
             },
@@ -19,7 +26,7 @@
                 "name": {
                     "en": "Supportive Care"
                 },
-                "value": " supportive_care"
+                "value": "supportive_care"
             }
         ],
         "multipleChoice": true,

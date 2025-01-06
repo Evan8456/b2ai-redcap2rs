@@ -18,19 +18,19 @@
         "addProperties": [
             {
                 "isAbout": "items/session_id",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "session_id"
             },
             {
                 "isAbout": "items/session_status",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "session_status"
             },
             {
                 "isAbout": "items/session_started_at",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "session_started_at"
             },
             {
@@ -41,17 +41,17 @@
             },
             {
                 "isAbout": "items/session_completed_at",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "session_completed_at"
             },
             {
                 "isAbout": "items/session_duration",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "session_duration"
             },
             {
                 "isAbout": "items/session_site",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "session_site"
             }

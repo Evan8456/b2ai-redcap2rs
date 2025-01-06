@@ -1,6 +1,13 @@
 {
     "id": "race",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "race"
     },
@@ -11,43 +18,43 @@
         "choices": [
             {
                 "name": {
-                    "en": "American Indian or Alaska Native "
+                    "en": "American Indian or Alaska Native"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Asian "
+                    "en": "Asian"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Black or African American "
+                    "en": "Black or African American"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Native Hawaiian or other Pacific Islander "
+                    "en": "Native Hawaiian or other Pacific Islander"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "White "
+                    "en": "White"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Canadian Indigenous or Aboriginal "
+                    "en": "Canadian Indigenous or Aboriginal"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "Other "
+                    "en": "Other"
                 },
                 "value": 7
             },

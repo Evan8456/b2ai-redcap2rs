@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_gi_d_aoc",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_gi_d_aoc"
     },
@@ -11,27 +18,27 @@
         "choices": [
             {
                 "name": {
-                    "en": "Severe illness "
+                    "en": "Severe illness"
                 },
                 "value": "severeIllness"
             },
             {
                 "name": {
-                    "en": "Rapid weight loss "
+                    "en": "Rapid weight loss"
                 },
-                "value": " rapidWeightLoss"
+                "value": "rapidWeightLoss"
             },
             {
                 "name": {
-                    "en": "Hormonal changes "
+                    "en": "Hormonal changes"
                 },
-                "value": " hormonalChanges"
+                "value": "hormonalChanges"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": " other"
+                "value": "other"
             }
         ],
         "valueType": [

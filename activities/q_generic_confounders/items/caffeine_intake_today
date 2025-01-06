@@ -1,6 +1,13 @@
 {
     "id": "caffeine_intake_today",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "caffeine_intake_today"
     },

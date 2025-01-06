@@ -1,6 +1,13 @@
 {
     "id": "wrapping_up",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "Please answer the questions below, rating yourself on each of the criteria shown using the scale on the right side of the page. As you answer each question, select the box that best describes how you have felt and conducted yourself over the past 6 months."
     },
@@ -14,33 +21,33 @@
         "choices": [
             {
                 "name": {
-                    "en": "Never "
+                    "en": "Never"
                 },
                 "value": "never"
             },
             {
                 "name": {
-                    "en": "Rarely "
+                    "en": "Rarely"
                 },
-                "value": " rarely"
+                "value": "rarely"
             },
             {
                 "name": {
-                    "en": "Sometimes "
+                    "en": "Sometimes"
                 },
-                "value": " sometimes"
+                "value": "sometimes"
             },
             {
                 "name": {
-                    "en": "Often "
+                    "en": "Often"
                 },
-                "value": " often"
+                "value": "often"
             },
             {
                 "name": {
                     "en": "Very Often"
                 },
-                "value": " veryOften"
+                "value": "veryOften"
             }
         ],
         "valueType": [

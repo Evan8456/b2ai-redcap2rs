@@ -1,6 +1,13 @@
 {
     "id": "no_interest",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "Over the last 2 weeks, how often have you been bothered by any of the following problems?"
     },
@@ -14,19 +21,19 @@
         "choices": [
             {
                 "name": {
-                    "en": "Not at all "
+                    "en": "Not at all"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "Several days "
+                    "en": "Several days"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "More than half the days "
+                    "en": "More than half the days"
                 },
                 "value": 2
             },

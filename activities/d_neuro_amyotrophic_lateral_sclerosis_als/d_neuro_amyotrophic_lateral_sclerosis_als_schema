@@ -1,6 +1,12 @@
 {
     "id": "d_neuro_amyotrophic_lateral_sclerosis_als_schema",
     "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "if( diagnosis_als_gsd_category_1 == 'yes' && diagnosis_als_gsd_category_2 == 'yes' && diagnosis_als_gsd_category_3 == 'yes' , 'Yes', 'No')",
+            "variableName": "diagnosis_als_gsd_calculation"
+        }
+    ],
     "prefLabel": {
         "en": "d_neuro_amyotrophic_lateral_sclerosis_als"
     },
@@ -10,7 +16,6 @@
             "items/diagnosis_als_gsd_category_1",
             "items/diagnosis_als_gsd_category_2",
             "items/diagnosis_als_gsd_category_3",
-            "items/diagnosis_als_gsd_calculation",
             "items/diagnosis_als_disease_subtype",
             "items/diagnosis_als_disease_subtype_familial",
             "items/diagnosis_als_etiology",
@@ -55,7 +60,7 @@
             },
             {
                 "isAbout": "items/diagnosis_als_gsd_calculation",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "diagnosis_als_gsd_calculation"
             },
             {

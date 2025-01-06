@@ -1,6 +1,13 @@
 {
     "id": "q5_active",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "q5_active"
     },
@@ -11,25 +18,25 @@
         "choices": [
             {
                 "name": {
-                    "en": "I have not been more active (either socially sexually at work home or school) than usual. "
+                    "en": "I have not been more active (either socially, sexually, at work, home, or school) than usual."
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "I have occasionally been more active than usual. "
+                    "en": "I have occasionally been more active than usual."
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "I have often been more active than usual. "
+                    "en": "I have often been more active than usual."
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "I have frequently been more active than usual. "
+                    "en": "I have frequently been more active than usual."
                 },
                 "value": 4
             },

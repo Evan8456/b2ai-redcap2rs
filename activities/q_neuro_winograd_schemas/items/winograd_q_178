@@ -1,6 +1,13 @@
 {
     "id": "winograd_q_178",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "winograd_q_178"
     },
@@ -11,7 +18,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "Yakutsk "
+                    "en": "Yakutsk"
                 },
                 "value": "incorrect"
             },
@@ -19,7 +26,7 @@
                 "name": {
                     "en": "Kamchatka"
                 },
-                "value": " correct"
+                "value": "correct"
             }
         ],
         "valueType": [

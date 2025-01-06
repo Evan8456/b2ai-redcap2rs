@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_als_gsd_category_3",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_als_gsd_category_3"
     },
@@ -11,21 +18,21 @@
         "choices": [
             {
                 "name": {
-                    "en": "Yes "
+                    "en": "Yes"
                 },
                 "value": "yes"
             },
             {
                 "name": {
-                    "en": "No "
+                    "en": "No"
                 },
-                "value": " no"
+                "value": "no"
             },
             {
                 "name": {
                     "en": "Not certain"
                 },
-                "value": " notCertain"
+                "value": "notCertain"
             }
         ],
         "valueType": [

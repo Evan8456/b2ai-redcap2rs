@@ -25,25 +25,25 @@
         "addProperties": [
             {
                 "isAbout": "items/panas_session_id",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "panas_session_id"
             },
             {
                 "isAbout": "items/panas_started_at",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "panas_started_at"
             },
             {
                 "isAbout": "items/panas_completed_at",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "panas_completed_at"
             },
             {
                 "isAbout": "items/panas_duration",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "panas_duration"
             },
             {

@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_ucc_at",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "2. Treatment obtained"
     },
@@ -14,21 +21,21 @@
         "choices": [
             {
                 "name": {
-                    "en": "Yes "
+                    "en": "Yes"
                 },
                 "value": "yes"
             },
             {
                 "name": {
-                    "en": "No "
+                    "en": "No"
                 },
-                "value": " no"
+                "value": "no"
             },
             {
                 "name": {
                     "en": "Not Certain"
                 },
-                "value": " notCertain"
+                "value": "notCertain"
             }
         ],
         "valueType": [

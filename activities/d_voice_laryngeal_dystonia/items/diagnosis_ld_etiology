@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_ld_etiology",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "3. Etiology"
     },
@@ -14,33 +21,33 @@
         "choices": [
             {
                 "name": {
-                    "en": "Idiopathic "
+                    "en": "Idiopathic"
                 },
                 "value": "idiopathic"
             },
             {
                 "name": {
-                    "en": "Familial "
+                    "en": "Familial"
                 },
-                "value": " familial"
+                "value": "familial"
             },
             {
                 "name": {
-                    "en": "Trauma "
+                    "en": "Trauma"
                 },
-                "value": " trauma"
+                "value": "trauma"
             },
             {
                 "name": {
-                    "en": "Unknown "
+                    "en": "Unknown"
                 },
-                "value": " unknown"
+                "value": "unknown"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": " other"
+                "value": "other"
             }
         ],
         "valueType": [

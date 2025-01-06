@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_ld_treatment_bi_li",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "description": {
         "en": "weeks ago"
     },
@@ -11,6 +18,8 @@
         "en": "When was the last injection?"
     },
     "responseOptions": {
+        "maxValue": NaN,
+        "minValue": NaN,
         "valueType": [
             "xsd:decimal"
         ]

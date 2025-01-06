@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_vfp_iatrogenic",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_vfp_iatrogenic"
     },
@@ -11,37 +18,37 @@
         "choices": [
             {
                 "name": {
-                    "en": "Thyroidectomy "
+                    "en": "Thyroidectomy"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "ACDF "
+                    "en": "ACDF"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Lung surgery "
+                    "en": "Lung surgery"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Heart Surgery "
+                    "en": "Heart Surgery"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Intubation "
+                    "en": "Intubation"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Brain Surgery "
+                    "en": "Brain Surgery"
                 },
                 "value": 6
             },

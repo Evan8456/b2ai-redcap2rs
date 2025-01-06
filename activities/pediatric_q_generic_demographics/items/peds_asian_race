@@ -1,6 +1,13 @@
 {
     "id": "peds_asian_race",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "peds_asian_race"
     },
@@ -11,139 +18,139 @@
         "choices": [
             {
                 "name": {
-                    "en": "Asian Indian "
+                    "en": "Asian Indian"
                 },
                 "value": 20297
             },
             {
                 "name": {
-                    "en": "Bangladeshi "
+                    "en": "Bangladeshi"
                 },
                 "value": 20305
             },
             {
                 "name": {
-                    "en": "Bhutanese "
+                    "en": "Bhutanese"
                 },
                 "value": 20313
             },
             {
                 "name": {
-                    "en": "Burmese "
+                    "en": "Burmese"
                 },
                 "value": 20321
             },
             {
                 "name": {
-                    "en": "Cambodian "
+                    "en": "Cambodian"
                 },
                 "value": 20339
             },
             {
                 "name": {
-                    "en": "Chinese "
+                    "en": "Chinese"
                 },
                 "value": 20347
             },
             {
                 "name": {
-                    "en": "Taiwanese "
+                    "en": "Taiwanese"
                 },
                 "value": 20354
             },
             {
                 "name": {
-                    "en": "Filipino "
+                    "en": "Filipino"
                 },
                 "value": 20362
             },
             {
                 "name": {
-                    "en": "Hmong "
+                    "en": "Hmong"
                 },
                 "value": 20370
             },
             {
                 "name": {
-                    "en": "Indonesian "
+                    "en": "Indonesian"
                 },
                 "value": 20388
             },
             {
                 "name": {
-                    "en": "Japanese "
+                    "en": "Japanese"
                 },
                 "value": 20396
             },
             {
                 "name": {
-                    "en": "Korean "
+                    "en": "Korean"
                 },
                 "value": 20404
             },
             {
                 "name": {
-                    "en": "Laotian "
+                    "en": "Laotian"
                 },
                 "value": 20412
             },
             {
                 "name": {
-                    "en": "Malaysian "
+                    "en": "Malaysian"
                 },
                 "value": 20420
             },
             {
                 "name": {
-                    "en": "Okinawan "
+                    "en": "Okinawan"
                 },
                 "value": 20438
             },
             {
                 "name": {
-                    "en": "Pakistani "
+                    "en": "Pakistani"
                 },
                 "value": 20446
             },
             {
                 "name": {
-                    "en": "Sri Lankan "
+                    "en": "Sri Lankan"
                 },
                 "value": 20453
             },
             {
                 "name": {
-                    "en": "Thai "
+                    "en": "Thai"
                 },
                 "value": 20461
             },
             {
                 "name": {
-                    "en": "Vietnamese "
+                    "en": "Vietnamese"
                 },
                 "value": 20479
             },
             {
                 "name": {
-                    "en": "Iwo Jiman "
+                    "en": "Iwo Jiman"
                 },
                 "value": 20487
             },
             {
                 "name": {
-                    "en": "Maldivian "
+                    "en": "Maldivian"
                 },
                 "value": 20495
             },
             {
                 "name": {
-                    "en": "Nepalese "
+                    "en": "Nepalese"
                 },
                 "value": 20503
             },
             {
                 "name": {
-                    "en": "Singaporean "
+                    "en": "Singaporean"
                 },
                 "value": 20511
             },

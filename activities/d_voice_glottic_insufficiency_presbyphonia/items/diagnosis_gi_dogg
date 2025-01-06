@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_gi_dogg",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "3. Disease Severity"
     },
@@ -14,21 +21,21 @@
         "choices": [
             {
                 "name": {
-                    "en": "Small "
+                    "en": "Small"
                 },
                 "value": "small"
             },
             {
                 "name": {
-                    "en": "Moderate "
+                    "en": "Moderate"
                 },
-                "value": " moderate"
+                "value": "moderate"
             },
             {
                 "name": {
                     "en": "Large"
                 },
-                "value": " large"
+                "value": "large"
             }
         ],
         "valueType": [

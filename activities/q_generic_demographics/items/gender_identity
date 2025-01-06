@@ -1,6 +1,13 @@
 {
     "id": "gender_identity",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "Patient Demographics"
     },
@@ -14,33 +21,33 @@
         "choices": [
             {
                 "name": {
-                    "en": "Female gender identity "
+                    "en": "Female gender identity"
                 },
                 "value": "female"
             },
             {
                 "name": {
-                    "en": "Male gender identity "
+                    "en": "Male gender identity"
                 },
-                "value": " male"
+                "value": "male"
             },
             {
                 "name": {
-                    "en": "Non-binary or genderqueer gender identity "
+                    "en": "Non-binary or genderqueer gender identity"
                 },
-                "value": " nonBinary"
+                "value": "nonBinary"
             },
             {
                 "name": {
-                    "en": "Other "
+                    "en": "Other"
                 },
-                "value": " other"
+                "value": "other"
             },
             {
                 "name": {
                     "en": "Prefer not to answer"
                 },
-                "value": " noAnswer"
+                "value": "noAnswer"
             }
         ],
         "valueType": [

@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_pl_degree_comments_other_2",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_pl_degree_comments_other_2"
     },

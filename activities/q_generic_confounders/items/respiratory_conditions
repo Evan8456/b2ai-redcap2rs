@@ -1,6 +1,13 @@
 {
     "id": "respiratory_conditions",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "Respiratory Conditions"
     },
@@ -14,43 +21,43 @@
         "choices": [
             {
                 "name": {
-                    "en": "Bronchiectasis "
+                    "en": "Bronchiectasis"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Cancer (lung or metastatic) "
+                    "en": "Cancer (lung or metastatic)"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Emphysema "
+                    "en": "Emphysema"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Interstitial lung disease (sarcoidosis pulmonary fibrosis) "
+                    "en": "Interstitial lung disease (sarcoidosis, pulmonary fibrosis)"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Pneumothorax or atelectasis (collapsed lung) "
+                    "en": "Pneumothorax or atelectasis (collapsed lung)"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Pulmonary hypertension "
+                    "en": "Pulmonary hypertension"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "Radiation to the chest "
+                    "en": "Radiation to the chest"
                 },
                 "value": 7
             },

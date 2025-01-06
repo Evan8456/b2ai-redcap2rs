@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_parkinsons_etiology",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "3. Etiology"
     },
@@ -14,21 +21,21 @@
         "choices": [
             {
                 "name": {
-                    "en": "Idiopathic (unknown cause) "
+                    "en": "Idiopathic (unknown cause)"
                 },
                 "value": "idiopathic"
             },
             {
                 "name": {
-                    "en": "Familial Parkinson's Disease "
+                    "en": "Familial Parkinson's Disease"
                 },
-                "value": " familialParkinsonsDisease"
+                "value": "familialParkinsonsDisease"
             },
             {
                 "name": {
                     "en": "Environmental factors"
                 },
-                "value": " environmentalFactors"
+                "value": "environmentalFactors"
             }
         ],
         "valueType": [

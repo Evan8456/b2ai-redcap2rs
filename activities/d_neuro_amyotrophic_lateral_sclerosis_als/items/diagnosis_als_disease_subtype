@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_als_disease_subtype",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "2. Type of ALS"
     },
@@ -14,27 +21,27 @@
         "choices": [
             {
                 "name": {
-                    "en": "Sporadic ALS "
+                    "en": "Sporadic ALS"
                 },
                 "value": "sporadicAls"
             },
             {
                 "name": {
-                    "en": "Familial ALS "
+                    "en": "Familial ALS"
                 },
-                "value": " familialAls"
+                "value": "familialAls"
             },
             {
                 "name": {
-                    "en": "Spinal/limb-onset ALS "
+                    "en": "Spinal/limb-onset ALS"
                 },
-                "value": " spinalAls"
+                "value": "spinalAls"
             },
             {
                 "name": {
                     "en": "Bulbar-onset ALS"
                 },
-                "value": " bulbarAls"
+                "value": "bulbarAls"
             }
         ],
         "valueType": [

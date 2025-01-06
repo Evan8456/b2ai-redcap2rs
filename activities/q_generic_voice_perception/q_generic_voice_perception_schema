@@ -16,24 +16,24 @@
         "addProperties": [
             {
                 "isAbout": "items/voice_perception_session_id",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "voice_perception_session_id"
             },
             {
                 "isAbout": "items/voice_perception_started_at",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "voice_perception_started_at"
             },
             {
                 "isAbout": "items/voice_perception_completed_at",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "voice_perception_completed_at"
             },
             {
                 "isAbout": "items/voice_perception_duration",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "voice_perception_duration"
             },
             {

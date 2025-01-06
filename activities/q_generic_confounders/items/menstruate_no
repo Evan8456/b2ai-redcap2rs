@@ -1,6 +1,13 @@
 {
     "id": "menstruate_no",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "menstruate_no"
     },
@@ -11,27 +18,27 @@
         "choices": [
             {
                 "name": {
-                    "en": "I am pregnant "
+                    "en": "I am pregnant"
                 },
                 "value": "pregnant"
             },
             {
                 "name": {
-                    "en": "I have an IUD "
+                    "en": "I have an IUD"
                 },
-                "value": " iud"
+                "value": "iud"
             },
             {
                 "name": {
-                    "en": "I have gone through menopause "
+                    "en": "I have gone through menopause"
                 },
-                "value": " menopause"
+                "value": "menopause"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": " other"
+                "value": "other"
             }
         ],
         "valueType": [

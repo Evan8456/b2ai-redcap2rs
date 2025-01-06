@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_bl_degree_p_nature",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_bl_degree_p_nature"
     },

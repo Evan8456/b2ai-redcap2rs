@@ -19,46 +19,46 @@
         "addProperties": [
             {
                 "isAbout": "items/acoustic_task_id",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "acoustic_task_id"
             },
             {
                 "isAbout": "items/acoustic_task_session_id",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "acoustic_task_session_id"
             },
             {
                 "isAbout": "items/acoustic_task_name",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "acoustic_task_name"
             },
             {
                 "isAbout": "items/acoustic_task_cohort",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "acoustic_task_cohort"
             },
             {
                 "isAbout": "items/acoustic_task_status",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "acoustic_task_status"
             },
             {
                 "isAbout": "items/acoustic_task_started_at",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "acoustic_task_started_at"
             },
             {
                 "isAbout": "items/acoustic_task_completed_at",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "acoustic_task_completed_at"
             },
             {
                 "isAbout": "items/acoustic_task_duration",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "acoustic_task_duration"
             }
         ],

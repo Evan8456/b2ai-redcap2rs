@@ -1,6 +1,13 @@
 {
     "id": "menstrual_cycle_status",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "menstrual_cycle_status"
     },
@@ -11,27 +18,27 @@
         "choices": [
             {
                 "name": {
-                    "en": "Menstruating "
+                    "en": "Menstruating"
                 },
                 "value": "menstruating"
             },
             {
                 "name": {
-                    "en": "Premenstrual "
+                    "en": "Premenstrual"
                 },
-                "value": " premenstrual"
+                "value": "premenstrual"
             },
             {
                 "name": {
-                    "en": "Postmenstrual "
+                    "en": "Postmenstrual"
                 },
-                "value": " postmenstrual"
+                "value": "postmenstrual"
             },
             {
                 "name": {
                     "en": "Prefer not to answer"
                 },
-                "value": " noAnswer"
+                "value": "noAnswer"
             }
         ],
         "valueType": [

@@ -1,6 +1,13 @@
 {
     "id": "weight",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "description": {
         "en": "lbs"
     },
@@ -11,6 +18,8 @@
         "en": "Weight"
     },
     "responseOptions": {
+        "maxValue": NaN,
+        "minValue": NaN,
         "valueType": [
             "xsd:decimal"
         ]

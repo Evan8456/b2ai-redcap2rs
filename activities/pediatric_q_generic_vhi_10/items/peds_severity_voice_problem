@@ -1,6 +1,13 @@
 {
     "id": "peds_severity_voice_problem",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "peds_severity_voice_problem"
     },
@@ -11,26 +18,27 @@
         "choices": [
             {
                 "name": {
-                    "en": "Normal "
+                    "en": "Normal"
                 },
-                "value": 0
+                "value": "Normal"
             },
             {
                 "name": {
-                    "en": "  "
+                    "en": ""
                 },
-                "value": 1
+                "value": ""
             },
             {
                 "name": {
-                    "en": " Severe"
+                    "en": "Severe"
                 },
-                "value": 2
+                "value": "Severe"
             }
         ],
         "maxValue": 10.0,
+        "minValue": NaN,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

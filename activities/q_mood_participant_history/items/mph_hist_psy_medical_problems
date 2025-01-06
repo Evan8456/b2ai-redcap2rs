@@ -1,6 +1,13 @@
 {
     "id": "mph_hist_psy_medical_problems",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "mph_hist_psy_medical_problems"
     },

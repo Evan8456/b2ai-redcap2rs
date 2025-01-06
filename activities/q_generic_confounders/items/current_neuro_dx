@@ -1,6 +1,13 @@
 {
     "id": "current_neuro_dx",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "current_neuro_dx"
     },
@@ -11,13 +18,13 @@
         "choices": [
             {
                 "name": {
-                    "en": "None "
+                    "en": "None"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Only some "
+                    "en": "Only some"
                 },
                 "value": 2
             },

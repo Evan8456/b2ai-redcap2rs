@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_as_treatment",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "5. Treatment obtained"
     },
@@ -14,21 +21,21 @@
         "choices": [
             {
                 "name": {
-                    "en": "No treatment "
+                    "en": "No treatment"
                 },
                 "value": "no_treatment"
             },
             {
                 "name": {
-                    "en": "Surgery "
+                    "en": "Surgery"
                 },
-                "value": " surgery"
+                "value": "surgery"
             },
             {
                 "name": {
                     "en": "In-office treatment"
                 },
-                "value": " in_office_treatment"
+                "value": "in_office_treatment"
             }
         ],
         "multipleChoice": true,

@@ -1,6 +1,13 @@
 {
     "id": "peds_demographics_completed_by",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "peds_demographics_completed_by"
     },
@@ -11,13 +18,13 @@
         "choices": [
             {
                 "name": {
-                    "en": "Self "
+                    "en": "Self"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Assistant "
+                    "en": "Assistant"
                 },
                 "value": 2
             },

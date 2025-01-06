@@ -1,6 +1,13 @@
 {
     "id": "ef_enrollment_origin",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "ef_enrollment_origin"
     },
@@ -11,7 +18,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "Bridge2AI App "
+                    "en": "Bridge2AI App"
                 },
                 "value": "app"
             },
@@ -19,7 +26,7 @@
                 "name": {
                     "en": "Bridge2AI Enrollment Website"
                 },
-                "value": " website"
+                "value": "website"
             }
         ],
         "valueType": [
@@ -27,7 +34,8 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "radio",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_gi_degree_text",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_gi_degree_text"
     },

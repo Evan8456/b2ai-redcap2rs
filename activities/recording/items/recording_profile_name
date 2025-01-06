@@ -1,6 +1,13 @@
 {
     "id": "recording_profile_name",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "recording_profile_name"
     },
@@ -11,21 +18,21 @@
         "choices": [
             {
                 "name": {
-                    "en": "Speech "
+                    "en": "Speech"
                 },
                 "value": "speech"
             },
             {
                 "name": {
-                    "en": "Breathe "
+                    "en": "Breathe"
                 },
-                "value": " breathe"
+                "value": "breathe"
             },
             {
                 "name": {
                     "en": "Cough"
                 },
-                "value": " cough"
+                "value": "cough"
             }
         ],
         "valueType": [
@@ -33,7 +40,8 @@
         ]
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "radio",
+        "readonlyValue": true
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

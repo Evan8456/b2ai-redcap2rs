@@ -1,6 +1,13 @@
 {
     "id": "peds_vhi_talkativeness",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "Pediatric VHI 10 Questionnaire"
     },
@@ -14,27 +21,27 @@
         "choices": [
             {
                 "name": {
-                    "en": "Quiet Talker "
+                    "en": "Quiet Talker"
                 },
-                "value": 0
+                "value": "Quiet Talker"
             },
             {
                 "name": {
-                    "en": " Average Talker "
+                    "en": "Average Talker"
                 },
-                "value": 1
+                "value": "Average Talker"
             },
             {
                 "name": {
-                    "en": " Extremely Talkative"
+                    "en": "Extremely Talkative"
                 },
-                "value": 2
+                "value": "Extremely Talkative"
             }
         ],
         "maxValue": 7.0,
         "minValue": 1.0,
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {

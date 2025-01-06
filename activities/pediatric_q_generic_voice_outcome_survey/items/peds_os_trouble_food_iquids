@@ -1,6 +1,13 @@
 {
     "id": "peds_os_trouble_food_iquids",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "peds_os_trouble_food_iquids"
     },
@@ -11,33 +18,33 @@
         "choices": [
             {
                 "name": {
-                    "en": "All the time "
+                    "en": "All the time"
                 },
                 "value": "allTheTime"
             },
             {
                 "name": {
-                    "en": "Most of the time "
+                    "en": "Most of the time"
                 },
-                "value": " mostOfTheTime"
+                "value": "mostOfTheTime"
             },
             {
                 "name": {
-                    "en": "Sometimes "
+                    "en": "Sometimes"
                 },
-                "value": " sometimes"
+                "value": "sometimes"
             },
             {
                 "name": {
-                    "en": "Rarely "
+                    "en": "Rarely"
                 },
-                "value": " rarely"
+                "value": "rarely"
             },
             {
                 "name": {
                     "en": "Never"
                 },
-                "value": " never"
+                "value": "never"
             }
         ],
         "valueType": [

@@ -1,6 +1,13 @@
 {
     "id": "hard_to_work",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "hard_to_work"
     },
@@ -11,19 +18,19 @@
         "choices": [
             {
                 "name": {
-                    "en": "Not difficult at all "
+                    "en": "Not difficult at all"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "Somewhat difficult "
+                    "en": "Somewhat difficult"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Very difficult "
+                    "en": "Very difficult"
                 },
                 "value": 2
             },

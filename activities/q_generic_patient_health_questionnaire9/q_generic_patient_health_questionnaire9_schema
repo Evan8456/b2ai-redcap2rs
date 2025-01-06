@@ -25,25 +25,25 @@
         "addProperties": [
             {
                 "isAbout": "items/phq_9_session_id",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "phq_9_session_id"
             },
             {
                 "isAbout": "items/phq_9_started_at",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "phq_9_started_at"
             },
             {
                 "isAbout": "items/phq_9_completed_at",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "phq_9_completed_at"
             },
             {
                 "isAbout": "items/phq_9_duration",
-                "isVis": true,
+                "isVis": false,
                 "variableName": "phq_9_duration"
             },
             {

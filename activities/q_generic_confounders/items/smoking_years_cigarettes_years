@@ -1,6 +1,13 @@
 {
     "id": "smoking_years_cigarettes_years",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "smoking_years_cigarettes_years"
     },
@@ -9,7 +16,6 @@
     },
     "responseOptions": {
         "maxValue": 125,
-        "minValue": 0,
         "valueType": [
             "xsd:integer"
         ]

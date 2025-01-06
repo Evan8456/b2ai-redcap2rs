@@ -1,6 +1,13 @@
 {
     "id": "throat_surgical",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "throat_surgical"
     },
@@ -11,19 +18,19 @@
         "choices": [
             {
                 "name": {
-                    "en": "Airway surgery "
+                    "en": "Airway surgery"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Throat surgery "
+                    "en": "Throat surgery"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Thyroid surgery "
+                    "en": "Thyroid surgery"
                 },
                 "value": 3
             },

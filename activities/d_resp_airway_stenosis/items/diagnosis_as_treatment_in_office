@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_as_treatment_in_office",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_as_treatment_in_office"
     },
@@ -11,27 +18,27 @@
         "choices": [
             {
                 "name": {
-                    "en": "Awake Steroid injection(s) as sole treatment "
+                    "en": "Awake Steroid injection(s) as sole treatment"
                 },
                 "value": "steroid_injections_sole"
             },
             {
                 "name": {
-                    "en": "Awake Steroid injection(s) as adjunct treatment "
+                    "en": "Awake Steroid injection(s) as adjunct treatment"
                 },
-                "value": " steroid_injections_adjunct"
+                "value": "steroid_injections_adjunct"
             },
             {
                 "name": {
-                    "en": "In-office or awake dilation "
+                    "en": "In-office or awake dilation"
                 },
-                "value": " dilation"
+                "value": "dilation"
             },
             {
                 "name": {
                     "en": "In-office or awake laser"
                 },
-                "value": " laser"
+                "value": "laser"
             }
         ],
         "multipleChoice": true,

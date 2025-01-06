@@ -1,6 +1,13 @@
 {
     "id": "dmdd_how_many_depressive_episodes",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "dmdd_how_many_depressive_episodes"
     },
@@ -11,27 +18,27 @@
         "choices": [
             {
                 "name": {
-                    "en": "None "
+                    "en": "None"
                 },
                 "value": "none"
             },
             {
                 "name": {
-                    "en": "More than two "
+                    "en": "More than two"
                 },
-                "value": " moreThanTwo"
+                "value": "moreThanTwo"
             },
             {
                 "name": {
-                    "en": "More than five "
+                    "en": "More than five"
                 },
-                "value": " moreThanFive"
+                "value": "moreThanFive"
             },
             {
                 "name": {
                     "en": "Not sure"
                 },
-                "value": " notSure"
+                "value": "notSure"
             }
         ],
         "valueType": [

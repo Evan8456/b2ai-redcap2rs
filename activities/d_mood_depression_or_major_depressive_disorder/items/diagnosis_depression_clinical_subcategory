@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_depression_clinical_subcategory",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_depression_clinical_subcategory"
     },
@@ -11,21 +18,21 @@
         "choices": [
             {
                 "name": {
-                    "en": "Seasonal affective disorder (seasonal depression) "
+                    "en": "Seasonal affective disorder (seasonal depression)"
                 },
                 "value": "seasonal_depression"
             },
             {
                 "name": {
-                    "en": "Prenatal depression and postpartum depression "
+                    "en": "Prenatal depression and postpartum depression"
                 },
-                "value": " prenatal_postpartum_depression"
+                "value": "prenatal_postpartum_depression"
             },
             {
                 "name": {
                     "en": "Atypical depression"
                 },
-                "value": " atypical_depression"
+                "value": "atypical_depression"
             }
         ],
         "valueType": [

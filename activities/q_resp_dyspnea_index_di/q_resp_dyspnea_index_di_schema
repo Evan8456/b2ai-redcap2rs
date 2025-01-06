@@ -25,25 +25,25 @@
         "addProperties": [
             {
                 "isAbout": "items/dyspnea_index_session_id",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "dyspnea_index_session_id"
             },
             {
                 "isAbout": "items/dyspnea_index_started_at",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "dyspnea_index_started_at"
             },
             {
                 "isAbout": "items/dyspnea_index_completed_at",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "dyspnea_index_completed_at"
             },
             {
                 "isAbout": "items/dyspnea_index_duration",
-                "isVis": true,
+                "isVis": false,
                 "valueRequired": true,
                 "variableName": "dyspnea_index_duration"
             },

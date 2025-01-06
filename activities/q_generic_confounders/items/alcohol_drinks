@@ -1,6 +1,13 @@
 {
     "id": "alcohol_drinks",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "alcohol_drinks"
     },
@@ -11,39 +18,39 @@
         "choices": [
             {
                 "name": {
-                    "en": "Never in the past year "
+                    "en": "Never in the past year"
                 },
                 "value": "neverInThePastYear"
             },
             {
                 "name": {
-                    "en": "Less than monthly "
+                    "en": "Less than monthly"
                 },
-                "value": " lessThanMonthly"
+                "value": "lessThanMonthly"
             },
             {
                 "name": {
-                    "en": "Monthly "
+                    "en": "Monthly"
                 },
-                "value": " monthly"
+                "value": "monthly"
             },
             {
                 "name": {
-                    "en": "Weekly "
+                    "en": "Weekly"
                 },
-                "value": " weekly"
+                "value": "weekly"
             },
             {
                 "name": {
-                    "en": "Daily or almost daily "
+                    "en": "Daily or almost daily"
                 },
-                "value": " daily"
+                "value": "daily"
             },
             {
                 "name": {
                     "en": "Prefer not to answer"
                 },
-                "value": " noAnswer"
+                "value": "noAnswer"
             }
         ],
         "valueType": [

@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_mtd_etiology",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "3. Etiology"
     },
@@ -14,33 +21,33 @@
         "choices": [
             {
                 "name": {
-                    "en": "Psychological and/or personality factors "
+                    "en": "Psychological and/or personality factors"
                 },
                 "value": "psychological_personality_factors"
             },
             {
                 "name": {
-                    "en": "Environmental irritants "
+                    "en": "Environmental irritants"
                 },
-                "value": " environmental_irritants"
+                "value": "environmental_irritants"
             },
             {
                 "name": {
-                    "en": "Vocal misuse and abuse "
+                    "en": "Vocal misuse and abuse"
                 },
-                "value": " vocal_misuse_abuse"
+                "value": "vocal_misuse_abuse"
             },
             {
                 "name": {
-                    "en": "Compensation for underlying disease "
+                    "en": "Compensation for underlying disease"
                 },
-                "value": " compensation_underlying_disease"
+                "value": "compensation_underlying_disease"
             },
             {
                 "name": {
                     "en": "Other"
                 },
-                "value": " other"
+                "value": "other"
             }
         ],
         "multipleChoice": true,

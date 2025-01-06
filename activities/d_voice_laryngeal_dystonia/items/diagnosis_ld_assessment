@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_ld_assessment",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_ld_assessment"
     },
@@ -11,21 +18,21 @@
         "choices": [
             {
                 "name": {
-                    "en": "Aural-perceptual evaluation "
+                    "en": "Aural-perceptual evaluation"
                 },
                 "value": "aural_perceptual_evaluation"
             },
             {
                 "name": {
-                    "en": "Laryngoscopy or stroboscopy "
+                    "en": "Laryngoscopy or stroboscopy"
                 },
-                "value": " laryngoscopy_or_stroboscopy"
+                "value": "laryngoscopy_or_stroboscopy"
             },
             {
                 "name": {
                     "en": "Neurological evaluation"
                 },
-                "value": " neurological_evaluation"
+                "value": "neurological_evaluation"
             }
         ],
         "multipleChoice": true,

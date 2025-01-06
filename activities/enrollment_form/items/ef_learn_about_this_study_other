@@ -1,6 +1,13 @@
 {
     "id": "ef_learn_about_this_study_other",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "ef_learn_about_this_study_other"
     },

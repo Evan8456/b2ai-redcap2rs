@@ -1,6 +1,13 @@
 {
     "id": "peds_os_straining",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "peds_os_straining"
     },
@@ -11,33 +18,33 @@
         "choices": [
             {
                 "name": {
-                    "en": "Not at all "
+                    "en": "Not at all"
                 },
                 "value": "notAtAll"
             },
             {
                 "name": {
-                    "en": "A little bit "
+                    "en": "A little bit"
                 },
-                "value": " aLittleBit"
+                "value": "aLittleBit"
             },
             {
                 "name": {
-                    "en": "Moderately "
+                    "en": "Moderately"
                 },
-                "value": " moderately"
+                "value": "moderately"
             },
             {
                 "name": {
-                    "en": "Quite a bit "
+                    "en": "Quite a bit"
                 },
-                "value": " quiteABit"
+                "value": "quiteABit"
             },
             {
                 "name": {
                     "en": "Extremely"
                 },
-                "value": " extremely"
+                "value": "extremely"
             }
         ],
         "valueType": [

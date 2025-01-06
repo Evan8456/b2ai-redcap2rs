@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_l_etiology_ei",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_l_etiology_ei"
     },
@@ -11,7 +18,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "Smoker's laryngitis "
+                    "en": "Smoker's laryngitis"
                 },
                 "value": "smoker"
             },
@@ -19,7 +26,7 @@
                 "name": {
                     "en": "Other inhaled irritants"
                 },
-                "value": " other_inhaled"
+                "value": "other_inhaled"
             }
         ],
         "multipleChoice": true,

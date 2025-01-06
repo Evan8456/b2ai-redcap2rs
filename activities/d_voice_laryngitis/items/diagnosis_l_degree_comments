@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_l_degree_comments",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_l_degree_comments"
     },
@@ -11,7 +18,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "Normal "
+                    "en": "Normal"
                 },
                 "value": "normal"
             },
@@ -19,7 +26,7 @@
                 "name": {
                     "en": "Other"
                 },
-                "value": " other"
+                "value": "other"
             }
         ],
         "valueType": [

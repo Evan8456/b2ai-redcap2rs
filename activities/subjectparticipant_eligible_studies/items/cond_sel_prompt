@@ -1,6 +1,13 @@
 {
     "id": "cond_sel_prompt",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "Do you have any of these conditions, diagnosed by a clinician?"
     },

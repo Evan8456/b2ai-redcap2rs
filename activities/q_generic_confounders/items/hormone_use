@@ -1,6 +1,13 @@
 {
     "id": "hormone_use",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "hormone_use"
     },
@@ -11,19 +18,19 @@
         "choices": [
             {
                 "name": {
-                    "en": "Oral contraceptive "
+                    "en": "Oral contraceptive"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Hormonal replacement therapy (HRT) "
+                    "en": "Hormonal replacement therapy (HRT)"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Androgenic steroids "
+                    "en": "Androgenic steroids"
                 },
                 "value": 3
             },

@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_mtd_degree_b_2",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_mtd_degree_b_2"
     },
@@ -11,7 +18,7 @@
         "choices": [
             {
                 "name": {
-                    "en": "Consistent "
+                    "en": "Consistent"
                 },
                 "value": "consistent"
             },
@@ -19,7 +26,7 @@
                 "name": {
                     "en": "Intermittent"
                 },
-                "value": " intermittent"
+                "value": "intermittent"
             }
         ],
         "valueType": [

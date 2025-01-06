@@ -1,6 +1,13 @@
 {
     "id": "diagnosis_depression_gsd",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "prefLabel": {
         "en": "diagnosis_depression_gsd"
     },
@@ -11,33 +18,33 @@
         "choices": [
             {
                 "name": {
-                    "en": "Clinical depression (major depressive disorder) "
+                    "en": "Clinical depression (major depressive disorder)"
                 },
                 "value": "clinical_depression"
             },
             {
                 "name": {
-                    "en": "Persistent depressive disorder (PDD) "
+                    "en": "Persistent depressive disorder (PDD)"
                 },
-                "value": " pdd"
+                "value": "pdd"
             },
             {
                 "name": {
-                    "en": "Disruptive mood dysregulation disorder (DMDD) "
+                    "en": "Disruptive mood dysregulation disorder (DMDD)"
                 },
-                "value": " dmdd"
+                "value": "dmdd"
             },
             {
                 "name": {
-                    "en": "Premenstrual dysphoric disorder (PMDD) "
+                    "en": "Premenstrual dysphoric disorder (PMDD)"
                 },
-                "value": " pmdd"
+                "value": "pmdd"
             },
             {
                 "name": {
                     "en": "Depressive disorder due to another medical condition"
                 },
-                "value": " other"
+                "value": "other"
             }
         ],
         "valueType": [

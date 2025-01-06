@@ -1,6 +1,13 @@
 {
     "id": "resp_medical_history",
     "category": "reproschema:Item",
+    "additionalNotesObj": [
+        {
+            "column": "Question Number (surveys only)",
+            "source": "redcap",
+            "value": NaN
+        }
+    ],
     "preamble": {
         "en": "Have you had any of the interventions mentioned below? (check all that apply)"
     },
@@ -14,19 +21,19 @@
         "choices": [
             {
                 "name": {
-                    "en": "Craniofacial or chest wall trauma "
+                    "en": "Craniofacial or chest wall trauma"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Previous lobectomy "
+                    "en": "Previous lobectomy"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Prior chest/airway surgery "
+                    "en": "Prior chest/airway surgery"
                 },
                 "value": 3
             },
